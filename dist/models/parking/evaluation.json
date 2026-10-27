@@ -1,0 +1,218 @@
+{
+  "model": "빈자리 v2 · 주간·날씨 보강",
+  "model_sha256": {
+    "model.json": "0c957faf6c84cde4ee64525438de9acf7e70fbd7174d98e329e41878b984ecc5",
+    "metadata.json": "98b256a9012e7bdf10123114e11f4708dc9ed529e557ce54dc14f08c7a655ae0",
+    "weights.bin": "fcb37f7d7242be3455b0fea38e4a58ca94eb1dd946f8bf5fc0415e8c547b8677"
+  },
+  "training": {
+    "input": 456,
+    "per_class": 228,
+    "gradient_training": 386,
+    "internal_validation": 70,
+    "per_class_weather": {
+      "Sunny": 100,
+      "Cloudy": 100,
+      "Rainy": 28
+    },
+    "source": "official PKLot UFPR04",
+    "date_groups": {
+      "train": 17,
+      "validation": 6,
+      "test": 6
+    },
+    "hyperparameters": "officialTM0.8.3 MobileNetV2.35,50epochs,batch16,lr0.001,Dense100"
+  },
+  "quality_version": "quality-v1",
+  "quality_sha256": "991ffd983f8152e99ee84cc81ed13f43010abadbc21c146660623031cfb28616",
+  "threshold": 0.8,
+  "patch_validation": {
+    "n": 150,
+    "correct": 149,
+    "accuracy": 0.9933333333333333,
+    "coverage": 1,
+    "uncertain": 0,
+    "false_empty_count": 0,
+    "occupied_truth": 75,
+    "false_empty_rate_among_occupied": 0,
+    "confusion": {
+      "empty": {
+        "empty": 74,
+        "occupied": 1,
+        "uncertain": 0
+      },
+      "occupied": {
+        "empty": 0,
+        "occupied": 75,
+        "uncertain": 0
+      }
+    }
+  },
+  "patch_test": {
+    "n": 150,
+    "correct": 150,
+    "accuracy": 1,
+    "coverage": 1,
+    "uncertain": 0,
+    "false_empty_count": 0,
+    "occupied_truth": 75,
+    "false_empty_rate_among_occupied": 0,
+    "confusion": {
+      "empty": {
+        "empty": 75,
+        "occupied": 0,
+        "uncertain": 0
+      },
+      "occupied": {
+        "empty": 0,
+        "occupied": 75,
+        "uncertain": 0
+      }
+    }
+  },
+  "weather_test": {
+    "Sunny": {
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1,
+      "coverage": 1,
+      "uncertain": 0,
+      "false_empty_count": 0,
+      "occupied_truth": 25,
+      "false_empty_rate_among_occupied": 0,
+      "confusion": {
+        "empty": {
+          "empty": 25,
+          "occupied": 0,
+          "uncertain": 0
+        },
+        "occupied": {
+          "empty": 0,
+          "occupied": 25,
+          "uncertain": 0
+        }
+      }
+    },
+    "Cloudy": {
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1,
+      "coverage": 1,
+      "uncertain": 0,
+      "false_empty_count": 0,
+      "occupied_truth": 25,
+      "false_empty_rate_among_occupied": 0,
+      "confusion": {
+        "empty": {
+          "empty": 25,
+          "occupied": 0,
+          "uncertain": 0
+        },
+        "occupied": {
+          "empty": 0,
+          "occupied": 25,
+          "uncertain": 0
+        }
+      }
+    },
+    "Rainy": {
+      "n": 50,
+      "correct": 50,
+      "accuracy": 1,
+      "coverage": 1,
+      "uncertain": 0,
+      "false_empty_count": 0,
+      "occupied_truth": 25,
+      "false_empty_rate_among_occupied": 0,
+      "confusion": {
+        "empty": {
+          "empty": 25,
+          "occupied": 0,
+          "uncertain": 0
+        },
+        "occupied": {
+          "empty": 0,
+          "occupied": 25,
+          "uncertain": 0
+        }
+      }
+    }
+  },
+  "target_fullframe_test": {
+    "n_frames": 30,
+    "n_slots": 120,
+    "slot_accuracy": 1,
+    "correct_slots": 120,
+    "coverage": 1,
+    "uncertain": 0,
+    "false_empty_count": 0,
+    "false_empty_rate_among_occupied": 0,
+    "occupied_truth": 60,
+    "empty_count_exact_match_rate": 1,
+    "exact_count_frames": 30,
+    "empty_count_mean_absolute_error": 0,
+    "all_four_slots_correct_frame_rate": 1,
+    "all_four_slots_correct_frames": 30,
+    "confusion": {
+      "empty": {
+        "empty": 60,
+        "occupied": 0,
+        "uncertain": 0
+      },
+      "occupied": {
+        "empty": 0,
+        "occupied": 60,
+        "uncertain": 0
+      }
+    }
+  },
+  "unseen_views_stress_test": {
+    "n_frames": 10,
+    "n_slots": 40,
+    "slot_accuracy": 0.925,
+    "correct_slots": 37,
+    "coverage": 1,
+    "uncertain": 0,
+    "false_empty_count": 0,
+    "false_empty_rate_among_occupied": 0,
+    "occupied_truth": 20,
+    "empty_count_exact_match_rate": 0.8,
+    "exact_count_frames": 8,
+    "empty_count_mean_absolute_error": 0.3,
+    "all_four_slots_correct_frame_rate": 0.8,
+    "all_four_slots_correct_frames": 8,
+    "confusion": {
+      "empty": {
+        "empty": 17,
+        "occupied": 3,
+        "uncertain": 0
+      },
+      "occupied": {
+        "empty": 0,
+        "occupied": 20,
+        "uncertain": 0
+      }
+    }
+  },
+  "baseline_comparison": {
+    "same_new_patch_test_accuracy_v1": 1,
+    "same_new_patch_test_accuracy_v2": 1,
+    "same_fullframe_count_exact_v1": 1,
+    "same_fullframe_count_exact_v2": 1,
+    "unseen_view_slot_accuracy_v1": 0.925,
+    "unseen_view_slot_accuracy_v2": 0.925,
+    "unseen_view_exact_count_v1": 0.8,
+    "unseen_view_exact_count_v2": 0.8,
+    "note": "Accuracy/count did not increase on these samples; improvementis newdata coverage and realfullframe evidence. Oneunseenuncertainv1 samplebecamewrongoccupiedv2; noclaimthatcoverageincreaseisaccuracygain."
+  },
+  "limitations": [
+    "sameUFPR04 daytime targetonly;no userfieldphotos/overnighttest",
+    "fullframe30photos/3dates conditionbalanced0..4emptycounts6each;not naturalprevalence",
+    "unseenviews10photos/40slots smallstressset,notgeneralizationguarantee",
+    "mirror convertsoriginalXMLtoaxisalignedbbox;originalXMLnotincluded",
+    "v1externalvalidationdate2013-01-17previouslyevaluated;v2hyperparametersfrozenwithouttesttuning",
+    "regressioncomparisonusespreviouslyobservedtestsets;futuretuningneedsnewfinalholdout",
+    "Pillowresize/JPEGdecodevsbrowsercanvascanvaryslightly"
+  ],
+  "model_version": "pklot-ufpr04-weather-v2"
+}

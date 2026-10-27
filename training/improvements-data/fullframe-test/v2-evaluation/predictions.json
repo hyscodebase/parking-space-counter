@@ -1,0 +1,3182 @@
+[
+  {
+    "frame_id": "UFPR04_2012-12-12_11_20_06",
+    "camera": "UFPR04",
+    "date": "2012-12-12",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.207805200596033e-13,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 123.4562455237544,
+            "luminanceStdDev": 40.03583665780324,
+            "dynamicRange": 190,
+            "edgeMean": 3.7354636076625383,
+            "laplacianMeanSquare": 57.78703611749433,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.167174338931545e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 148.9620628786687,
+            "luminanceStdDev": 59.715970864737045,
+            "dynamicRange": 189,
+            "edgeMean": 4.326778996074757,
+            "laplacianMeanSquare": 72.60077560482539,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.5576977601832196e-12,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 131.70298646364492,
+            "luminanceStdDev": 55.354943155582184,
+            "dynamicRange": 189,
+            "edgeMean": 2.915595074481952,
+            "laplacianMeanSquare": 21.857277284642965,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 3.4176477620162515e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 141.74574204002226,
+            "luminanceStdDev": 54.31526135978116,
+            "dynamicRange": 192,
+            "edgeMean": 3.9398246481966925,
+            "laplacianMeanSquare": 33.06672234860835,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-12_12_35_08",
+    "camera": "UFPR04",
+    "date": "2012-12-12",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 1,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.2727768058246047e-12,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 133.29411963887048,
+            "luminanceStdDev": 60.521793461063965,
+            "dynamicRange": 207,
+            "edgeMean": 4.6776872563255205,
+            "laplacianMeanSquare": 90.19097456775269,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.752535587293494e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 147.87026298230214,
+            "luminanceStdDev": 68.56962249367653,
+            "dynamicRange": 202,
+            "edgeMean": 5.18697476177014,
+            "laplacianMeanSquare": 94.02236619172729,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.0312423831537743e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 127.63299372608422,
+            "luminanceStdDev": 71.53837381007892,
+            "dynamicRange": 207,
+            "edgeMean": 2.9608051731829303,
+            "laplacianMeanSquare": 27.418541009254987,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 3.77565356757259e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 174.43680553650984,
+            "luminanceStdDev": 56.0178344483224,
+            "dynamicRange": 194,
+            "edgeMean": 2.5967165066369597,
+            "laplacianMeanSquare": 19.15929139552617,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-12_13_35_09",
+    "camera": "UFPR04",
+    "date": "2012-12-12",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 1,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 9.284033097856081e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 179.5954163504453,
+            "luminanceStdDev": 39.76114068669267,
+            "dynamicRange": 198,
+            "edgeMean": 3.1969498645258896,
+            "laplacianMeanSquare": 51.498953100207835,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 8.584099475683615e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 160.5100271125661,
+            "luminanceStdDev": 67.1683917174899,
+            "dynamicRange": 198,
+            "edgeMean": 5.191685577259088,
+            "laplacianMeanSquare": 101.26531520690641,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.717189806489273e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 127.60727356903608,
+            "luminanceStdDev": 69.23586460211229,
+            "dynamicRange": 202,
+            "edgeMean": 2.99339139247689,
+            "laplacianMeanSquare": 28.486490845939358,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 3.80820308620855e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 154.65640487484453,
+            "luminanceStdDev": 63.0220597263541,
+            "dynamicRange": 195,
+            "edgeMean": 3.851441356213256,
+            "laplacianMeanSquare": 37.99102362255641,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-12_14_35_10",
+    "camera": "UFPR04",
+    "date": "2012-12-12",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 3.345041932334425e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 149.27579924266033,
+            "luminanceStdDev": 57.92428711029229,
+            "dynamicRange": 194,
+            "edgeMean": 4.8383478858316655,
+            "laplacianMeanSquare": 114.89154663774765,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 7.96081067733212e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 149.05570266262842,
+            "luminanceStdDev": 63.25027869723975,
+            "dynamicRange": 193,
+            "edgeMean": 4.531931490641538,
+            "laplacianMeanSquare": 92.79043595517551,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.130350311244314e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 129.1100877710442,
+            "luminanceStdDev": 55.29837191288314,
+            "dynamicRange": 192,
+            "edgeMean": 3.194317848998564,
+            "laplacianMeanSquare": 28.288700508916744,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 3.0562381514442905e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 147.1759409239493,
+            "luminanceStdDev": 52.454870376036745,
+            "dynamicRange": 189,
+            "edgeMean": 4.586674771997732,
+            "laplacianMeanSquare": 43.59561809914145,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-12_15_15_11",
+    "camera": "UFPR04",
+    "date": "2012-12-12",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 1,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.4179023821725423e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 177.9231380580239,
+            "luminanceStdDev": 37.265412218431116,
+            "dynamicRange": 191,
+            "edgeMean": 3.3538994874273027,
+            "laplacianMeanSquare": 58.51125062469447,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.984854567486764e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 166.81322427853374,
+            "luminanceStdDev": 64.67556631293542,
+            "dynamicRange": 202,
+            "edgeMean": 5.399130043198404,
+            "laplacianMeanSquare": 111.80074947912884,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 6.755900838761875e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 133.1146250438405,
+            "luminanceStdDev": 66.46736019836732,
+            "dynamicRange": 198,
+            "edgeMean": 3.187904338360138,
+            "laplacianMeanSquare": 31.000857135462656,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 6.789529383155468e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 151.13484375797177,
+            "luminanceStdDev": 62.15162817832697,
+            "dynamicRange": 197,
+            "edgeMean": 4.889900788750731,
+            "laplacianMeanSquare": 49.1738604659543,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-12_15_40_11",
+    "camera": "UFPR04",
+    "date": "2012-12-12",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 6.026780141610288e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 116.5535050542038,
+            "luminanceStdDev": 39.56664515652152,
+            "dynamicRange": 192,
+            "edgeMean": 3.366125492542543,
+            "laplacianMeanSquare": 40.93297517398815,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.5192166392714626e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 144.17126187818891,
+            "luminanceStdDev": 60.87113312054988,
+            "dynamicRange": 197,
+            "edgeMean": 4.72246821403198,
+            "laplacianMeanSquare": 91.70004819616453,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.3608316730417958e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 125.64547661829931,
+            "luminanceStdDev": 55.39461151324702,
+            "dynamicRange": 196,
+            "edgeMean": 3.1973065154663955,
+            "laplacianMeanSquare": 27.1210158847806,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.5968294742041422e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 143.1256145408161,
+            "luminanceStdDev": 52.79604075903372,
+            "dynamicRange": 194,
+            "edgeMean": 4.6411452630175605,
+            "laplacianMeanSquare": 43.88105245528503,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-20_10_50_05",
+    "camera": "UFPR04",
+    "date": "2012-12-20",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.84869272282442e-14,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 98.84308006217914,
+            "luminanceStdDev": 61.41984370927097,
+            "dynamicRange": 209,
+            "edgeMean": 3.497431826087468,
+            "laplacianMeanSquare": 53.48615571273976,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 8.777642783626416e-13,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 94.08100393016426,
+            "luminanceStdDev": 46.94280031663347,
+            "dynamicRange": 205,
+            "edgeMean": 4.347750681970915,
+            "laplacianMeanSquare": 62.09606446703027,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 9.533071895903231e-14,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 92.74736725525982,
+            "luminanceStdDev": 46.38695831665001,
+            "dynamicRange": 199,
+            "edgeMean": 3.131079092039503,
+            "laplacianMeanSquare": 22.548032918689092,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.248133039259528e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 78.46414014667918,
+            "luminanceStdDev": 41.852150248689576,
+            "dynamicRange": 211,
+            "edgeMean": 2.540282354684765,
+            "laplacianMeanSquare": 18.332664913841242,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-20_12_10_07",
+    "camera": "UFPR04",
+    "date": "2012-12-20",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.735019664027119e-12,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 128.40484046555738,
+            "luminanceStdDev": 68.12622391124854,
+            "dynamicRange": 212,
+            "edgeMean": 4.712805112953907,
+            "laplacianMeanSquare": 92.11018792812531,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.1184565273936187e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 117.40695493862172,
+            "luminanceStdDev": 68.25653088334698,
+            "dynamicRange": 212,
+            "edgeMean": 4.901031871356695,
+            "laplacianMeanSquare": 85.17463304062134,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.3111886211270305e-13,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 144.39878248565364,
+            "luminanceStdDev": 71.19940852659018,
+            "dynamicRange": 207,
+            "edgeMean": 3.7781612402273246,
+            "laplacianMeanSquare": 35.296185012568436,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.1627540253491007e-13,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 133.78614958147566,
+            "luminanceStdDev": 68.46731935609515,
+            "dynamicRange": 208,
+            "edgeMean": 4.570966123770934,
+            "laplacianMeanSquare": 61.10391815767092,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-20_12_40_07",
+    "camera": "UFPR04",
+    "date": "2012-12-20",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 1,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 7.208369318112418e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 139.22431914062275,
+            "luminanceStdDev": 66.6989849930127,
+            "dynamicRange": 210,
+            "edgeMean": 4.622958611136137,
+            "laplacianMeanSquare": 98.5009017479485,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.208361632976107e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 162.6838753069206,
+            "luminanceStdDev": 66.8170854575764,
+            "dynamicRange": 203,
+            "edgeMean": 4.700181625387288,
+            "laplacianMeanSquare": 92.55883572220802,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999980926513672,
+        "probabilities": {
+          "empty": 0.9999980926513672,
+          "occupied": 0.000002361068936806987
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 199.8658186503279,
+            "luminanceStdDev": 49.25108444382981,
+            "dynamicRange": 201,
+            "edgeMean": 2.3383405251353313,
+            "laplacianMeanSquare": 22.507315136197033,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.213319388877366e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 142.37299587850686,
+            "luminanceStdDev": 71.68433015660274,
+            "dynamicRange": 208,
+            "edgeMean": 4.55120967287501,
+            "laplacianMeanSquare": 59.7096024495332,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-20_12_50_07",
+    "camera": "UFPR04",
+    "date": "2012-12-20",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.697658263966062e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 135.21781743064588,
+            "luminanceStdDev": 65.5738173484034,
+            "dynamicRange": 212,
+            "edgeMean": 4.692901797244215,
+            "laplacianMeanSquare": 104.89817959630948,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.0855149952289125e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 142.43183826530307,
+            "luminanceStdDev": 70.73823250969103,
+            "dynamicRange": 207,
+            "edgeMean": 5.277273094707541,
+            "laplacianMeanSquare": 104.62668068893082,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 9.407230550095846e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 131.15183186384135,
+            "luminanceStdDev": 76.75149625131041,
+            "dynamicRange": 209,
+            "edgeMean": 3.5259427615345325,
+            "laplacianMeanSquare": 38.55804954089976,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.2013312566949708e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 140.9423821388723,
+            "luminanceStdDev": 69.20197760003664,
+            "dynamicRange": 208,
+            "edgeMean": 4.434561689872913,
+            "laplacianMeanSquare": 57.90222401230069,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-20_13_45_08",
+    "camera": "UFPR04",
+    "date": "2012-12-20",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 1,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 4.875822696703835e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 176.68938345025418,
+            "luminanceStdDev": 39.33123502846061,
+            "dynamicRange": 198,
+            "edgeMean": 3.118857825741716,
+            "laplacianMeanSquare": 50.486168058951776,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.4464058040175587e-7,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 153.9645186623088,
+            "luminanceStdDev": 68.1738052261687,
+            "dynamicRange": 201,
+            "edgeMean": 5.232579984434288,
+            "laplacianMeanSquare": 106.24029076428012,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.6304631240445815e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 134.32002059550635,
+            "luminanceStdDev": 73.47749411941355,
+            "dynamicRange": 203,
+            "edgeMean": 3.513496177498917,
+            "laplacianMeanSquare": 38.11148883431945,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.1682549372338258e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 131.04321290656983,
+            "luminanceStdDev": 68.73798411020623,
+            "dynamicRange": 208,
+            "edgeMean": 4.745645887152191,
+            "laplacianMeanSquare": 63.14037934417827,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-20_13_50_08",
+    "camera": "UFPR04",
+    "date": "2012-12-20",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 1,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 5.140547614246316e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 181.44683243383156,
+            "luminanceStdDev": 38.73668924359574,
+            "dynamicRange": 192,
+            "edgeMean": 3.1253065762422088,
+            "laplacianMeanSquare": 52.585958177558524,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.3294653911088972e-7,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 158.56386961097007,
+            "luminanceStdDev": 67.06722926602647,
+            "dynamicRange": 197,
+            "edgeMean": 5.261008664478788,
+            "laplacianMeanSquare": 109.17952027997842,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.929102015438502e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 139.67895908004132,
+            "luminanceStdDev": 71.63055180945462,
+            "dynamicRange": 199,
+            "edgeMean": 3.6325740065809855,
+            "laplacianMeanSquare": 41.06923098422123,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.301849155728064e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 137.78179502949547,
+            "luminanceStdDev": 67.66349305898342,
+            "dynamicRange": 205,
+            "edgeMean": 4.734623794712981,
+            "laplacianMeanSquare": 60.648271886290885,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_11_10_06",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.1165430890969219e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 150.20348328683215,
+            "luminanceStdDev": 22.687787976457912,
+            "dynamicRange": 152,
+            "edgeMean": 1.377140230356616,
+            "laplacianMeanSquare": 9.744240052163153,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 7.881270391862927e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 158.1580427176393,
+            "luminanceStdDev": 36.23254849955367,
+            "dynamicRange": 178,
+            "edgeMean": 2.3027133590361006,
+            "laplacianMeanSquare": 22.795452065552137,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 8.413220342617933e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 174.10214319993634,
+            "luminanceStdDev": 35.9605295401842,
+            "dynamicRange": 162,
+            "edgeMean": 2.5059524216306737,
+            "laplacianMeanSquare": 16.42966450765819,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 3.4881590948998564e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 177.86956757812558,
+            "luminanceStdDev": 34.14477197668907,
+            "dynamicRange": 159,
+            "edgeMean": 2.6172680473724745,
+            "laplacianMeanSquare": 15.670320809504778,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_11_25_06",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 8.50264072482787e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 153.4391944395746,
+            "luminanceStdDev": 21.94770277282638,
+            "dynamicRange": 150,
+            "edgeMean": 1.3510701927445319,
+            "laplacianMeanSquare": 9.762514279652672,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 4.7975959205359686e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 160.55662693319587,
+            "luminanceStdDev": 34.98877473260648,
+            "dynamicRange": 174,
+            "edgeMean": 2.154470837627902,
+            "laplacianMeanSquare": 18.789864103959225,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 7.995341633204589e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 177.00136122050014,
+            "luminanceStdDev": 34.88192747589024,
+            "dynamicRange": 157,
+            "edgeMean": 2.3008523819768834,
+            "laplacianMeanSquare": 13.022416938594189,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 7.843135563234682e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 181.45075359533416,
+            "luminanceStdDev": 32.91159647471358,
+            "dynamicRange": 151,
+            "edgeMean": 2.401106260817147,
+            "laplacianMeanSquare": 12.681179396351098,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_11_45_07",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.1003297828438008e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 151.03007221381543,
+            "luminanceStdDev": 22.08448078238973,
+            "dynamicRange": 150,
+            "edgeMean": 1.3655794607684217,
+            "laplacianMeanSquare": 10.10821128386716,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 8.755025504569858e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 158.27852930086374,
+            "luminanceStdDev": 35.51042474836532,
+            "dynamicRange": 173,
+            "edgeMean": 2.109059140592107,
+            "laplacianMeanSquare": 18.862815591281134,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 5.353299670218803e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 175.86779306441196,
+            "luminanceStdDev": 34.956219437428246,
+            "dynamicRange": 156,
+            "edgeMean": 2.2641885984715246,
+            "laplacianMeanSquare": 13.177575013136986,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 4.199633707457906e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 179.8299432955947,
+            "luminanceStdDev": 33.55408250696896,
+            "dynamicRange": 151,
+            "edgeMean": 2.422873660893413,
+            "laplacianMeanSquare": 13.159496479313766,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_11_55_07",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.1635183483349465e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 165.5503263353044,
+            "luminanceStdDev": 22.49492414556643,
+            "dynamicRange": 147,
+            "edgeMean": 1.3344314548161302,
+            "laplacianMeanSquare": 8.44709442126584,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.5305964495837543e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 168.5447399952169,
+            "luminanceStdDev": 36.762601557770516,
+            "dynamicRange": 172,
+            "edgeMean": 2.1302236226183875,
+            "laplacianMeanSquare": 19.399105898818956,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.0320566445898294e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 183.15074809869793,
+            "luminanceStdDev": 35.423943220548786,
+            "dynamicRange": 158,
+            "edgeMean": 2.296977735955619,
+            "laplacianMeanSquare": 14.257570015022331,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.443865732004724e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 186.79678710936585,
+            "luminanceStdDev": 33.79545958597081,
+            "dynamicRange": 152,
+            "edgeMean": 2.3725023659126334,
+            "laplacianMeanSquare": 12.906098085634236,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_12_10_07",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.319175109732896e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 160.37283819755208,
+            "luminanceStdDev": 23.37454164671561,
+            "dynamicRange": 158,
+            "edgeMean": 1.3635998834485354,
+            "laplacianMeanSquare": 9.642872417687558,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 3.813547522213412e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 162.90911122847803,
+            "luminanceStdDev": 38.80030354024313,
+            "dynamicRange": 183,
+            "edgeMean": 2.2214008433401853,
+            "laplacianMeanSquare": 20.968111222339054,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.0819257429138815e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 178.27872510363852,
+            "luminanceStdDev": 37.86997822138565,
+            "dynamicRange": 169,
+            "edgeMean": 2.4117012241572464,
+            "laplacianMeanSquare": 15.283604414102195,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 4.9748852148923106e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 181.81600703124656,
+            "luminanceStdDev": 36.50792405479202,
+            "dynamicRange": 166,
+            "edgeMean": 2.5384204991729806,
+            "laplacianMeanSquare": 14.457333388746086,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_12_20_07",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.541892231671227e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 133.66663122609202,
+            "luminanceStdDev": 19.952277433221255,
+            "dynamicRange": 145,
+            "edgeMean": 1.2561961996639333,
+            "laplacianMeanSquare": 11.454388163528247,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.8808192692176817e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 142.20463004225672,
+            "luminanceStdDev": 31.46144660744999,
+            "dynamicRange": 170,
+            "edgeMean": 2.03484015935205,
+            "laplacianMeanSquare": 19.951409401053386,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.8470285684534247e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 160.70629986447764,
+            "luminanceStdDev": 32.48577792986329,
+            "dynamicRange": 148,
+            "edgeMean": 2.195968514447942,
+            "laplacianMeanSquare": 12.638252477960162,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 7.00138258480365e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 166.09581233259107,
+            "luminanceStdDev": 31.869309318844802,
+            "dynamicRange": 145,
+            "edgeMean": 2.4047862476908497,
+            "laplacianMeanSquare": 13.104937110133632,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_12_45_08",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 3,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999990463256836,
+        "probabilities": {
+          "empty": 0.9999990463256836,
+          "occupied": 0.0000014187728538672673
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 132.42061038743415,
+            "luminanceStdDev": 29.25589158854512,
+            "dynamicRange": 185,
+            "edgeMean": 2.839458997435939,
+            "laplacianMeanSquare": 37.52068630069905,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 3.3304897034680536e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 115.2933103595383,
+            "luminanceStdDev": 42.675444754255196,
+            "dynamicRange": 174,
+            "edgeMean": 3.2799865585118817,
+            "laplacianMeanSquare": 38.695499952519434,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999871253967285,
+        "probabilities": {
+          "empty": 0.9999871253967285,
+          "occupied": 0.000013137562746123876
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 154.73329791931988,
+            "luminanceStdDev": 37.25062365009491,
+            "dynamicRange": 170,
+            "edgeMean": 2.1934243412754,
+            "laplacianMeanSquare": 12.762008664334175,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.096858153777248e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 163.78304404495682,
+            "luminanceStdDev": 36.10507813835305,
+            "dynamicRange": 166,
+            "edgeMean": 2.680653619506587,
+            "laplacianMeanSquare": 16.704653481695292,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_12_55_08",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 3,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 4.004035076832224e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 140.4749275550118,
+            "luminanceStdDev": 30.05464658758975,
+            "dynamicRange": 186,
+            "edgeMean": 2.805521139878634,
+            "laplacianMeanSquare": 33.74473944305348,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.0421217484265526e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 120.416039931441,
+            "luminanceStdDev": 44.2012295180968,
+            "dynamicRange": 176,
+            "edgeMean": 3.3658109177846622,
+            "laplacianMeanSquare": 37.28150138735758,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999990463256836,
+        "probabilities": {
+          "empty": 0.9999990463256836,
+          "occupied": 0.0000014075466197027708
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 158.32710325653204,
+            "luminanceStdDev": 38.434068874287554,
+            "dynamicRange": 171,
+            "edgeMean": 2.2208305625561184,
+            "laplacianMeanSquare": 12.909885158640847,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.3515936220519507e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 166.92719508529774,
+            "luminanceStdDev": 37.15955193901005,
+            "dynamicRange": 167,
+            "edgeMean": 2.765689303369418,
+            "laplacianMeanSquare": 18.212407927197372,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_13_05_09",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999990463256836,
+        "probabilities": {
+          "empty": 0.9999990463256836,
+          "occupied": 9.832210707827471e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 130.2455142299094,
+            "luminanceStdDev": 27.95865146841073,
+            "dynamicRange": 183,
+            "edgeMean": 2.681280720012452,
+            "laplacianMeanSquare": 31.500693268949853,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 6.972044608311023e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 116.42844573501488,
+            "luminanceStdDev": 43.3990091236858,
+            "dynamicRange": 199,
+            "edgeMean": 3.8492746175977377,
+            "laplacianMeanSquare": 46.82092249649233,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.0064669098142076e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 159.76397554209254,
+            "luminanceStdDev": 55.47688635873408,
+            "dynamicRange": 192,
+            "edgeMean": 3.9204034529230216,
+            "laplacianMeanSquare": 37.01777203694806,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.99981689453125,
+        "probabilities": {
+          "empty": 0.99981689453125,
+          "occupied": 0.00018294340407010168
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 175.4534358697337,
+            "luminanceStdDev": 41.081577011866905,
+            "dynamicRange": 178,
+            "edgeMean": 2.7324130727189386,
+            "laplacianMeanSquare": 18.766802637786295,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_13_10_09",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.0496749186804664e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 130.32718490911662,
+            "luminanceStdDev": 27.15192724428389,
+            "dynamicRange": 175,
+            "edgeMean": 2.596424690276518,
+            "laplacianMeanSquare": 31.12649709588019,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.2357154188791242e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 116.02125313297242,
+            "luminanceStdDev": 42.279069778982105,
+            "dynamicRange": 193,
+            "edgeMean": 3.5189041028337398,
+            "laplacianMeanSquare": 40.156659119903885,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.0762019587757834e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 158.33185845822368,
+            "luminanceStdDev": 55.33953752856347,
+            "dynamicRange": 189,
+            "edgeMean": 3.6051018473660617,
+            "laplacianMeanSquare": 31.425654885504173,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9991053938865662,
+        "probabilities": {
+          "empty": 0.9991053938865662,
+          "occupied": 0.0008947845781221986
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 172.7738527184307,
+            "luminanceStdDev": 41.384787228913176,
+            "dynamicRange": 175,
+            "edgeMean": 2.5922157219936266,
+            "laplacianMeanSquare": 16.43226968705565,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_13_15_09",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.1922106441252254e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 132.69416017219098,
+            "luminanceStdDev": 27.99343595205379,
+            "dynamicRange": 178,
+            "edgeMean": 2.6428596381191105,
+            "laplacianMeanSquare": 30.523152365562957,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 9.026489555807871e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 115.06190963408903,
+            "luminanceStdDev": 41.31942250976464,
+            "dynamicRange": 194,
+            "edgeMean": 3.5172219827417988,
+            "laplacianMeanSquare": 40.41699063279894,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.3335089976695969e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 157.58931404655598,
+            "luminanceStdDev": 55.223526962143296,
+            "dynamicRange": 189,
+            "edgeMean": 3.4922156514150067,
+            "laplacianMeanSquare": 28.735767719561682,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999876022338867,
+        "probabilities": {
+          "empty": 0.9999876022338867,
+          "occupied": 0.000012324073395575397
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 170.82090058592934,
+            "luminanceStdDev": 41.2597132876835,
+            "dynamicRange": 176,
+            "edgeMean": 2.5455197579275715,
+            "laplacianMeanSquare": 15.449474245464842,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_13_20_09",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.8108678407079424e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 135.19692181122662,
+            "luminanceStdDev": 27.69771843830295,
+            "dynamicRange": 176,
+            "edgeMean": 2.586205549266077,
+            "laplacianMeanSquare": 28.9933273607252,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.9146537133529762e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 120.58214698660508,
+            "luminanceStdDev": 42.41247748333496,
+            "dynamicRange": 190,
+            "edgeMean": 3.4973550676001257,
+            "laplacianMeanSquare": 37.17883782821946,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.5855479963451415e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 165.2853785754163,
+            "luminanceStdDev": 54.21544988377942,
+            "dynamicRange": 185,
+            "edgeMean": 3.5098519470735976,
+            "laplacianMeanSquare": 28.781703019228285,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.999976634979248,
+        "probabilities": {
+          "empty": 0.999976634979248,
+          "occupied": 0.0000233444879995659
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 177.31364804687607,
+            "luminanceStdDev": 40.911730664089944,
+            "dynamicRange": 170,
+            "edgeMean": 2.486328283996631,
+            "laplacianMeanSquare": 14.773368278409345,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_13_35_09",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999990463256836,
+        "probabilities": {
+          "empty": 0.9999990463256836,
+          "occupied": 0.0000012038017302984372
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 133.3350954998423,
+            "luminanceStdDev": 27.502996325014244,
+            "dynamicRange": 178,
+            "edgeMean": 2.588088337730552,
+            "laplacianMeanSquare": 29.925871027315676,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.133355818390026e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 120.10602800143229,
+            "luminanceStdDev": 43.66567625968937,
+            "dynamicRange": 193,
+            "edgeMean": 3.641096081243426,
+            "laplacianMeanSquare": 42.184927108165624,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.135271390784176e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 162.3295161152754,
+            "luminanceStdDev": 54.88087948431788,
+            "dynamicRange": 187,
+            "edgeMean": 3.7080133849042567,
+            "laplacianMeanSquare": 32.22576360475916,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999017715454102,
+        "probabilities": {
+          "empty": 0.9999017715454102,
+          "occupied": 0.000098455733677838
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 172.00760456791832,
+            "luminanceStdDev": 41.562753703516286,
+            "dynamicRange": 173,
+            "edgeMean": 2.604475381510293,
+            "laplacianMeanSquare": 16.908422946193504,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_13_50_09",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 2.1004497341436945e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 147.74739772002593,
+            "luminanceStdDev": 32.37439714896585,
+            "dynamicRange": 190,
+            "edgeMean": 2.9438072680892433,
+            "laplacianMeanSquare": 38.772683268396584,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.620695661008753e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 120.1672208585797,
+            "luminanceStdDev": 47.66875499798528,
+            "dynamicRange": 199,
+            "edgeMean": 4.0041204629457585,
+            "laplacianMeanSquare": 50.25677294599588,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.3428359535438972e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 164.24724022640257,
+            "luminanceStdDev": 58.79810552134598,
+            "dynamicRange": 194,
+            "edgeMean": 3.6955692863937832,
+            "laplacianMeanSquare": 32.209811277922185,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.999974250793457,
+        "probabilities": {
+          "empty": 0.999974250793457,
+          "occupied": 0.00002561866676842328
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 184.70979439571488,
+            "luminanceStdDev": 42.99590197301385,
+            "dynamicRange": 181,
+            "edgeMean": 2.686234708629611,
+            "laplacianMeanSquare": 17.640182697776062,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_14_20_10",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 3,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 7.951208402801058e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 137.43005933912417,
+            "luminanceStdDev": 25.348210904705127,
+            "dynamicRange": 168,
+            "edgeMean": 2.4559712629147175,
+            "laplacianMeanSquare": 28.86080885479551,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999785423278809,
+        "probabilities": {
+          "empty": 0.9999785423278809,
+          "occupied": 0.00002155827132810373
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 139.40251434949116,
+            "luminanceStdDev": 40.28869711444009,
+            "dynamicRange": 195,
+            "edgeMean": 3.327170504391919,
+            "laplacianMeanSquare": 43.67768824901324,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.899300492551163e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 160.59810009168152,
+            "luminanceStdDev": 55.264601656708436,
+            "dynamicRange": 194,
+            "edgeMean": 4.168510510858857,
+            "laplacianMeanSquare": 41.95324371986556,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9992997646331787,
+        "probabilities": {
+          "empty": 0.9992997646331787,
+          "occupied": 0.0007005116785876453
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 171.81125733817265,
+            "luminanceStdDev": 42.69206624046619,
+            "dynamicRange": 182,
+            "edgeMean": 2.8180376114484824,
+            "laplacianMeanSquare": 20.460278993199854,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_14_45_10",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 3,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.4818427040985682e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 122.76613305165785,
+            "luminanceStdDev": 39.46986538980027,
+            "dynamicRange": 189,
+            "edgeMean": 3.172833808334419,
+            "laplacianMeanSquare": 40.5436546280472,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999980926513672,
+        "probabilities": {
+          "empty": 0.9999980926513672,
+          "occupied": 0.0000016148701433849055
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 142.55532541852622,
+            "luminanceStdDev": 37.577711045153876,
+            "dynamicRange": 189,
+            "edgeMean": 2.799123643721471,
+            "laplacianMeanSquare": 34.68134184573575,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 7.216042519075927e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 162.72057041613283,
+            "luminanceStdDev": 35.98649644500695,
+            "dynamicRange": 166,
+            "edgeMean": 2.381076938139178,
+            "laplacianMeanSquare": 15.568293521071075,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.5145688792017609e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 165.97734242267043,
+            "luminanceStdDev": 36.08068261673812,
+            "dynamicRange": 161,
+            "edgeMean": 2.62350243478918,
+            "laplacianMeanSquare": 15.690030416467378,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_14_50_10",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 3,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.1158175078351817e-10,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 115.59444934630302,
+            "luminanceStdDev": 38.13199559415421,
+            "dynamicRange": 189,
+            "edgeMean": 3.1357589505331247,
+            "laplacianMeanSquare": 39.31662709547369,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999942779541016,
+        "probabilities": {
+          "empty": 0.9999942779541016,
+          "occupied": 0.000005666303422913188
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 134.8964637994278,
+            "luminanceStdDev": 36.17254375731797,
+            "dynamicRange": 187,
+            "edgeMean": 2.7265527316349427,
+            "laplacianMeanSquare": 32.34851068518727,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.2414217565037688e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 154.12377302695154,
+            "luminanceStdDev": 34.636738140747326,
+            "dynamicRange": 163,
+            "edgeMean": 2.297554727932492,
+            "laplacianMeanSquare": 14.199814020118163,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 7.805915203107361e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 157.6154554647658,
+            "luminanceStdDev": 35.182566407344495,
+            "dynamicRange": 160,
+            "edgeMean": 2.594839878299158,
+            "laplacianMeanSquare": 15.373395931852603,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR04_2012-12-27_14_55_10",
+    "camera": "UFPR04",
+    "date": "2012-12-27",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 3,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.9099511902598287e-11,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 138.9283665218438,
+            "luminanceStdDev": 42.28776440417398,
+            "dynamicRange": 186,
+            "edgeMean": 3.3774555140317517,
+            "laplacianMeanSquare": 42.25456121436841,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999961853027344,
+        "probabilities": {
+          "empty": 0.9999961853027344,
+          "occupied": 0.000003524309022395755
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 159.21698460618515,
+            "luminanceStdDev": 41.17179810268002,
+            "dynamicRange": 188,
+            "edgeMean": 2.907675430608208,
+            "laplacianMeanSquare": 36.969103240768206,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 3.0501425385409675e-8
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 179.80557173549408,
+            "luminanceStdDev": 38.12973205788894,
+            "dynamicRange": 169,
+            "edgeMean": 2.435662625234605,
+            "laplacianMeanSquare": 17.601685100378948,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1,
+          "occupied": 1.232171058518361e-7
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 182.11205860571098,
+            "luminanceStdDev": 37.76395992892952,
+            "dynamicRange": 163,
+            "edgeMean": 2.6072664460946475,
+            "laplacianMeanSquare": 16.129626144937877,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "n_frames": 10,
+  "n_slots": 40,
+  "cameras": {
+    "UFPR05": 5,
+    "PUCPR": 5
+  },
+  "selection": "oneframe pertrueemptycount0..4 perunseenview whereavailable;first4XML-derivedboxes perview fixedbeforemodelinference",
+  "source": "https://huggingface.co/datasets/dronefreak/PKLot",
+  "upstream": "PKLot UFPR VRI",
+  "license": "CC BY4.0",
+  "scope": "UFPR05 unseenviewofsamephysicalUFPRlot; PUCPR differentlot; smallstresssample notgeneralizationguarantee",
+  "training_exposure": "noUFPR05orPUCPRimagesinmodelv1/v2training",
+  "limitations": [
+    "tinyconditionbalancedsample",
+    "notnaturalprevalence",
+    "norealuserparkinglotphotos",
+    "convertedaxisalignedbboxfromoriginalXML"
+  ],
+  "mirror_repo_commit": "577e9c942e596819798d42fdc4d14d0b6646a43f",
+  "mirror_readme_sha256": "49d76ba7c9187b06e9fbe55f8f8b9b8bb169b8880cbddae8759ecdb4aa620e4b"
+}

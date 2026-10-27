@@ -1,0 +1,2813 @@
+{
+  "method": "Official @teachablemachine/image0.8.3 Node API; web UI training froze",
+  "package": "@teachablemachine/image",
+  "package_version": "0.8.3",
+  "tensorflow_js": "1.3.1",
+  "backend": "cpu",
+  "base_model": "MobileNetV2 alpha0.35 224, out_relu + globalAveragePooling2d",
+  "base_url": "https://storage.googleapis.com/teachable-machine-models/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_0.35_224_no_top/model.json",
+  "normalization": "RGB / 127 - 1",
+  "classes": [
+    "빈자리",
+    "사용 중"
+  ],
+  "seed": "parking-four-weather-v2",
+  "params": {
+    "denseUnits": 100,
+    "epochs": 50,
+    "learningRate": 0.001,
+    "batchSize": 16
+  },
+  "input_images": 456,
+  "images_per_class": 228,
+  "selection": "All456realUFPR04trainingcrops:Sunny100+Cloudy100+Rainy28perclass; no duplication; datesdisjoint holdouts",
+  "internal_validation": "Official library stratified random15% of provided training images;35/class held out internally;386gradienttraining+70internalvalidation",
+  "external_validation_images": 150,
+  "external_test_images": 150,
+  "external_holdouts_used_for_training": false,
+  "started_at": "2026-10-27T04:38:49.026Z",
+  "weather_counts": {
+    "('train', 'Cloudy', 'occupied')": 100,
+    "('validation', 'Cloudy', 'empty')": 25,
+    "('train', 'Cloudy', 'empty')": 100,
+    "('test', 'Sunny', 'occupied')": 25,
+    "('train', 'Sunny', 'occupied')": 100,
+    "('train', 'Sunny', 'empty')": 100,
+    "('test', 'Sunny', 'empty')": 25,
+    "('validation', 'Sunny', 'occupied')": 25,
+    "('validation', 'Cloudy', 'occupied')": 25,
+    "('validation', 'Sunny', 'empty')": 25,
+    "('test', 'Cloudy', 'empty')": 25,
+    "('test', 'Cloudy', 'occupied')": 25,
+    "('train', 'Rainy', 'occupied')": 28,
+    "('validation', 'Rainy', 'occupied')": 25,
+    "('validation', 'Rainy', 'empty')": 25,
+    "('train', 'Rainy', 'empty')": 28,
+    "('test', 'Rainy', 'occupied')": 25,
+    "('test', 'Rainy', 'empty')": 25
+  },
+  "date_split_policy": "originalsha(date)split,all2013-01-17movedtest,all2013-01-21movedvalidation; originalexternaltest/validationdates nevertrain",
+  "prior_holdout_exposure": "v1 externalvalidation included2013-01-17previously evaluated; no v2 training orhyperparameter tuning onholdouts",
+  "training_files": [
+    {
+      "file": "train/empty/cloudy-0100.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "140558a3821d68765e20892c765180f816a5109baee66f39e8ecd0f17f067f7c",
+      "prepared_sha256": "57d57b1b55e0ac7c72f744df81e4b6ef64f5fc469419f5955fe3a9d399bf4130"
+    },
+    {
+      "file": "train/empty/cloudy-0101.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "68f8106a229bd3c21af418b6273051afa771f8c2314ad0992017cb3628b092d7",
+      "prepared_sha256": "fc7eb49ea12101b0efc6ac8b3f2f60e882539c4fc1558aeea6bb4c1349f791aa"
+    },
+    {
+      "file": "train/empty/cloudy-0102.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "9ed27dc4d424a1f6d9628e1f4fab43312a77277c5d98d300b4f14981a791dd85",
+      "prepared_sha256": "52693e7ca7087417071b0173093c6b31c0739d4d282dc016e8edde4a0be0b66f"
+    },
+    {
+      "file": "train/empty/cloudy-0103.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "3c76f1f6fca3709fc607635291a085d0727c99b5369e80a72d6d29697bcff399",
+      "prepared_sha256": "5580155f36097b9f99f353d82971d7e17c32c38daf292a65a4e18597386a1980"
+    },
+    {
+      "file": "train/empty/cloudy-0104.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "ea4c45b3e76177f9a44c9bf24d3a3ade205481b1ce7693abf33897b771f6fde5",
+      "prepared_sha256": "b7a798f2e46f62142c77585b8d728c9ecc17821bd6e38e11085d69a06c4ebc2d"
+    },
+    {
+      "file": "train/empty/cloudy-0105.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "02e84cf23212c299300becf91897166a6d46de29ae437cf1f0916c9e1e552da9",
+      "prepared_sha256": "006e7382dde9652a7a1117ecd9ee23bc21b4995cc586b01ebe7e3db341190eb4"
+    },
+    {
+      "file": "train/empty/cloudy-0106.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "771464d633187440b4d7b94a220dad29cfe2cccd54d6aded67344dd35477de71",
+      "prepared_sha256": "d61cf71a122b36492ec0c3618eb250f9cfd76a4d5352b618ca8d638f35bf3d75"
+    },
+    {
+      "file": "train/empty/cloudy-0107.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "c69c6d0a5007012ae65b32517a81fa8f66484dccfeb672d82c38350858c5d59f",
+      "prepared_sha256": "f9f497e4951fc0f2b51a2c24f09cceb8cd0607fa348fffd22007e460e18798b8"
+    },
+    {
+      "file": "train/empty/cloudy-0108.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "89f665f8794fbfaa105140516817241e5fbfc031bd18c1fa14860a72469d22eb",
+      "prepared_sha256": "a642a1000d3bac6d7447664199d8e893c3ac9a7e6cb81a20bbc12230a936821d"
+    },
+    {
+      "file": "train/empty/cloudy-0109.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "efa8fcfcfc5f5ce98821b1d0f7f61c8c0d1fa817cdeb4b4390daae3bd626ae88",
+      "prepared_sha256": "cfe18b350d344923b8c9ddb9e1e7bc53ed749fcd762bd910281dec6c7e5e2894"
+    },
+    {
+      "file": "train/empty/cloudy-0110.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "4891d8cd4736799d0aefa759a2f26fd6c11b0e4f50dacd69819f978a0f8c747f",
+      "prepared_sha256": "f73172fda6889be63833958f2248f100feb83fa06deefaddacaf88573739530b"
+    },
+    {
+      "file": "train/empty/cloudy-0111.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "35e18f3016039cee55372c31bb48f9bc2ae845828ac41695ceffa5a28a2a7619",
+      "prepared_sha256": "238b627d498981117282dd511e5a497773a83e968b9cecd822375d3a760f3aa2"
+    },
+    {
+      "file": "train/empty/cloudy-0112.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "cbb2febf9f766c80809571110e4c00a793eda5cfc2ab145e5ab28ad58e75c66a",
+      "prepared_sha256": "75e1c3cbc1ceca0d43a8069d4094829807e92055855a54bf04c77ca3bf83af97"
+    },
+    {
+      "file": "train/empty/cloudy-0113.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "c3d01e6b6d2c53bd5e161e5972ec5839007ab3d68f4d7269994ad716ef00014d",
+      "prepared_sha256": "e05beaa566adb1ede224f3ccbf2c2b3e0c3a350534e430f2ae955334d0154ea2"
+    },
+    {
+      "file": "train/empty/cloudy-0114.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "976df4308d2f3cc1dcb51dd1b8c42395c09ef8b51114ffa2fb7e2dd5daee0ea6",
+      "prepared_sha256": "ed7a85926308961a1b89cfdfbadb24316c544965509b64b67f1994153217d65b"
+    },
+    {
+      "file": "train/empty/cloudy-0115.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "d9fe6a06289e619993c8c348ef707b0affd885430997749ae6c3c4bcf09ff353",
+      "prepared_sha256": "0acd7dbe72d3f9e445330dac4b0bfd8123e370e75f6c506598f0a9ec6279e408"
+    },
+    {
+      "file": "train/empty/cloudy-0116.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "fada21c1c5d6bf938bb13f1de3ef0b0717970748407aa3f7320b5a6fa6d9d5ed",
+      "prepared_sha256": "e8ca1e2615b05ff7f6c06648d9128065f6f4d15c8baea9132f7b13312af69c15"
+    },
+    {
+      "file": "train/empty/cloudy-0117.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "0294edea0671a78153b765acde63e3f82f889e98a9aec3f56710ddebf9843c1a",
+      "prepared_sha256": "b003c32a05efc15a7b3299204d2de1eb436850d2ebae6023db0bd2374981a2fb"
+    },
+    {
+      "file": "train/empty/cloudy-0118.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "358a4d3c7708f9b97cbe5344d0b156d9aed79c5696bddba595eb3f1309285f27",
+      "prepared_sha256": "23cf5590d4797098faf88add56abbda7b0e301709bff663fee2bf956280fb39f"
+    },
+    {
+      "file": "train/empty/cloudy-0119.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "b258f85f67a18567e435a2df8fdbafeab6bedbf5a099a870d615d3d150f39b8c",
+      "prepared_sha256": "301f1bebda7d8675051f94ff926002df24de5e1f67863d63ddad3b63075ee748"
+    },
+    {
+      "file": "train/empty/cloudy-0120.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "58abccb76f1376bf2195f9bd628d5c0e7ff6c9ee27411ecf9235254c47359863",
+      "prepared_sha256": "cf4ec385e9e33ca4847746bced0b7b3a5be6f98b8b494ae86cb4a6716d19112c"
+    },
+    {
+      "file": "train/empty/cloudy-0121.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "a76210ce28cfc6a5d5ca6fdbc3fd089a411ce8ae75fdb33e12df2e6474182fa8",
+      "prepared_sha256": "eddfb03eef79afddbd5267c0691027be09284a7264265dfaf5835fe48c1b754a"
+    },
+    {
+      "file": "train/empty/cloudy-0122.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "c7f6bd5f7f7c373f132f29492f5872a7639ff7d6accdde59ed02dea48070253b",
+      "prepared_sha256": "d61784fd667c8d3d1ff8b8995da7c60331f64d1792219623be8ed5976c0af612"
+    },
+    {
+      "file": "train/empty/cloudy-0123.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "4aeaf15c4f611ed9372fda44d7864bf6b1e6ef80f4c15e63f4c62ccbb957d294",
+      "prepared_sha256": "21ed209bf740755a4338a582b587b7de129a4bc98c32257e5092cd6a977c6327"
+    },
+    {
+      "file": "train/empty/cloudy-0124.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "b06d9a24bf77684c0630dfe15dfb551355fd341201ee9e3ca89d353189cf56e6",
+      "prepared_sha256": "4ebd0f28a60def4760a6e37df497aa86da6b168a9f2a70d5b9d47368866749c7"
+    },
+    {
+      "file": "train/empty/cloudy-0125.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "655449bf90f91f1d56f782ac5d46762d6b21bb099eff3e4e696c34b06df0441d",
+      "prepared_sha256": "f21ac352e630f69df60690c2826f5de5aa44a32b934a891593a9bf7970c90a84"
+    },
+    {
+      "file": "train/empty/cloudy-0126.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "2241a526021f7e89201e65523ce946c0e2ab7c42c11776edf4092aef64a93165",
+      "prepared_sha256": "4c7e80505174352289114c96a10e90238a1b320eb2d66f320046233cd59bccc2"
+    },
+    {
+      "file": "train/empty/cloudy-0127.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "f1d50c52803f28460c09c50244c777807563611f72ae4e64378c6890138f5d36",
+      "prepared_sha256": "964e027f5f1c4b3a516b0d8e03a2ad416fe305aa265127d8d46b17539e1b7078"
+    },
+    {
+      "file": "train/empty/cloudy-0128.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "984e73df89823431048bcc92203547f0605c0cbd8f20aa015cfabb1ddf15a560",
+      "prepared_sha256": "cc78deff090381e7e37494932787aa2ee36c95fddc271e7bb0f22d46b9245ef8"
+    },
+    {
+      "file": "train/empty/cloudy-0129.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "ba31eca995ce84f601d68e3ea8eb2307c75f4261f8a8d1d7756d113bae0e20cc",
+      "prepared_sha256": "bb917e7328c2d128ad360b0cb15af013cf12e77a855baaba068cff41323ea871"
+    },
+    {
+      "file": "train/empty/cloudy-0130.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "3e0d6bd7644f39460bfdc5157de01be30844816d2f219274369305683eec4905",
+      "prepared_sha256": "71bfa4252d9bea0fb12311f2231c8a215164723217953f170c8713b8cc90020d"
+    },
+    {
+      "file": "train/empty/cloudy-0131.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "8aed6e57e744a685d38ec36f426ac425c6107685153a1c96e39a057167f69419",
+      "prepared_sha256": "ba14c90bab8f991ece542fdd95a8b0f7f7a72deec24c58ed2d2a54e02a92d777"
+    },
+    {
+      "file": "train/empty/cloudy-0132.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "481aee159fea1b99f7b74867e73cdc71f6d4162fb7254c3fd889ef47d2cdf73e",
+      "prepared_sha256": "1181e80e4d27b318f87dd3b4a1ffbb96f7edf2c6755aff1a21e12050c36ac251"
+    },
+    {
+      "file": "train/empty/cloudy-0133.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "83b9d0d902c00cb3462171c3c8d20d47f185e6d782ba56751c15ddf3361ba001",
+      "prepared_sha256": "809aced57075ab2063ea85fad00fae6556d35931f5bebc118fe84673cd398b60"
+    },
+    {
+      "file": "train/empty/cloudy-0134.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "af1a2135f22b547d2d35fdb5f1f2bc0bf87de77269e19f6d1562a051308c9cb3",
+      "prepared_sha256": "fc48574c62aada7d819e80c365335ebfda5498e4a6e76bd176c983aff6ae83d3"
+    },
+    {
+      "file": "train/empty/cloudy-0135.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "a151a1f5a17c6197accc029cd2edb7c534712f6795ed6eeb34f74cf561962202",
+      "prepared_sha256": "bc4c99827b3ae7cc876631e16ba3a2e21934f0e5b69eef9d9c0f23f2f2fa02a6"
+    },
+    {
+      "file": "train/empty/cloudy-0136.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "15987af3479d486d8b7a715244f551dbc01307867e3c871ecf80fdff5061bf85",
+      "prepared_sha256": "0ffec66f4fd2af1c3c3a3b845a3b118a3c4b9bf2824a11182a7fff2d6ceae7bb"
+    },
+    {
+      "file": "train/empty/cloudy-0137.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "a351cd686f45993cc4368269cbda6a73585e17e6ae3f4fc7e68b2dc9e6ad003f",
+      "prepared_sha256": "1694888ca8b55bd7e2f92b67a4de60286fea83a64e53231937efebdde7ad742b"
+    },
+    {
+      "file": "train/empty/cloudy-0138.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "6b99f87650b1aaea04185f715b9bdd41444342dee8ee14c7f991938c7ffc9c0a",
+      "prepared_sha256": "d0d68bb6e838b4392715572fa396a78031ad6c7c26521d90184a1ea55423d058"
+    },
+    {
+      "file": "train/empty/cloudy-0139.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "cf457698df5ce7877f6a0133db0f6b9bd51eb9f6782c6559d29c05ba80b7b848",
+      "prepared_sha256": "e49f878f069ecf26064fa1095293776353fa63f4d2cd88590058430e188e274b"
+    },
+    {
+      "file": "train/empty/cloudy-0140.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "13d887e0c262835dd04d6c38e0ff5f899025e8e949f9c84676425e3eb48b14c0",
+      "prepared_sha256": "c73fcd088527713ac7291781eaf3ace477150b337a021cfd59d76e635b11edc6"
+    },
+    {
+      "file": "train/empty/cloudy-0141.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "2275ee75d3149f1bdd2acf38bbc8e8a1bbca2ec2333fec4efa2f2975aa3bdf80",
+      "prepared_sha256": "a6d1fbc26ad0cdf55f6cf867132bdcaa4d73cf749032f75298ba255ffeeb425f"
+    },
+    {
+      "file": "train/empty/cloudy-0142.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "6976e5ed4d62e1c71c9bcfa540f423b7a42f32b3affc15e751c6cee46ae7e5ee",
+      "prepared_sha256": "f076ce5dcc2955238adf19443f1b3116072414b440956327955045f4fc4a37b0"
+    },
+    {
+      "file": "train/empty/cloudy-0143.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "56161b1e3c44f370fad822fe66c3cfee022baa042869b499aee6a9a7aa640204",
+      "prepared_sha256": "d1679107d68009a4f78a7fb76d31ce921cc4688841f88db9deeb35b4ce026bd6"
+    },
+    {
+      "file": "train/empty/cloudy-0144.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "a1409ead8e2976ba3b54ceab2af52d265d88d869aaf6c0477606f8bfbeb823fb",
+      "prepared_sha256": "4dc2107f82ef2db987e7c21f4c3de98fb5f75da0e44861498a8f8c765d7ae5ad"
+    },
+    {
+      "file": "train/empty/cloudy-0145.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "3bba878a51c93eab593cc3f912c91a83be637a117d22125e96605228960364a7",
+      "prepared_sha256": "565af479dc871fa3229e8739d52b751278c81f40212b21e5576b71b6c42920f5"
+    },
+    {
+      "file": "train/empty/cloudy-0146.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "b3ac9bb54cce0fa5bd5ec63241c7aeab15ba30454ba0c0cac09b99615446691c",
+      "prepared_sha256": "425a03ffc98416994c8110eaa707a7812f6728bb3b667195fdf02c61c26201f3"
+    },
+    {
+      "file": "train/empty/cloudy-0147.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "46ea56c27c9a7a8c680a61dec9c7905002aaff2da0b0fc328cc26f3b3db7468d",
+      "prepared_sha256": "8167cc4d7765e594aa372ff93585f0af9817bdbaec107ea6d9e60388f9703cff"
+    },
+    {
+      "file": "train/empty/cloudy-0148.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "804e9ca795fc22679cd0f26c55cffaaf9f5c119c0c761890b1a441e4b3761742",
+      "prepared_sha256": "41e7544aff26704907fe582666576bed114f9b4be9794a9a1a6db644318ce851"
+    },
+    {
+      "file": "train/empty/cloudy-0149.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "538066f9ca557f44d856fd078abd2d2665630f77669f78ca62d9b6482571990a",
+      "prepared_sha256": "08549a0434b77cf13b795ec6f31f3dadfcda48202b3d66527410e63b33ba7015"
+    },
+    {
+      "file": "train/empty/cloudy-0150.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "e10742b0ceae2fb8d3c195e1ae501337afc32f97aef54eac9dcbdced96202442",
+      "prepared_sha256": "d761920622ff28523f71302f7d70925fea0e70324934d9fd2036823100cd7949"
+    },
+    {
+      "file": "train/empty/cloudy-0151.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "828d62e21908e943fb3d4e8cdd8328cdc4f422e74169da58aaeebf335215f6ed",
+      "prepared_sha256": "d0c8089c397c8b43c02d5a922f4286f3bdf1ec4c954020d535dc3a34960157da"
+    },
+    {
+      "file": "train/empty/cloudy-0152.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "85414ffad306fdb874bcdcfdd98d044ad30b56c7f0e8dfbc011443a734cf04ae",
+      "prepared_sha256": "baf663aa4ca7b457aeee51f7f9375794e8751b355950b1bcda0a2651a39aa9ac"
+    },
+    {
+      "file": "train/empty/cloudy-0153.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "bb797879239e2d9c8bbb1448f13b28cd554ea1e88a42995a2f0b2c9a6d64891c",
+      "prepared_sha256": "e66c6cdcd9351534091a516e28cead3a9cf253f5738b90dd472e9443c13b243e"
+    },
+    {
+      "file": "train/empty/cloudy-0154.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "4cb45367b4f67d6cee8368fb744a8e69695ef004de962fc17055d42e66221504",
+      "prepared_sha256": "467a5c1d5b31103ada43ad87f48a82cbd5ff8f519cdb9a91d201fe324680dc72"
+    },
+    {
+      "file": "train/empty/cloudy-0155.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "78b56d7e7e98c13e229b11f7c9a7e5001ad611c7406d6e231745a27a85151a59",
+      "prepared_sha256": "b75d78181478cfc5508ce667449cf987e21afcf883736223616ac732c064c399"
+    },
+    {
+      "file": "train/empty/cloudy-0156.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "90e608c215dbc972ff8a78a2ca4115642966fbfc41991f270ee2370b24fb6a4d",
+      "prepared_sha256": "0797dd2f036c1094ce941c2e0358681804fbc77c7718890e28c22f0b80d66ce0"
+    },
+    {
+      "file": "train/empty/cloudy-0157.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "ccb52d10208d681e1b53aa389642bbec7715f36870821592e1f16b9dc8837cf2",
+      "prepared_sha256": "7aa793bfad74ee17aac552d37707bca444d2c1e4dbb17d7afaf6bb17426f80ae"
+    },
+    {
+      "file": "train/empty/cloudy-0158.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "1b77f6472a828d9cb3b71f2c73a71ed0a86e49dce31c6ad52a17f113a76cde32",
+      "prepared_sha256": "18b10c5ffd04090adba0a9b66432ad8a207fd8da2b87555fe6fd2105514d1031"
+    },
+    {
+      "file": "train/empty/cloudy-0159.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "68c32fd6a0a2c3795eabab48c2c1848b4c5696b003016d95e45b9be97e2ada55",
+      "prepared_sha256": "13777401f77c236fad40aa9893397e72815213044a9b4c04df1021f18cecca99"
+    },
+    {
+      "file": "train/empty/cloudy-0160.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "8ac073d6fb529e274be6ba0fc146b1ad9f53a95d46e018ac90b006f9b8f6ce85",
+      "prepared_sha256": "23ca59c9f72d77ed9ebb79158e4cb1828bdbee985e4d2fc495f7ce806b904d56"
+    },
+    {
+      "file": "train/empty/cloudy-0161.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "9d6f4a58f3a247e996646452cd2fb1c7aa9d1c822286583a152b61bd3e910745",
+      "prepared_sha256": "058abdfc84627922d4c73fcd6c32553c513e36077041536ebcd3a058347e82ff"
+    },
+    {
+      "file": "train/empty/cloudy-0162.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "a2291d37e5dcd924e52f2403ff6e5418c8e57e920554037976ae12219adb330d",
+      "prepared_sha256": "aba13668f102eca2912fd2775d9b2487baf4c870acc90145a5cf6c2a02f37c0f"
+    },
+    {
+      "file": "train/empty/cloudy-0163.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "b2baacc49c37c93090dd9ed24da4917e507e28ccb372e0d1ebd8f2f7bcf9c659",
+      "prepared_sha256": "f89e7f012e39001ea2a838a3b7460f7375c7ff5ef1bef9846f5d4bc44e23d219"
+    },
+    {
+      "file": "train/empty/cloudy-0164.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "4e4ae57f51dd5717598ef39a714168eac37d314bb37d9abd682da621a948fa47",
+      "prepared_sha256": "b0831d7d452159b8e9bcda49f0dd138a90fd50ff07f9946ce86874c1331b240b"
+    },
+    {
+      "file": "train/empty/cloudy-0165.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "da78430a5ae9e99660c1ca98a5e87ff324581c7af8c7013b14ea54577e476ec4",
+      "prepared_sha256": "3e749723619075c6e3f110470137268fdee75b962965b23de72367ab4d373ad4"
+    },
+    {
+      "file": "train/empty/cloudy-0166.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "6159a7174df491bf97d0e3c6d5b2bfedfa4b01fcb66626ad79270eef9faf3c68",
+      "prepared_sha256": "bfa0a39e369060ca0b13d3f25539177fcca6422191d26c9a89f7ada279072cdc"
+    },
+    {
+      "file": "train/empty/cloudy-0167.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "2ed57c37ef2b87b3e9693bf564113cb6542ef86e8d079f52e457ef19d930bacf",
+      "prepared_sha256": "19b8cf478a8f7b5f3dafcef5136406bef7702c8dc219098dab6958abff423a49"
+    },
+    {
+      "file": "train/empty/cloudy-0168.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "97f2c299b39ad5ab1fad98616ce0cb8eb49173fd0715689019a7cb59598b9bdd",
+      "prepared_sha256": "21f6b3163853984a066a5291215feab770d41302a10344eb85a9afe068a6bada"
+    },
+    {
+      "file": "train/empty/cloudy-0169.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "765a66c9bd29b58a941b8cddfe7e51ebb862340625e244b29e894e49d4806df0",
+      "prepared_sha256": "9527f3e2bddc5ecc110cc2c47ba66b4053dce0db807ffd7103498c3f621e0a33"
+    },
+    {
+      "file": "train/empty/cloudy-0170.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "c5ae2e3a8d6282a80fc863e57bc911712700c446e9aee9abb3677afa0359bdd4",
+      "prepared_sha256": "e9768bc3f4f1c7a6ade31760946c3ae1655b016f4a1ab926c7112a76571ff744"
+    },
+    {
+      "file": "train/empty/cloudy-0171.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "682071cc2e70b48f883b3db65a6a0e273c6760c2b322e0470261482445cc6809",
+      "prepared_sha256": "92be41aad1a6befbc57b6af6be522e29542d584011066f114e1320558b344696"
+    },
+    {
+      "file": "train/empty/cloudy-0172.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "a6f4b4fc8307e8f8d6894330d137a6cb2b9f2275559999c2454133b3ffea8867",
+      "prepared_sha256": "28e4f7a239a46610acbdf120125e225601cafada776afd2d5fe4dd30dbb7dbaf"
+    },
+    {
+      "file": "train/empty/cloudy-0173.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "e63adc627b9f7f832bd5320da5d0564d6ad9ec68b3ce7b7af079170f5c1dac90",
+      "prepared_sha256": "74f96d37a592f9cad0c7637f6bcaddf0dad04b2d6a4fbb26df0887ab360cccb7"
+    },
+    {
+      "file": "train/empty/cloudy-0174.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "692ce62a40cc8551a6ced978e56bfbaf338c4cea67d7c5dd25077af771431858",
+      "prepared_sha256": "68d9d37e19ed254e97f92895707ca9af2d39bcdb4514a1372e35073d88c3b311"
+    },
+    {
+      "file": "train/empty/cloudy-0175.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "f9209be25a0539dbf95cbaf2fcd1105a57ac85c207d3bdc565fe92d4305d886c",
+      "prepared_sha256": "6516a0cef1dd58b90fff447baebc03f1758fa8756e555ab8242e511f16cbf960"
+    },
+    {
+      "file": "train/empty/cloudy-0176.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "43d431c27065f427c215f733e7bc20b88abdbb690dbbe59cadc97184332e0505",
+      "prepared_sha256": "79052f72b123aafa68192586140abb13e7ff7f14343875729db2fe3ed7ed66b7"
+    },
+    {
+      "file": "train/empty/cloudy-0177.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "5c64d492d6bfe3c38c831adc72ba8132550b80608705c6c444fa1bf72e2fcaa1",
+      "prepared_sha256": "fbd177d94067146361093e871e54dbd1d4d2cb8ec6bf498f1debbd16aad29e55"
+    },
+    {
+      "file": "train/empty/cloudy-0178.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "ac5ca8d1b05f7dec610f133771fc8b0e6e59914bdc45c0212a1302ca54672c09",
+      "prepared_sha256": "41e7093c53c9024fea3144441d931b490ad7eb43142347181b06c7c88b0f0b54"
+    },
+    {
+      "file": "train/empty/cloudy-0179.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "9a78b018079dafed002f289b4d9f10286cf23241cca524683338298b27b5553e",
+      "prepared_sha256": "3b433c25a77dccad1ea2a6eb0c8207053615047529cae13a9e0ab20244b8f525"
+    },
+    {
+      "file": "train/empty/cloudy-0180.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "d788300d91bce04dbf41b23ae3926e0df10a2cd35a90bed77c0ca3f2866123b2",
+      "prepared_sha256": "2d151952994c5e9d3ad12f4951d8d46aab4028a0d0efaefc3a83960ef064c690"
+    },
+    {
+      "file": "train/empty/cloudy-0181.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "8a207ac13b7003ed7cf49df62f87c1c6be6ef2dd73a9c86da654f107c258d896",
+      "prepared_sha256": "1413fb90b62302b342ceff3954ccc016b6faf3630279f0f4566dc648e3cc7838"
+    },
+    {
+      "file": "train/empty/cloudy-0182.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "be8416a9ed231f1e6daa22e818791df43d22138fb2da0a91d6c22612f1827dea",
+      "prepared_sha256": "cb7f110417b2ff8c3d30542f6bb0442c6e6fbb1256618a75d67d4c5931cb6d68"
+    },
+    {
+      "file": "train/empty/cloudy-0183.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "1472f6742ad7d7d9ab26263d15541cc71427b6716d257bc9f3cc2a85d1623321",
+      "prepared_sha256": "c99fa94db73789ea005615beb011deb2a81d425cab33881ca2365addfc8e8184"
+    },
+    {
+      "file": "train/empty/cloudy-0184.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "543e2576461012c63143d938303c953f9a0804bb9f2ef2505ba70682e747ec04",
+      "prepared_sha256": "cecd68c72d6c91dca20f420e7c7c35e04673bbd6fbc331b9716e6fe9549c77a4"
+    },
+    {
+      "file": "train/empty/cloudy-0185.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "2b4ea4aa793791bf38a31e8e56d2df05a48dda8c2f3bcdf6b401b6e86830f5af",
+      "prepared_sha256": "da17fb972f8305f7089d299b1afe7e006fe258ec257ed40dac92fcb173dd3610"
+    },
+    {
+      "file": "train/empty/cloudy-0186.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "a0bc3c8a42a05367d8353af0249aa0816d8a3670d4ddedc7d8281cf75190f1e9",
+      "prepared_sha256": "dd9636356168c341854ea96754273c44b28880ec917a1239960ff49f4fc35dac"
+    },
+    {
+      "file": "train/empty/cloudy-0187.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "56e1868e01c3b5c46fecc2efd0da4b20f2a7f96b0de2a4012f4644c204600393",
+      "prepared_sha256": "3243f4cb4797cff876ced1b5b2336571fefbf57a08b81ce274d6f160d22f0c55"
+    },
+    {
+      "file": "train/empty/cloudy-0188.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "42ab90a112921d22fbbef7031b60f99563aceaa308d1ea7fe812bfaff407cdf1",
+      "prepared_sha256": "6488b0535a1a55f483971fdae353f819d48673324758eb74769eff584959834d"
+    },
+    {
+      "file": "train/empty/cloudy-0189.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "de2184425c3239f1a85f5966b286db1f0ec6e6a50c1ddb19a95dc139e5236ebc",
+      "prepared_sha256": "f7c1d135d5963f8d0f3b88c21fcce47a3750767ac7a06cd9ae42000638aad71c"
+    },
+    {
+      "file": "train/empty/cloudy-0190.jpg",
+      "date": "2013-01-20",
+      "original_sha256": "b7f663b8f36f24a75a21d8927ebb7ee8f9442e01dfbe0950afe0f2108c3d4504",
+      "prepared_sha256": "18282a0cb7aa5714eac2a3e28d7a6edf2afca6ef7a6933b82fdc1013dce70fb5"
+    },
+    {
+      "file": "train/empty/cloudy-0191.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "5c7d46c13b57a4ee25b82abd21f08944a8797653853b0bbd8bbd8851b5916403",
+      "prepared_sha256": "e36dc635d7d0ab0835ff4780a0ae8a57c8d87cfc24a68859dd11fc1aefb2d830"
+    },
+    {
+      "file": "train/empty/cloudy-0192.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "c2a16ac23674c312ffbecb76b4a84077bb7a6934f0e2c7a15a237ed2469a2192",
+      "prepared_sha256": "e1e1a86ad69051080226ee16b832efbc4241f371d6d6364149299d1ea8511da8"
+    },
+    {
+      "file": "train/empty/cloudy-0193.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "b3ab1217dbb395fdf6cd6deb984b43cfaf095b45ffa43c49a53dce6f5b8fd8df",
+      "prepared_sha256": "8df380a563368b299374298297b59a5d3a577a41652092d5e5f71f70f055882d"
+    },
+    {
+      "file": "train/empty/cloudy-0194.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "75b2416fd2afaf85d42a5ab5cb0e24416e6e2090cb5b20d640626f0a43768916",
+      "prepared_sha256": "6f646c08f011534666e1d8e57822d719832473506cec9e12b8b8dd34850d4da8"
+    },
+    {
+      "file": "train/empty/cloudy-0195.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "c1d20ec492797ef85779f25ecd828c66813c02d14b41a499309c530a6e2c9ea7",
+      "prepared_sha256": "ac341c488d5025b637941240bd32d0c35765179fcac7d5170a6c4e0e1a0b7261"
+    },
+    {
+      "file": "train/empty/cloudy-0196.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "68ab550858d2e449a6338c9763d063322d7da9ede8e35a370ea866e0b29cdb76",
+      "prepared_sha256": "6b28b7fc95ff735350bffd08478b4aeb199806de5428f4d644e708d98445a92b"
+    },
+    {
+      "file": "train/empty/cloudy-0197.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "145d9cfe159e894f608b419ca3c094534571f82b72dc2ddcaa4e65d6060a4aab",
+      "prepared_sha256": "a6740af3c34233f2dc7c1adf80c65631254ca5f794dc9824de43d8b262c1db97"
+    },
+    {
+      "file": "train/empty/cloudy-0198.jpg",
+      "date": "2013-01-19",
+      "original_sha256": "199033af7b5683063048f011745ebff86bbf7d83a49dc905f1abbdf20e871435",
+      "prepared_sha256": "3ff7c5d7c8af19f0760583e6126c70dd9ae7665466cb3d2ba812ea7dfb301a36"
+    },
+    {
+      "file": "train/empty/cloudy-0199.jpg",
+      "date": "2012-12-29",
+      "original_sha256": "990b20b5437b2da977cf2c613dda3e6c9ddc767cb64a1feb7f730cb501fb00e1",
+      "prepared_sha256": "1c5f3bec7223c79ea1d71e5e846b019b3a69d6738efdd9a2757fca048e8ccf17"
+    },
+    {
+      "file": "train/empty/rainy-0200.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "8ef96f0ad901187775520eac6fd1dfce1eaf1174822c54dac00ff854bb4d149b",
+      "prepared_sha256": "bab61de362936787d525ea7eba79540041b3151c4ac9997bec5e9b42df7015af"
+    },
+    {
+      "file": "train/empty/rainy-0201.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "e2066c17623b12e363958b4f668f5b92a5c1b7e3e35ca881006731345a82aab9",
+      "prepared_sha256": "26fc06d4fbf16a6175fb19050ad46d6a4b17f52b59c7bfe72f9fc9de555b00b0"
+    },
+    {
+      "file": "train/empty/rainy-0202.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "798828c8fbc36b8170885739fb58020386683e25d38fed155f6d17378575ab58",
+      "prepared_sha256": "084012bd101b8f0dd45ed474e0830e2eeb0a342774487cfef8c8a3cbb7ffd678"
+    },
+    {
+      "file": "train/empty/rainy-0203.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "869ee89aeffed09159ab1d2f0f7f193db6ec2debcba77d16cccdeb3da1ef12ee",
+      "prepared_sha256": "e8a94e6c41f5d68a342c932a33322fff6e6587aed15e3595d76902b9d5f124ed"
+    },
+    {
+      "file": "train/empty/rainy-0204.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "cb92519b32c417b5f29d3a834b4c93c55783558b17e1e1c88cd24fd84f094d16",
+      "prepared_sha256": "c220b660708e25f8b411b1829effdddf284063c9797ddd4635011db0e0fd70c4"
+    },
+    {
+      "file": "train/empty/rainy-0205.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "732d2be89d60513a8fb30a104b848841a800e0ffe30ab0672035391120a252c7",
+      "prepared_sha256": "bfd239d7a961300be9d7f0b118485fe8bbbd8e09c22ee473480c2a7c526cce4d"
+    },
+    {
+      "file": "train/empty/rainy-0206.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "c52427bcc4cdee7a9a79f9f1f35c6fe0aaba697470149263e91270b72ed0800e",
+      "prepared_sha256": "1d732fad40707c3909f7d8ea177d990d3a6d999b3b5cc27a03ffc22001c68b4b"
+    },
+    {
+      "file": "train/empty/rainy-0207.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "a1d5a73a82c7a66ed38ea15fdf3d5d08fc1df1e6a2e136d46b8445beb49d2360",
+      "prepared_sha256": "9451e54a60d3c143a6f456a83ba6a9210d4e1edadf09bdf54f7401aa4a8ba158"
+    },
+    {
+      "file": "train/empty/rainy-0208.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "088d842acae1f834d6d7e7ea0b4fc105e9f21b5416c0a463a89db3324484efbd",
+      "prepared_sha256": "621984a65e242593fc30e50c530616b8f8f71d719cb3e8f59dfffb7f9fc73ce1"
+    },
+    {
+      "file": "train/empty/rainy-0209.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "e2de6e25b13b246e2b5d9272ee18809d58d774a2118b65673b14994aeac6c96a",
+      "prepared_sha256": "825918c4ac04bc163366aa2afa3aca2199986e645c887e576b17fc00131ebfb2"
+    },
+    {
+      "file": "train/empty/rainy-0210.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "0faf1a74a5f97053dd80d5221ce859fb0739545e7f824c0332a7505c166c484b",
+      "prepared_sha256": "6af514bc774e37c6ad8acfd8582f9a319b61569627a69e741729a0c85f4a9326"
+    },
+    {
+      "file": "train/empty/rainy-0211.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "2a4d09b5c3e72a620f8b5f59585f0dd04f81116d700dcc96b8a7146e6bbfc2a0",
+      "prepared_sha256": "4d89e4de7b680a7e2e768853b8f2e3c370179b319e07a7278888f8134ac6ed03"
+    },
+    {
+      "file": "train/empty/rainy-0212.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "09e66988ce09802ba0755027b664ccaa93db85bb9987d652537b2c106391e2c2",
+      "prepared_sha256": "fb39de335b4f07f187b45c976a5bc5fec95a44f6353ff974013c2c86511b45c7"
+    },
+    {
+      "file": "train/empty/rainy-0213.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "50a38103a84546bb17dc5ae3d02fe08926b022c01b19c4d35551f97769a99668",
+      "prepared_sha256": "74b26edc97c595e4aceda56bcefd4f703c4a4f803610c67ea7939245f17096ad"
+    },
+    {
+      "file": "train/empty/rainy-0214.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "6c5b823a4a99d89dafb246c57dab89f1c030c3ca6b7072992c8f94d49aadbab7",
+      "prepared_sha256": "fce1fceacb9856fb49fdb7ab9929e972ff1a73083a2cd7046b38a427e57e67f5"
+    },
+    {
+      "file": "train/empty/rainy-0215.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "12a7c3ca0c3bdaa12d9ef14feae040d0ca8e5fcf66457880263d0631bc237424",
+      "prepared_sha256": "2636685bfa283f1cf2e1f00301150a16d394278760bc629b08c575321a0c7a8f"
+    },
+    {
+      "file": "train/empty/rainy-0216.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "0c4146104426e95919921982485d0c2c83604fba1aeb7d32c5a3fbf5c08295a5",
+      "prepared_sha256": "786c71a651634e745a8d47abd3cad70584369ffa5ef68c19b039aee0ac344a41"
+    },
+    {
+      "file": "train/empty/rainy-0217.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "169df00505a9775d62b87f92847da0636d6a2d767e6aad6e07c93f872ad0ac32",
+      "prepared_sha256": "044ea4a5b64fb0665ba4dd58b4d44e8a42276a5e9f92bf5799995210f3d7fa50"
+    },
+    {
+      "file": "train/empty/rainy-0218.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "8b0a728f375eb7d1437c92daad8ee6ab7063459f36b691ee11498947e7c85855",
+      "prepared_sha256": "d50ef48fb2e6e7e226fec71900ecaf26d8037df6bb414ffd97a2cbb760aea2a2"
+    },
+    {
+      "file": "train/empty/rainy-0219.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "2124bb2ad3a3204891726518771aba78cbd5513164e9845ceabc5b81cda491aa",
+      "prepared_sha256": "c780010e5a68bd3d086d37974e9532aad81031c90be41181d8de23c1766d816c"
+    },
+    {
+      "file": "train/empty/rainy-0220.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "277dadbb6ea2f0c75459761cd271be7a1eb2649e2641e5178d9ff2e2f6a16283",
+      "prepared_sha256": "ce69fa38df87504797fd3ad8e4d44586efbcb2ebb8cc440515dc1f9afcb4e9c9"
+    },
+    {
+      "file": "train/empty/rainy-0221.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "1be759bb0e37be63583b7b54d0474a8d78c3ec880e8bcf620a2d741e3ae44a5f",
+      "prepared_sha256": "aed474c9ff85c853a9910d1af63d847afab8c4f9ed012a37f637b2abc8f2c06a"
+    },
+    {
+      "file": "train/empty/rainy-0222.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "8c5a06ed7b2ef07077146a11ca20b49bea9b62e2aa446082e655f0183b81c2c4",
+      "prepared_sha256": "cecd5bd333811d296bd9e67194148fbf048d44df77c14b824f5e634ddfd64c6c"
+    },
+    {
+      "file": "train/empty/rainy-0223.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "d358c4aee21c8a0d71dea81022c13d18f439a7e3bcbfe91f1a661b36ec100d63",
+      "prepared_sha256": "fd08b6c0f6364c583fad5b0a3e8020ed3026c15e2456fca10b0546d04bba2cab"
+    },
+    {
+      "file": "train/empty/rainy-0224.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "76ddbb564c0f53b7836893415e2971af130c12e46fce9242b533389d2e072c51",
+      "prepared_sha256": "fce05eb1c37e465ffe9ace7c58f43b5cf1ef057cfd9600ba0916653c8748fc03"
+    },
+    {
+      "file": "train/empty/rainy-0225.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "6bded077d3a3523b80300b0651208f585fc7c5357a6e8311255205f69af71c58",
+      "prepared_sha256": "0036fe8fb3a00859c5ae8f1eb5ca19ca871192b6d9f0b382de1d941a90195573"
+    },
+    {
+      "file": "train/empty/rainy-0226.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "7ded73f17dbb088ee9abbb9d98d44fdfd57959bf8650220ece41b2c6bc400537",
+      "prepared_sha256": "707fcd9d5308536406cbe127b7e3cf2e1d00be4fd7ea142df0e94e3a60df9b8f"
+    },
+    {
+      "file": "train/empty/rainy-0227.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "62f922f32ae5f50fdf4496dae911d8b55c899f4bc91dafd928cd13dadc4a44ca",
+      "prepared_sha256": "70db143f37b9bd4388c12728d99d8ae08ac04a796ab3aa27df23a01b7ef40fcd"
+    },
+    {
+      "file": "train/empty/sunny-0000.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "50dae8c83ba3bf9179d64a434793d1f9201f79829bab68506d25799550189907",
+      "prepared_sha256": "1726be957103cfe2161855fe5de4ea6b5f258d4228846c66c345712ea0843144"
+    },
+    {
+      "file": "train/empty/sunny-0001.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "7992124ae54a8bfd5df03cc35401f6fb1c8da8ffd5087d56ebabd228eeba94b6",
+      "prepared_sha256": "3dd4f3c02f4faac97ac2bacc7b31d79a3661833b547afd0f617987985edbf405"
+    },
+    {
+      "file": "train/empty/sunny-0002.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "57ff29e665fee1d65333efa339e9cf844266459447e187bad2bc6a25faa9d9ba",
+      "prepared_sha256": "eaff2cb5bf10c32d0d343407f053ef1a835711f8fd5737784a39cbd79181d394"
+    },
+    {
+      "file": "train/empty/sunny-0003.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "aa22fee651e7d849edfe7d83a346d02ba8bbbe7c5911ac04b084f3400820f144",
+      "prepared_sha256": "c85ae5e6092b547a07052ae8e21d3920e02e5d11b0aa1fd9e1933af7c16c5915"
+    },
+    {
+      "file": "train/empty/sunny-0004.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "eacf1839a58da9240efb11736a6298d4346f0a50aacf3bb1c7fab93418c40bd4",
+      "prepared_sha256": "587e497e932d4e4d8d337712fefaf1a570e1e5d9cee030b699ac202ae1236f8f"
+    },
+    {
+      "file": "train/empty/sunny-0005.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "28061a8ffabb6da96022f11338a28fb31b503d9db98ecfaf0f05031334bc055a",
+      "prepared_sha256": "1fc0fa8e8fb4eb05923c4b25040e876587552fdc67b55c8887fbb33ad242d261"
+    },
+    {
+      "file": "train/empty/sunny-0006.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "87cbdee5fb667518026a21d9e92d0548ca1401b888871dfc0a6356ea2dab0208",
+      "prepared_sha256": "6d4600ad27a33aac31a7210e34474cf6904580f7c7b3e7dc350f2f254e02256c"
+    },
+    {
+      "file": "train/empty/sunny-0007.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "1d8509153c8c76411220f35ab615ce9c78ccd3dc2fa0c2f20160905385915432",
+      "prepared_sha256": "be1eea1222e4c78c84fa449474aae0a13afcd995a44597033def1edd38fe5e28"
+    },
+    {
+      "file": "train/empty/sunny-0008.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "d9d9dbf6d35a4e30f637bafd22ed69ad78c6be90a9b6b4f3ffb1212b4e723ab4",
+      "prepared_sha256": "920e355565e7d5f26d41c44d5e42b43f71bdc09ca2114c7083945523f8ec429e"
+    },
+    {
+      "file": "train/empty/sunny-0009.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "30f55d4fa5317bf5610ced2794f4225e0361826d83c9ce3c2f5c2baf9069ce11",
+      "prepared_sha256": "52788ac1c0898689f2efd3b651a4cea81117264c48882d0cabd15e251f38cbcd"
+    },
+    {
+      "file": "train/empty/sunny-0010.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "a2fcb79da501310e81b53559c3984325fecbfddab655218121ae1fd346918404",
+      "prepared_sha256": "e4e283cc7811058e6935a43039d2266b301b49ab2d9aac5094d550c83cc65ce2"
+    },
+    {
+      "file": "train/empty/sunny-0011.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "fd84f01871abe027f59ae0e131300e88934eeeb4bbb70fed60436cc437e1a580",
+      "prepared_sha256": "df427a5f0d567e9c7dd6a52a8d47a621c69eff6452e3a3009cdc1f261ca5c9b9"
+    },
+    {
+      "file": "train/empty/sunny-0012.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "4381f1e59da6719aa3648b81729603319f7b7071f2ef480dadc21aff80f3b71a",
+      "prepared_sha256": "84bc96cc4a7c597853725ac2fecfbcb2badc43bcf33e1719baaa03c1b4c6ead2"
+    },
+    {
+      "file": "train/empty/sunny-0013.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "640a50f8e8324eb55c5d94705cb89d7a119347bb10683e3f52dcb5ccdf99ecb2",
+      "prepared_sha256": "ee3fefc367c402cbde459221f894aa1391ac7335b16001e48aea7b7e173c392d"
+    },
+    {
+      "file": "train/empty/sunny-0014.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "5a0c03fb4806fcb1ac0ceedeee6b4280a41072f766fbd3f4e87cd5be25b9335d",
+      "prepared_sha256": "eb42aecd2e318e82fc82abc37d1b183df44c0b9cf391ea6bbf90aef846c1115e"
+    },
+    {
+      "file": "train/empty/sunny-0015.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "8a7336bb8674d6658910ec72d26612581871285675d25aa862ef243ecb777930",
+      "prepared_sha256": "e743a581447e56c079b0bd1396460343d1bb127ed2f86aaeee6a639b0b0df79f"
+    },
+    {
+      "file": "train/empty/sunny-0016.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "d7aa0c32e475fc54ae080812e08a2d9727ca0882db6d697e4fb97d4a37f9abf6",
+      "prepared_sha256": "f5591926e4c07d0768b5447b1e47f1772cd2e0caf88c8e6314d6d019f2a12643"
+    },
+    {
+      "file": "train/empty/sunny-0017.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "2f718d34669d1fa9c306a914f4337317056d1c3b082d390b28eaba6421a19b19",
+      "prepared_sha256": "8f1abf3eaf66bfb4a94b9097e14f03754d679987ba8b1c766290cd7d15004657"
+    },
+    {
+      "file": "train/empty/sunny-0018.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "06745b064a4c032fce4b7796cbf9b8f1de812f1c14c914a11466b83bf6b2d8f4",
+      "prepared_sha256": "f7cbbdb78b30dd13debd87e35d51270e6bbf00569fc84ae0552b596e4cc13a2d"
+    },
+    {
+      "file": "train/empty/sunny-0019.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "51aa30ef2996e4fd640fa3b8fb1e781e1370a8fbe313b9ea3a934462705592ac",
+      "prepared_sha256": "eec12d2fda6143fb4160fdb715cdff414ea7ef14493a0ca2c2c06de5fcaf05e3"
+    },
+    {
+      "file": "train/empty/sunny-0020.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "5ffdc12b2c777b9cf95ab7f166be6cc6045dbb40fabdad8adcb027c4ce63bc01",
+      "prepared_sha256": "58ba757d3047721f023ac74f8176927b57a5cde6e783c93bfe6eb550fc3fbdec"
+    },
+    {
+      "file": "train/empty/sunny-0021.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "5ec360d3aefd557d36a65c28cd5f672c0c69fd06c9a8695524b38a6c23ec8fe7",
+      "prepared_sha256": "6885af7b8512b1579fcd06300de1e48983c4eea9a2e42ea2955c6afa318d25a4"
+    },
+    {
+      "file": "train/empty/sunny-0022.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "1d3afb118eda2092188176ee941d28d14819a0f4c0b4b6ff49fce261f1d1eaed",
+      "prepared_sha256": "3a68d4ef56d5cbfc52fd871c01ac180a5b32c62a61537d7c8ce2e46dbd1e5a14"
+    },
+    {
+      "file": "train/empty/sunny-0023.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "2a2d1ec79c9e30c91f7c600e7135b12d102b4143486ec5b76ff078df180a7fd7",
+      "prepared_sha256": "ebb94ec80b9d2460dd153ea22e4ca8523950f77b4e0e1e2b96df4598f7bd66f0"
+    },
+    {
+      "file": "train/empty/sunny-0024.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "f2eea3b3acb8cf2153d70e5dfb971280ae32258c13d75685c88ffef5120914dc",
+      "prepared_sha256": "1a9dfa6c1da58fd52b2a18b408ced1183d5225fb27b829a5c38627091b758856"
+    },
+    {
+      "file": "train/empty/sunny-0025.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "fd722e883e31596f3c0fde2854c47010f121deda02dcaff9f8e8abe154f0812a",
+      "prepared_sha256": "854261b4c67161e50562e5d4520e2582b9b467f5dea58031c7a9757e1411e0e3"
+    },
+    {
+      "file": "train/empty/sunny-0026.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "bf0485c97de7f9ee4934096f6de016c677231a4fff6e2d36b38131c2cd098c5d",
+      "prepared_sha256": "b40210aa2b32d5d3caadcdb264760004803c8bf7bf8ec19d30fe0c14d7537293"
+    },
+    {
+      "file": "train/empty/sunny-0027.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "1da52a5928cf58b65800593ca79773149cd93d794e6baba33a65682807b88106",
+      "prepared_sha256": "86ec4736c9942e6a5896921e3df4950007bf50fc82d8715bf82033ddea96abed"
+    },
+    {
+      "file": "train/empty/sunny-0028.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "5b35958d314dbef179c50acb19f53c7ba6d915fb53e382335d3b14fd3d4d9371",
+      "prepared_sha256": "60a978275aca0c34cb5bd856234a921908c98951d3ea82449740fb7ee5cb8fbe"
+    },
+    {
+      "file": "train/empty/sunny-0029.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "a435102a805469265b62059153ef8655e442bce72d4a147ad2e936aadb4868d6",
+      "prepared_sha256": "88fa8f5dcd00aa1f5ecc4640dfbbe46d9c3bc4c19bae091724f51dcb02381275"
+    },
+    {
+      "file": "train/empty/sunny-0030.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "1a2f9e84131855362827ddb31e7b5d7df417277bfe3e9105fa24281233af5d46",
+      "prepared_sha256": "0fd82b4858cf8c215270a3e898602f9c2209fb6c080c1d0c55d2f5a972411910"
+    },
+    {
+      "file": "train/empty/sunny-0031.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "4921f20b64ba36c45d1066b11e4f52effd235594065bf55257ea58167e9f6759",
+      "prepared_sha256": "47f81852e15722cc804fa19412ddd463846f07fb90731e44fb08e1bf159fe191"
+    },
+    {
+      "file": "train/empty/sunny-0032.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "2e93736990c4f929292be5d5bd3414f5b9f2d5b12a45e3171a7aac3299a4204a",
+      "prepared_sha256": "03a8d82b3bd0af434b2a7346bf2817e45ed124b8071e001c727cf27c8f0e3797"
+    },
+    {
+      "file": "train/empty/sunny-0033.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "a6fe55f40a5c4687ca5e311eba97644dcd167b7506f5fbf0580d013051892d3a",
+      "prepared_sha256": "cf7187f24983f513494fec86755a74c49c47df827eb0054321a65fc490858212"
+    },
+    {
+      "file": "train/empty/sunny-0034.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "72f25744528696bb7923b11d5aa6965895558968c78f099ac2c1cf151352b97d",
+      "prepared_sha256": "829b5fb975c4841203b0a6fd2492be963d2f7b3c620b32f7d137ee8ef9947a68"
+    },
+    {
+      "file": "train/empty/sunny-0035.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "add3f84f6537f295547cd4928512b51181a4759b95eeadbe9b549a4f0b380975",
+      "prepared_sha256": "11f75a91436f6c8cd1e61062ecc5f978a398aa3c25ea486b40d597a2adf65a22"
+    },
+    {
+      "file": "train/empty/sunny-0036.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "a1f80fa4d6a7f4e65e79f813c01ccf68e950c0c658bf25a689708babcba5bb48",
+      "prepared_sha256": "d268892003551941d630b85a2dd038c719cdf2047f400163f26ff21f056ebfcc"
+    },
+    {
+      "file": "train/empty/sunny-0037.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "bc622f9171660a596a1c4620bfa69695a6f835fbbca0a01c4c93187b528dce53",
+      "prepared_sha256": "bf969a0e390ed5ef89fbc4108391d2a42812f6a1f7116cdf493f5b972b261611"
+    },
+    {
+      "file": "train/empty/sunny-0038.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "312a550ba8ad586ac4be58469d3b85a2ee3cb46050182069769d108880dcf4a3",
+      "prepared_sha256": "da13b5846b9f936d1be0ec5ea0ee54ac737218461aa11cdb334cb64aa2a08056"
+    },
+    {
+      "file": "train/empty/sunny-0039.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "045b58eddf677e3ea2df224d13e283408ccf3ff1e952bf42ed3e4b96e13f56aa",
+      "prepared_sha256": "047e2f8c379385800defd73632233e7cb2231cdcaceb988fad39637586e4e58a"
+    },
+    {
+      "file": "train/empty/sunny-0040.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "4cf36318a2581e2a3beaeaecdcba3a59804a517cf104bae801b52d5ee9744cb6",
+      "prepared_sha256": "b49c7413b85ec8b5603071ffff67d8875286bb6f3d82176972008e4b99efdf9a"
+    },
+    {
+      "file": "train/empty/sunny-0041.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "5b5fcc1f1fd9f83d7b2965eb22f40ea41e22c211ba54a9ce922b2328e52d33b4",
+      "prepared_sha256": "d0ef2ed9d75df38184f4eff7110bb680ebb4df43e299ebade18fbf08047793ef"
+    },
+    {
+      "file": "train/empty/sunny-0042.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "b11b0de85fec59eb92a2898f370fccbf48a70191a4ea21edd286fadb3bea6632",
+      "prepared_sha256": "bfbf0960d43a51a000df1c6735360d7c6ef7dc7e9f96067850f11c55a346222a"
+    },
+    {
+      "file": "train/empty/sunny-0043.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "9dd431676e3fad35d3df17456a3b166644fdf7e4d8878809555327fd4905fb76",
+      "prepared_sha256": "906502b5d05cf36dd4fa72a54438abcc2b06a4d1e75c0cfcc2deeb27e7faffa3"
+    },
+    {
+      "file": "train/empty/sunny-0044.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "234b9f804fc82a7558519e538df53b64db3cb741cbbaa0e3b1eb11ae025db2c0",
+      "prepared_sha256": "cbd42848bd2ef806c0465f2fa350f27856600fcf294842bb5a96005317a57514"
+    },
+    {
+      "file": "train/empty/sunny-0045.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "8c02cfa8cfc0bbaddf52d180e0838d0076ce79f09fec957e3d0527a269ad5de4",
+      "prepared_sha256": "341f6689e2ea72be1c49ca287631c122a37e5eecca780a5cb4d7b835b2717664"
+    },
+    {
+      "file": "train/empty/sunny-0046.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "23c6ecea593e8b0ba012b74b4d6f021befc737df7b95d1af5dfe0abfa72e5263",
+      "prepared_sha256": "c38d86186bc99e87240107e51262b609a8726c6259e4e47560660e468c2ff7fb"
+    },
+    {
+      "file": "train/empty/sunny-0047.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "a893c3aa7caa4b7b9ccc22f88537879ab1f98cd6becc43d65eb4780f60b31d0f",
+      "prepared_sha256": "cd345dc80f79774dc5dfc09ee4dcff470b3dedbe905470ee3027da42e889ae1d"
+    },
+    {
+      "file": "train/empty/sunny-0048.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "4b00c58361d46ff294b3050b55cb9de13e0093c0cd8473c2a8cdfd2cf42ce728",
+      "prepared_sha256": "b243e8509e7fdf77a5decb61e0ca0d00a66d05da5f1e288c2f501fa5c862a0b5"
+    },
+    {
+      "file": "train/empty/sunny-0049.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "af7321a3bea7aebebb389726658af1dd8178f6c92ba980121e98745ebbc1b87e",
+      "prepared_sha256": "353e83e5210da9163ecca6b5b09123ef20a5559978c599326c169a73110e68c7"
+    },
+    {
+      "file": "train/empty/sunny-0050.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "fd7c8c7c5b7b34ca67459f58517c49fafe2d2dab0c9c477f5428fb1acc0e40ea",
+      "prepared_sha256": "5fb8cc3234b1682bc66c43e59cb35aa7761368da3556c09225543d8b018c55a8"
+    },
+    {
+      "file": "train/empty/sunny-0051.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "10e7eab563b982f75fe149a3899c63147abb6bd9347ccd551a718d186f936342",
+      "prepared_sha256": "b68c465982cf0fea7588b461c320b06fbf1a9b606d1d1838facdeff5f5c7935c"
+    },
+    {
+      "file": "train/empty/sunny-0052.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "2d900b2b9c53f126f9659fe511d6cf545a3cda19c7142c53b92b32e74b00fa51",
+      "prepared_sha256": "b18349c7aa2e0df968f4399498450be3f0eff72db1b975b8b66cbe1b84bd2b5d"
+    },
+    {
+      "file": "train/empty/sunny-0053.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "352552c7dbc8dd790d4d4d7bbd22aba8ee26e948a6397042dfc40aa6cc188bc6",
+      "prepared_sha256": "dd5c6eb72bff6fbda30b544213196acc55da6e9b3013e64bbda5b3ed2f93c677"
+    },
+    {
+      "file": "train/empty/sunny-0054.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "16893a7513f793aaf592c102749cd493415f2140cdd8ea4a35cee6b4654b5750",
+      "prepared_sha256": "189ee0047e5ffcb7bf11a1e5aa4cf67f7311ce84f7d574c799f391e195fa7915"
+    },
+    {
+      "file": "train/empty/sunny-0055.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "b538aecf8e50e10d210c69c44bb0725c3fd50279622f327d8d78a91ff59a1dfd",
+      "prepared_sha256": "9d5d858a3deb3976847f57cd6329e2e7d973642e0e01fc1617efaf901779b1eb"
+    },
+    {
+      "file": "train/empty/sunny-0056.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "412009caec6519595cc35d5b8bf08d34ac6a129f790e899f78c2954591fe303a",
+      "prepared_sha256": "dae10827c557183ad93637e983c72ef1ded007dbabd68f5b4d1c56248f68c4bb"
+    },
+    {
+      "file": "train/empty/sunny-0057.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "64cbf6f353bef07b26fd15e6bcdac9e8279f5f118cf91868007748701d725d81",
+      "prepared_sha256": "4ae7b342f68136bb7d423bdef5690bae759efab7b3aaaee873275af21ec69f46"
+    },
+    {
+      "file": "train/empty/sunny-0058.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "84d3b8b10cc3894ee5902cec2f276f052226361bc1fd2688b9f45a68b63c82bf",
+      "prepared_sha256": "9de2eee2fd1db534fcc5952c65465608970ce2ec34337f43655a68ef6893ab1e"
+    },
+    {
+      "file": "train/empty/sunny-0059.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "6699227573e3f255e53866c98da85848c1fe1b55bc72e0de4571031cf6fb6317",
+      "prepared_sha256": "9a271990048248b64465077604e8c950af3892225fd239021c08a8e462a90697"
+    },
+    {
+      "file": "train/empty/sunny-0060.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "66484f0f2058b7028e921fc1e70b84098b25cc3c4b63af4dbf63ed08936ca707",
+      "prepared_sha256": "c04ab37cb21cc8a2db08d33cf1dc271fc4c7fb040b76f70bf1c35eb54918808a"
+    },
+    {
+      "file": "train/empty/sunny-0061.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "82087f2b3e74cff4c42802f2334f2df98c5f55fa3a9a5dba0639af89a4577f6e",
+      "prepared_sha256": "8da80e287cfbea6bb6527d2f20db23cc3aee06a19260499491bc27130f1b1e39"
+    },
+    {
+      "file": "train/empty/sunny-0062.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "8c0e6b1778ca2eefff67ffede9feda8db26d1b00f516a5ae93e749369f0ca0f0",
+      "prepared_sha256": "81fdba682a7fbdf7241f5c26860f1327e1df88d91d6884e0ad08e6f42d3fbd38"
+    },
+    {
+      "file": "train/empty/sunny-0063.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "bec649ebdc6f5a2c001f5799fbc3dd0fe9c0a9fbf9f2cfa811b4008ea1f7f687",
+      "prepared_sha256": "aa21a5042c303c0face56bb72b53aba5364289be076a3b13e1758b4b66065a23"
+    },
+    {
+      "file": "train/empty/sunny-0064.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "57bf16ffc67bfcdfa1f7aae700a1a6bb0319ff248756ef52771185c865f3b952",
+      "prepared_sha256": "4233e453220effc9f7c85ba56a8a1e0efae34d8a60a8a6a6fa34019dfb4d7d88"
+    },
+    {
+      "file": "train/empty/sunny-0065.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "556993a8696ec5d982e10e213993aef7a217203e69f7dec8a0f44a54ffb1de54",
+      "prepared_sha256": "c2d854dfb6fe756a0123c872e2bb78d19ef5c4408bba90a16bfc65d1b88a1dc1"
+    },
+    {
+      "file": "train/empty/sunny-0066.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "fe75474b9febcd63b5e171acefc0efd547d0a302c4e7ca4bf96020b9fb0b16c6",
+      "prepared_sha256": "a1c0f9896e9ee4f8f23256d0fc92a252c607546ace33e5b87eec81be3e478d0f"
+    },
+    {
+      "file": "train/empty/sunny-0067.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "2d9ba2160d3615012a473d858274d2941167210ce4e30656566f17a781f7bc1f",
+      "prepared_sha256": "092ea0f3183235711279f09fc5da2946dab33a908b2e4fdd901c48bb1e1a5011"
+    },
+    {
+      "file": "train/empty/sunny-0068.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "f8228e36eae7665f3195417d24a85f9fefa0e36f7c2a9bfd2fc8716605a97734",
+      "prepared_sha256": "e5dd0c33a662814c2b7c21ee93994f8169fc77f2c14b8e66e7f7665b84cc80e4"
+    },
+    {
+      "file": "train/empty/sunny-0069.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "d2be1cc37f4c198eb5cf505130a377a9755b27a3ba3ecc0efeb01aa71857d95e",
+      "prepared_sha256": "93f683944e7fe00b50b5378a18701ce99c55d5a0f76a6ee0248accdc07da184e"
+    },
+    {
+      "file": "train/empty/sunny-0070.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "3f340ec901d0a6fe1472c9cba77f8953a3bc4f7029f8c51ff5b90988994af961",
+      "prepared_sha256": "0193d383bd5976a86bca699e677ea74223a35e40c387d2a6a12d6899f26c0d60"
+    },
+    {
+      "file": "train/empty/sunny-0071.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "000eff09cd4366fc75a5366a85f55b5d60a6bd546f45e754fad25f5a4f41cdc0",
+      "prepared_sha256": "6a1d360491b876468ed53a029fda7d1e2027cee0aea90ff4d02a239c35601c7a"
+    },
+    {
+      "file": "train/empty/sunny-0072.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "3a3e2fad14ecc90d159143cdec25950057a4385365392230c343c47f52b5688f",
+      "prepared_sha256": "f8bcb37d9f70a5dff84b1595fb3b585d4558087ee36d25f6122f9b1f51992c0c"
+    },
+    {
+      "file": "train/empty/sunny-0073.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "f4fc125188509bf59c485aecf3fa19a5f4829663235c211a50649c66d791dab4",
+      "prepared_sha256": "1b49ab1c2ac75ca25229d03165cbb94a9eab55420e546db472778cf8ab4fac0f"
+    },
+    {
+      "file": "train/empty/sunny-0074.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "f32dc820c1847bc63cac6d393a96f016aa4751e44710a81b064e70c30c62c7ab",
+      "prepared_sha256": "45f684cbbebe194017bb3ec8ddcd49bf7033d2938ff1c8c7e07236c97ce11504"
+    },
+    {
+      "file": "train/empty/sunny-0075.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "ae63c584e8a1013d84e9312ccb6cc3abc315644208c6e60b917584225b438324",
+      "prepared_sha256": "630d946024763a8c24a746e22955fff5ffb2327b126f9bd94ce0cd19b580919d"
+    },
+    {
+      "file": "train/empty/sunny-0076.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "45c0d0a8d6b11e1087790ae90945b648b5fd11cda0578e568363df0dc17940e7",
+      "prepared_sha256": "96a61bfc9d5104bab2a08cf9a43f6b35bd7e6f52decf1568a21d75a374bf60d9"
+    },
+    {
+      "file": "train/empty/sunny-0077.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "5b3e54b80185f773d78bf1c6366170b1dbd1b9f13e683cd22f2cc7c3863bdd1f",
+      "prepared_sha256": "24da07d18378e120643849a413a06f2b616834acf2c10f615176b85025f62439"
+    },
+    {
+      "file": "train/empty/sunny-0078.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "9fcb928a69bfbc8c92f1ddf9c873aac402e90617cac5ea66978e71316d14257f",
+      "prepared_sha256": "924cac4ab6ae2eb8a48c7b1e0b6b7db09a1c3f5c7eeaee09e702137450aad50d"
+    },
+    {
+      "file": "train/empty/sunny-0079.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "1781f5aa836bab13d2d3a55cf442ebe40e37f79e31c7a38be262d39d9b461373",
+      "prepared_sha256": "b8ff2b436ef7c9f6d6b412671d34d0319de6ba5240f6210b09756ab2a542fa32"
+    },
+    {
+      "file": "train/empty/sunny-0080.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "0f3e600f75005d796ad7b677c0a30aa98ae65f76c56ec4d3e14a4a4173032009",
+      "prepared_sha256": "00450b739f43225d294f44986bc5bf38a2fcad53f624df70402c7a95024ba6cb"
+    },
+    {
+      "file": "train/empty/sunny-0081.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "ce60c8d18a2b5642ed6e2df1480acfba47a58d987249c47e469e355e98c5c620",
+      "prepared_sha256": "1b0a294b5022ef5fef1e29c97b71308a4e34b86d5f66d2db14d812b15eac5875"
+    },
+    {
+      "file": "train/empty/sunny-0082.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "51fbae23d64bb0c3866b1ea1dc91204dd4beb8736da828885e0f935bf14e94a4",
+      "prepared_sha256": "bba9737a6bd0c60dc63b8cfa57b74c27e55e9d1626eae820eb808bcec74a29a4"
+    },
+    {
+      "file": "train/empty/sunny-0083.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "88078a3bc82df7755406ed6b71e20119117843acd7ff20be735929b042ff241a",
+      "prepared_sha256": "7076a8699f20bc510418fa0c16c8e6f505360f6cb7d4a716f86fc28e38408446"
+    },
+    {
+      "file": "train/empty/sunny-0084.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "d382241198a57f1d72d9a63011a2f56acdda31ebd92c757d74969096e128b08b",
+      "prepared_sha256": "d850fd9767ac7ee556663ed82805826fdd69d9f0e6bb9b4c12246d769b0436a8"
+    },
+    {
+      "file": "train/empty/sunny-0085.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "c90eb6265c14d0ba7764a9df7c38e2303c106c0d9abf9a661caff473e0177920",
+      "prepared_sha256": "56400b2c2665ed608cd9cf1652a5a5040577daabd51007ca2e879ba58d01a1e9"
+    },
+    {
+      "file": "train/empty/sunny-0086.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "96cbfbfcaf8faeeda56797714ade69cb280ce74038fb620474371870884e7123",
+      "prepared_sha256": "4d4fe60b03f14d6291abde92e61fd2054ca11a272decd04c6053e464e167e88f"
+    },
+    {
+      "file": "train/empty/sunny-0087.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "2727807fff32a947c262005bead79fea06c0ed4a74c63cc22aae1e4024f557eb",
+      "prepared_sha256": "44e47f6edf5465368eaf92a42b953653318c57e77626841dd3bd108e89decf3e"
+    },
+    {
+      "file": "train/empty/sunny-0088.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "55e4977b40634ebbee93955814a2a5e2ad20138867e4ec06d4f76a591ef40fad",
+      "prepared_sha256": "b317f6af6552163f30494822c6d8ac9eaaa35766ff08bd884041c60e44131098"
+    },
+    {
+      "file": "train/empty/sunny-0089.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "a8ae68edf7a9d4e45097cab78b9c2c132ff12331c3c213fe30183d9f81f7f14c",
+      "prepared_sha256": "26b05753d52aa407a926c9a75c18b7500add5783ccf33473c741c48efb24bde2"
+    },
+    {
+      "file": "train/empty/sunny-0090.jpg",
+      "date": "2012-12-26",
+      "original_sha256": "3dcac19fd986d5c0cce14d4ac6d7f3ba4cf3c8dbc4843e0c0fab833d13d96bb7",
+      "prepared_sha256": "4bf9a96e05a51e3066b86643c92297c401c2be10cdea5fdec1af7a91e2810f7a"
+    },
+    {
+      "file": "train/empty/sunny-0091.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "8b0a2b2f0a8c9de21ec90cf0bb615c9022e703cee3255768553b4922c2aba912",
+      "prepared_sha256": "fa189f7bab368c0d51722a5bfcfb72c2220af4743a9c3007acfee33c1de895de"
+    },
+    {
+      "file": "train/empty/sunny-0092.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "e4249603b353d990dafe6de228e8b43d59a59e03e594c812191b13a02d865550",
+      "prepared_sha256": "bc6d03bbd92b44e4a1732abe74c70d5edd66b372ae1f87d3b09ace68f776c7d2"
+    },
+    {
+      "file": "train/empty/sunny-0093.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "99d02e9d599cb941d8e889cee26559f1a532421b7adf398efa7e35113487e81c",
+      "prepared_sha256": "5480a1460dd0fa5e258316129c197670c546aa994d1f75dd1f87686b5e864c44"
+    },
+    {
+      "file": "train/empty/sunny-0094.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "cb6a7cc621e6671496fb1c5ea9ad144af3598bba18c38566afcf1f0e23b77db5",
+      "prepared_sha256": "ed516e9ff563c6cd4d73b0335d1cce91d3256484af5c38f712e693e84c7ce2b8"
+    },
+    {
+      "file": "train/empty/sunny-0095.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "4acb5695b115f12874b66a062fface27629ad469d29944203a26960f7904f207",
+      "prepared_sha256": "af1306a2dac439b9d43c4ff5350fa1a24cd0a85234eaa6a04dad5c2c06656bcb"
+    },
+    {
+      "file": "train/empty/sunny-0096.jpg",
+      "date": "2012-12-25",
+      "original_sha256": "c22e40aaff498333afdfd9d535a0909b37b809cfbcec4dce5de4cde74a7a726d",
+      "prepared_sha256": "9960427de0be41849b1e0ce619a07c678c65f9174b2bf0b41143469ba43f652a"
+    },
+    {
+      "file": "train/empty/sunny-0097.jpg",
+      "date": "2012-12-23",
+      "original_sha256": "bc408c31620c9f0a9fb4bb582a58f8cbeabe50fa1d1f11027cc5bfb0192bc65e",
+      "prepared_sha256": "7122edd70d73c6aabad4ca4c93478d18175d6d5eb3d310c6a389530887805912"
+    },
+    {
+      "file": "train/empty/sunny-0098.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "17ccc67dc88ea505e451ffc7a114c0b9ec97e59e1c97a3582164ae1637d1d943",
+      "prepared_sha256": "9a8e11efc6749d35a623e6933d684ff12e7c5d0558d459dd5e9d6498d7711220"
+    },
+    {
+      "file": "train/empty/sunny-0099.jpg",
+      "date": "2012-12-24",
+      "original_sha256": "d8ebc0459bef44a8dbb4d300f2267fe4713bb938d3199571af90b407b647e74a",
+      "prepared_sha256": "e4538ee3477cb26ad0bb655e17748b4a5d8c5597aa9ffde0881125e5e08dd10d"
+    },
+    {
+      "file": "train/occupied/cloudy-0100.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "e666c595fc823db92366a6ea86dfcbdeff896d16c3151a6e6d66ccc10e14587c",
+      "prepared_sha256": "70ae28397c614c4d17cf3aa46f1d86ac5665fcf61ab97d1359ba183e6d8b93fb"
+    },
+    {
+      "file": "train/occupied/cloudy-0101.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "80aa18da207c48336496c733a9450a2bbb76746368747a9674823abbc8a3b737",
+      "prepared_sha256": "a33a2d5d8555fc038f2b4e4f99bb81bf06144e1680b44a0527027953b56352fa"
+    },
+    {
+      "file": "train/occupied/cloudy-0102.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "9d823f731d00020b4cb1dd2bc787aa942c699415abf6371283d8d5224bb85abf",
+      "prepared_sha256": "61d0e1595f66e1e1bd3769af282dc97012be86a53bf3423585d9e267f9cca633"
+    },
+    {
+      "file": "train/occupied/cloudy-0103.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "85dacd624c6842dacaf9dbd6fd1b7f0ea5b0cb26aa323fd6bcf73b54a8908fea",
+      "prepared_sha256": "a2f8033ada61930d028a312768640dbf2ef5d81a0f3a4ab0741e5bb1ef63c925"
+    },
+    {
+      "file": "train/occupied/cloudy-0104.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "4e38b56639583f66eb436b3c69a526634a4bf9f6c026914f9b865954bb59034d",
+      "prepared_sha256": "1d0d3c7f9182d845ab6ede20fa898f8f244b59e85397aba78066166ed91b9830"
+    },
+    {
+      "file": "train/occupied/cloudy-0105.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "844c2215c8e467e32feed8acc37b6a39babc40bd4e7b5b408b66f26abdefa6f8",
+      "prepared_sha256": "5a5044aed480c9f7a7d1fc28296aab3f4f509b1d05f8eec53281ec042cb964a7"
+    },
+    {
+      "file": "train/occupied/cloudy-0106.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "ecbb4b48905cdc9897945d812e1c989164d0c13d80217081f6201cc00750b90f",
+      "prepared_sha256": "6ad2e503eff5d2276eb3c9113da30a49ab70e0468b7cae14a8a3e177e89d2fb1"
+    },
+    {
+      "file": "train/occupied/cloudy-0107.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "d12b2a8b7c8058fe2cda2e18a3bd422d61e5114d76904b833e647e9f267b7a00",
+      "prepared_sha256": "73ae1e0ad8c977e745c98e18a21a94b09c42186e180488289521748a1f13fc75"
+    },
+    {
+      "file": "train/occupied/cloudy-0108.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "c3b62995c6717debefe5837fcd1706d76e4e7a44d26f59349519e205c33c9133",
+      "prepared_sha256": "700d208e77aede438914e0b47b4a74d60d3bab110cfb7505a68c46df1a764e22"
+    },
+    {
+      "file": "train/occupied/cloudy-0109.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "2f0f6d4ecf21a2587afdd39c69a691c8fcad8b743cc71340814378ec742c259c",
+      "prepared_sha256": "22c140dda04de9f540db5fc9e8ed4e901f83da119f7e6406ea9c2afacdcf9e34"
+    },
+    {
+      "file": "train/occupied/cloudy-0110.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "8104e511c8fa65456b2488990341b223b2f219003678dc63d56cb855fa5016b2",
+      "prepared_sha256": "f5eb2ba1807965eabe75b0ef2ed1ffe072a16865a6f9813735d064ce1e29763b"
+    },
+    {
+      "file": "train/occupied/cloudy-0111.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "630bb4034b2824f1468673da38dc238bfe1acc7d51f2c709025cf1bcd2e60597",
+      "prepared_sha256": "e9f21c2755eaec9907be7f9c0d1659aad474723dda37c4cb0d21b825e68b6e7e"
+    },
+    {
+      "file": "train/occupied/cloudy-0112.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "966578f495792c688bf7625d9e047d4d4ad7abf8d091b53a8fdac13747a25655",
+      "prepared_sha256": "caa40419c2608f74531c847b72ab4e7ece098e70017442fa52eaaf9c60208d92"
+    },
+    {
+      "file": "train/occupied/cloudy-0113.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "2a3536a3c23ad551e06b155be3f142543ba1b06942f3ec8786f1324a4f08eeab",
+      "prepared_sha256": "0c7aea1b7dd45ad442d6c16f74f8ce6a6e16e1cbe7611d40bab2fd66cf48fa3d"
+    },
+    {
+      "file": "train/occupied/cloudy-0114.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "8a752f4b39ea3a32901c52d898e42f3a9b3e3da112863d44c8d19b2e322cb29c",
+      "prepared_sha256": "9d2771f24b7aeeae26cbd2365617ca69baa66699c849ee6867b7da1632eb20d1"
+    },
+    {
+      "file": "train/occupied/cloudy-0115.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "2151f0e9bedc70fff01591fd2965b7891ae5748f9df7f7b52a5f3a50c1dd6e8c",
+      "prepared_sha256": "d7573ae5a11b09fe6506ab97541eeea46cb75a12c21edcf0b8c94134a4e78ab4"
+    },
+    {
+      "file": "train/occupied/cloudy-0116.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "f7536600412e7537338e75204d52a768b47debeeefb4bf467282a42e66e94a5f",
+      "prepared_sha256": "f963d7d378b2e952fe385879b16fc1c644ae33c2164ec743e3cdcb05052b4797"
+    },
+    {
+      "file": "train/occupied/cloudy-0117.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "16c7f410a5758bb425e6931118fd27eb8963f719cbecef2d53cf83ae5c78a103",
+      "prepared_sha256": "e57ca5f216e6094ce913e0ccab2aab28b1c8c2c5fe059f3dd71c34bf9dbea6e2"
+    },
+    {
+      "file": "train/occupied/cloudy-0118.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "fca484e7a8e33e1b6aaaa288c38fb6c7d1d3f4286a4f7a51488e175c67a10783",
+      "prepared_sha256": "2fbbf320ed17d394fd74345efed5b3419608884c1c10e8007de6eef827a683d6"
+    },
+    {
+      "file": "train/occupied/cloudy-0119.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "8c309486caaa173fd1dcc61f3613710eed11c7d735988c751947c3aaaa2885a2",
+      "prepared_sha256": "760c47d5676bbee10a8373a51400a473f7f9cb9129f7f32da1c561c38594c0b9"
+    },
+    {
+      "file": "train/occupied/cloudy-0120.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "ac20c0ae66c3289cd88d4d9c1adbe8f523fa966556c379509c6e91b3511e6ce6",
+      "prepared_sha256": "8e8041f04617d002505721925801e66c5bf6f168ee57f944a4899a6a6af7047b"
+    },
+    {
+      "file": "train/occupied/cloudy-0121.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "7487995f80d50e91dea694a971ee0c678ae6babf0f3c45ed55ee3acf86eff850",
+      "prepared_sha256": "cb3b8d8d20b6d5b5c91cd25264be16fb7ea033fad1608b597d9e146bd8c59605"
+    },
+    {
+      "file": "train/occupied/cloudy-0122.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "44bcc68b8bd696dd79693cc741d1c674cfc458f19ad6ed6e6e2b1d6f6d3bdfff",
+      "prepared_sha256": "728cbc30a3017c683dd8061f8fb569dbb251d40a63c3d4dd5a5aa4a6ae37ee18"
+    },
+    {
+      "file": "train/occupied/cloudy-0123.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "40766c169f49d2aec39e940b68a68968e08f1214dd14267c8a2d9fae0c57e79d",
+      "prepared_sha256": "1938140e152fa5190c2821a2ef7c87e84369a2cf587dd6bf4d4d5e0fbeb0f01c"
+    },
+    {
+      "file": "train/occupied/cloudy-0124.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "0b88e84eb70e4d7ccfc062d4d5798152f5d42489f5dbb89235ac93cf9ef83e37",
+      "prepared_sha256": "95d01e4fe1351875d261f3024b6b8e8db141dd3eeb55399e842478ec03d714c5"
+    },
+    {
+      "file": "train/occupied/cloudy-0125.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "13358e8b0d04a06a0e63b59ef5616eed14d9f86ed0e0b0b966b8a09021643911",
+      "prepared_sha256": "6df19318b4410ac78a42e2e52315cf57db8586a03f2747e4bfd33ab8a32540f3"
+    },
+    {
+      "file": "train/occupied/cloudy-0126.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "d8ddf2967651ac7d28e4ff48cca0420bb3f8142acc575d176a91020a93047c42",
+      "prepared_sha256": "2c4969c91cd07e17a9e850a62f5b95bafd77a06476b35813e04c9d3b4f3cd8e5"
+    },
+    {
+      "file": "train/occupied/cloudy-0127.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "7f9203ddff5bcc08419b46b7b7d428bb09c355331abee4cee5ba4e14efdac456",
+      "prepared_sha256": "a9470ff81fd1d55b386bad8fbcd887360f2c3a1b45108e85b3eb10a301872fea"
+    },
+    {
+      "file": "train/occupied/cloudy-0128.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "354ac4283d04f496b380d1f65a18481b9f9a45a2625c1b1d335c58fd980f30bd",
+      "prepared_sha256": "cb3555224080d70f56df1726960fb4aaef7d3c4a3d5f75ab678b42ee6412771e"
+    },
+    {
+      "file": "train/occupied/cloudy-0129.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "80e550d989ac9725a63abf11efb52f6451263abe88beee2e2a2d3e2b87629fc7",
+      "prepared_sha256": "40c3ea9ab2ab745e310835aedc9ad749397e9953c0c326745c61b0d17b8a6f3a"
+    },
+    {
+      "file": "train/occupied/cloudy-0130.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "2e17cf9bd9d2adb3532ce4eac83e0b8a3aeca8b6e9d85a22fd95b1ab1a983ba7",
+      "prepared_sha256": "eb9402a786a78c350c14c883543b19092f1c29b57f8e2acf66b3155d65bb115b"
+    },
+    {
+      "file": "train/occupied/cloudy-0131.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "f32e8d803aea9845e800c4d5eaeb8f68e0b8555b4e9d3618925dc8b606d0240e",
+      "prepared_sha256": "bbdc91177f3a864436d701617462a45d655bdbf11ad5bd8d3e37585019dce260"
+    },
+    {
+      "file": "train/occupied/cloudy-0132.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "134eb2f6746ea97775dc1b808ada3175c68c4e39ddf6c9c99ecff9f84832fd9b",
+      "prepared_sha256": "98686780c4b60351fb4ad8437d0a03ff4e25312006f9879642a048c187130aef"
+    },
+    {
+      "file": "train/occupied/cloudy-0133.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "27fedcecffc616e26bf507f967c4f95fa1b5c95204db78d3632e4a8595fe8da8",
+      "prepared_sha256": "f4eaeb39cc5292a1d1b3932a5e148a3173f52c42b3aa854e58b86ea2a95e56e9"
+    },
+    {
+      "file": "train/occupied/cloudy-0134.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "83dea5f0c7fb3d2d845a2bf96886f14272cfc672c32d08b9fdbfa0393cf9e328",
+      "prepared_sha256": "619fe67bbdbc10d9e3f2ba8f057784fb7856f9b43cd220a6a00264c4930f4d29"
+    },
+    {
+      "file": "train/occupied/cloudy-0135.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "f48a19b6624a8933ab0d65e5b416ad7c2909c90242e0b46f7de574fe1f2cfddd",
+      "prepared_sha256": "25a045674a6f27edc63fe10462c3872bf9a553a4608282dc34bd7d51df25dab2"
+    },
+    {
+      "file": "train/occupied/cloudy-0136.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "aa77bfa9b03a905df9886820b65053256494c4cbe7ed39c417d452374a683d9f",
+      "prepared_sha256": "ff7f7b06beef5d6e16c7d49fe6cfa8bbffdd0eae2726d5c9a3a60144f0599a79"
+    },
+    {
+      "file": "train/occupied/cloudy-0137.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "e40b89c9d4f452a73952540b8de742b88399b37176c1142477f4b813ebb5baff",
+      "prepared_sha256": "1578f9de898d20b77445ddba27c81107cd2575e1e8090027104c2ca53908750c"
+    },
+    {
+      "file": "train/occupied/cloudy-0138.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "3e7bed4d8fb1c0377ae8325db393f13317429933aefc58d94fdc076e3071b04f",
+      "prepared_sha256": "0c0c44457d6f6ddd57f1d46df90431bc5976ff27b7a50f29677fcd1b2ba950cc"
+    },
+    {
+      "file": "train/occupied/cloudy-0139.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "071664be9a4266fe8ffa71ca45761652d32079724fe438e3ef5395511d638c60",
+      "prepared_sha256": "c879b5578132b6194cee5dbc2145230301fa25e81ebed8bf33bd98b9b03f6d4c"
+    },
+    {
+      "file": "train/occupied/cloudy-0140.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "a2c54408ac0631bf92af26ffb488f863ef7a79c189f367b3667114ff93071e16",
+      "prepared_sha256": "5d0dcb69a9fc9b9edba74b797b23807daf58344f41c534a2e79772ff9493f1a6"
+    },
+    {
+      "file": "train/occupied/cloudy-0141.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "0d0615c45c8a2bf68a6681ae8e16d95a0eaf642844e02cc5bef5e75abe0e42cc",
+      "prepared_sha256": "3b8fb02295ca1d9a7f960fe69c60ea978664c9a74a9b9d539c48da89573311eb"
+    },
+    {
+      "file": "train/occupied/cloudy-0142.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "d0674c92864b3e1e7654267c737cf217e280e7159c5539d8093dcdce51c3232a",
+      "prepared_sha256": "ade81388c4bafab773da45370c548245386cd746b922fbbf096f01402d91ebf0"
+    },
+    {
+      "file": "train/occupied/cloudy-0143.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "028d54b1b7a883128a21b438cf87a5341647b212d7685bcc0d51adfc4885fef8",
+      "prepared_sha256": "9e0232d3e0d444272bc6667e3d047adb1e11532318d5be30209cea862ae7370c"
+    },
+    {
+      "file": "train/occupied/cloudy-0144.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "9e472a8088d86a508c64d06dca1d2fa824d9e0b717a2138626ce4f7a239de1e5",
+      "prepared_sha256": "22a790dba07a5f19946178b4c011ce20e2d8fe0ed00112c2f8eecbaf9a6c0ab2"
+    },
+    {
+      "file": "train/occupied/cloudy-0145.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "a383d61ca24c13f3433a9cca98b46ba2b26831a163123d0fe0321cd0f1f0583b",
+      "prepared_sha256": "a46b341b86d1bf578f9c8399d1fbca6ade6b6a4699ca6bed4794cdafabbe2c83"
+    },
+    {
+      "file": "train/occupied/cloudy-0146.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "441f97fd3f57d8936f0ba41dff2e43cf7ee976f43c729612c3fb347c2514cd72",
+      "prepared_sha256": "c662996e177b0623263233e29078d630618bcadd7235619f50e5c927bedeb424"
+    },
+    {
+      "file": "train/occupied/cloudy-0147.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "c1ed66b5842d3a0a7f510baf1861e66ec29b974e9c96bf0cdf55a8ce8347a2b4",
+      "prepared_sha256": "a291650c26e7f33d0868901fcb09feba5d6be98ba3d460de7ab35fb5212a3767"
+    },
+    {
+      "file": "train/occupied/cloudy-0148.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "57903a945d9f9eb1bac9b67972a463d4b55cb74a4c10cf992dab6d6fd6e5aa2b",
+      "prepared_sha256": "e3655499787065f2229e13bb32db351f50c3f65f92f026fff5ba954d93d683fe"
+    },
+    {
+      "file": "train/occupied/cloudy-0149.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "1fae54880ff9abaa38c23939220b7215160663529b76d74196f72878bc9d57f4",
+      "prepared_sha256": "bcb4c3f42cd9daffd1982d846e675894bdf85380df17fac2bccdd7550b190911"
+    },
+    {
+      "file": "train/occupied/cloudy-0150.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "7fb18e619464babd357252673f84cfcec1008976fdc926fab732576ff93eb283",
+      "prepared_sha256": "dbc06fcee3d9f2552ca46761423a453ce0ee7064562bc9368838da206a975eb0"
+    },
+    {
+      "file": "train/occupied/cloudy-0151.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "663ec45209e246b4bbc71d3e8dc33e7a8e29513a78f914a7098fecea7c6bc332",
+      "prepared_sha256": "4cc0b7839de60b37fc76ab06db411496956205babd0bf4f8fbeab851fdcbfd3e"
+    },
+    {
+      "file": "train/occupied/cloudy-0152.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "37f791b4fe4aaa15befa7956007409531c87433c1834325953837a5c16f5c16a",
+      "prepared_sha256": "433fdcc09cdd9fba638d079461d355565fd4e9f774a897abe8818ae14be7bc8f"
+    },
+    {
+      "file": "train/occupied/cloudy-0153.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "f56b202d52ebbc6b49c76889d1c718e416b6503c9b309e651dc92deab3ef34bd",
+      "prepared_sha256": "4948c40ab53af271a854a104a700b6468f18c06284c671e75c60e08c04e2df90"
+    },
+    {
+      "file": "train/occupied/cloudy-0154.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "46b865bc79ae71969c42fd4daeb661f8b1dec6899b4957ad1bf902cf1ab17621",
+      "prepared_sha256": "b9ad74ebb14bcd69a2c589d01d9a7f056ad83928d89189ff15c486c0b0ae22bc"
+    },
+    {
+      "file": "train/occupied/cloudy-0155.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "4dffae71faf4b8efb649a04ccdd969777a3a06441da859567079896e436d4c9d",
+      "prepared_sha256": "495b2872c73e70e1749d6938a085a98bdf17cc53ef52a75133dcbed12c3cc66b"
+    },
+    {
+      "file": "train/occupied/cloudy-0156.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "ca284ca238791ee3c637596b894636f29c191cc90b80b24a515e29e4e9e0393f",
+      "prepared_sha256": "1196a01c5e0289bb7bdf6a6a6f1b998fbbca80e3f11f58075c7d42cc24ee4496"
+    },
+    {
+      "file": "train/occupied/cloudy-0157.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "04600d6f02781c7e76c7e97f12342347fc754f1608589168a303fff963283a49",
+      "prepared_sha256": "41d3033cceb4e6ece86c48d0e61224bdfa1875dfc13fa8077dbfc49a4147877d"
+    },
+    {
+      "file": "train/occupied/cloudy-0158.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "ab4dbca63df341891920ddb83592b2858640565d29af39c772a15889c4519d97",
+      "prepared_sha256": "917c0301beedc656758efe341858365f2f2619e4aec416a881700b17f40ccab5"
+    },
+    {
+      "file": "train/occupied/cloudy-0159.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "08680907dbb69147b9b8ac7d6b26dc2d6fedaa20e0cdccb2cbec276699dc471a",
+      "prepared_sha256": "12b29308b4804ea64ed2ccafee0b1e47a2cae8b4d82ea85b9b72c0793791b452"
+    },
+    {
+      "file": "train/occupied/cloudy-0160.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "7cfcd83b302fb796169cecfd45353868b69bc192a4bb33ed97b816e36607bcc4",
+      "prepared_sha256": "c6d8a59118df9131e73002fbba27bbd4fba6362d26ea9d72487a20a23e48e0ea"
+    },
+    {
+      "file": "train/occupied/cloudy-0161.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "b2803aa094a2b4ef8a2d7e0b71c7c742ecbb01b52a43074e3abf9ee35e08efb6",
+      "prepared_sha256": "21ac368ed914777fcdaec00ff5ad7a980e54e7fa7a3bfb2520adc5f23401a2ba"
+    },
+    {
+      "file": "train/occupied/cloudy-0162.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "3ff98d4640febfc9407403f0b6a9a04954bc0059e1121e40e12702c62c89b711",
+      "prepared_sha256": "a0cbc463ddc041dcfa4891768780fdfa4bfaa05179087ac0f6345a6f76f5e2f1"
+    },
+    {
+      "file": "train/occupied/cloudy-0163.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "199c42b4c538ea78cc287d017f25de3c16422f3f6646dbf1762a0ecc78e6ad9a",
+      "prepared_sha256": "7e6e11a1ac2b35c991843d39165eeb6685df622ee87484ad7796f1ad64471803"
+    },
+    {
+      "file": "train/occupied/cloudy-0164.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "3c8000c96bdfca1b1f7a14b275f9d025f2a410d9f7da1a376fecc52dc585f553",
+      "prepared_sha256": "2ccd44e0654322d6bb7df604240494ba22ec9e76fc57cb52affd26d76d1da0cc"
+    },
+    {
+      "file": "train/occupied/cloudy-0165.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "6d6d01dcdc8b8b516da1fea15362ab1ada87e10d14dbd8cad04f6c09a2e6ccb8",
+      "prepared_sha256": "4dacada0df9aa6cf1acdba7b26fed10e2a2c1263b70cae654da2c9478fee2812"
+    },
+    {
+      "file": "train/occupied/cloudy-0166.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "9197289f6cf99669d29ced010792955bf714718b0b4ad95d911e13363b2497b1",
+      "prepared_sha256": "1f083c4168dc0b56914ed3a589cbb980e48cc0939d7e1a7ffa7b397580036991"
+    },
+    {
+      "file": "train/occupied/cloudy-0167.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "b348a15558786c4ec26174b05dec7b6885e9903e45c82b25460d354119fd4970",
+      "prepared_sha256": "99c9551bf47a3caef87f4548df3ab789bbe9369ab8a0859af0fa992ffc2788b1"
+    },
+    {
+      "file": "train/occupied/cloudy-0168.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "2da6039a7a8fd85ae009008cd006b5cca8bbbd2effb6b93d0f0870f29ee5a197",
+      "prepared_sha256": "9cf0b4eacb7132f65ce3f82afc906c69826cede44231ab39c9a3b03f1cc95495"
+    },
+    {
+      "file": "train/occupied/cloudy-0169.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "4f22cc09ffb2a91524e4a2e45802fc23461fc4009956ca25b46f5a535b718dd2",
+      "prepared_sha256": "10e38c61877ca364d894a39a7a1020379ded5e5151fc81e9dfa3c75357467435"
+    },
+    {
+      "file": "train/occupied/cloudy-0170.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "f591b3b51ac728bd211781f6499c56a620e85e30b0bcb3665a15ce21e833fde0",
+      "prepared_sha256": "0b1898bfadfdc70a4eaf70c89cd1e322936899824a1e044b60b200c723884baf"
+    },
+    {
+      "file": "train/occupied/cloudy-0171.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "14959e266d169cab4c415fa8e8d6be32de3c363bc20b10126ed3fc0f2eaeea40",
+      "prepared_sha256": "80ea1abef0ee33f9e2a926ee7c3a72391d6c8816404ac5ae0b8e14e179ebacc7"
+    },
+    {
+      "file": "train/occupied/cloudy-0172.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "08796a5efbab43ca2cb76b27d8d5acad4924877762cb3dbf5f19b8ac080761ce",
+      "prepared_sha256": "c020434395335e1d0ee59739c8cf904c9ddcc8823ec214c9813e3b076ee4d701"
+    },
+    {
+      "file": "train/occupied/cloudy-0173.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "9a64a474bef9889a52701f361189f70d9765020f9a638b97c936f04f247926a2",
+      "prepared_sha256": "8861e7a07e3c1bd71907a063ae536bf61a27187ec1afb7a7d2a529c259a96a6a"
+    },
+    {
+      "file": "train/occupied/cloudy-0174.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "4b1500cecd9fad2e7363560ab4c82f519a8355c1486f3bcd2bc4cd88c3f79eac",
+      "prepared_sha256": "ad8c41598a899e4482951f151898373d641ee40ddb23ed1112cf089bda1a64bc"
+    },
+    {
+      "file": "train/occupied/cloudy-0175.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "443c89a63df2fbfd838ee40b9418b613023627e7e587d0c5fc6db1e22e5764fd",
+      "prepared_sha256": "f956385b23f954010d1b651d4fffa7b9fc7eb264ff3783b83843b545f4b65257"
+    },
+    {
+      "file": "train/occupied/cloudy-0176.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "b4c585cc446cefc953fb569230d31b713573cd96eb2f4ad019ab7840fdd66f40",
+      "prepared_sha256": "e373ccf558c4b61f1202706d78ffe147df64dc50d56d6ead7aa35f32296127c0"
+    },
+    {
+      "file": "train/occupied/cloudy-0177.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "4ecf945b46dd753259f637ede7b803b71138c3e21439e3725966b0379f5701fd",
+      "prepared_sha256": "371ee1763ee4b4dfe04a2dd1bbe4abc6fd18638ffe83c965a0a2b6510d67a7e1"
+    },
+    {
+      "file": "train/occupied/cloudy-0178.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "39f26484ef18c7774275ef651b7b644c31a5ccae0f8dc9ce3aeba2eca18b8b26",
+      "prepared_sha256": "fa1b3d77a54577a4759d78faef48217151b3065f6832023d5432aceea205ffff"
+    },
+    {
+      "file": "train/occupied/cloudy-0179.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "9e7c3fdd192478b5a786c41a3d60e45891215fd1720ff47f708db51bc7c22b10",
+      "prepared_sha256": "da26ad968c0e2bd7fb8cd966d337d7c12327afbe0a8bc050ef3f12a37d66f206"
+    },
+    {
+      "file": "train/occupied/cloudy-0180.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "4ab3ca4523e26bc106e3fbcab171a823491c1aab6fd842b5b484c8a9c8f2a44d",
+      "prepared_sha256": "599ed905760e0526e8863b692893ab45284d9d8d44a4003424b9c1d649bbb900"
+    },
+    {
+      "file": "train/occupied/cloudy-0181.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "f21251a39c21e03dcb915be072fd215b5b7bc664403fecfb5e9cc959a23828d9",
+      "prepared_sha256": "804be444b00aa137709fb1ca3abed1ed5e601692851c0f8e889e598a2ded6a04"
+    },
+    {
+      "file": "train/occupied/cloudy-0182.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "c5f3ee6bc507014c5b2fd2cf8b4d4eb6f173858e5c63bfac553dea0f394ee776",
+      "prepared_sha256": "9ae01ee02eba20edd743c80820353957ab57b27d0a17796cbc0a1e902a050c99"
+    },
+    {
+      "file": "train/occupied/cloudy-0183.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "3d51531e9c9dc0bbb94265c0619e7f6730c94f1d02f4f87385c3c3eeff0e5de1",
+      "prepared_sha256": "5f2b32cf647f5f1696d95955313bc271e991b9ea39fd6c1757324bc192217726"
+    },
+    {
+      "file": "train/occupied/cloudy-0184.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "da7608a2a320cd518b6a423112db2b11fc5114eda78fd36773f9a74513e5f2f9",
+      "prepared_sha256": "318a8c7a5b10a4e9e112e8645264139cf240d96bfec96f391079138c6b8db1e9"
+    },
+    {
+      "file": "train/occupied/cloudy-0185.jpg",
+      "date": "2012-12-15",
+      "original_sha256": "3a9d232c03d3ed885ae34fb213bae26c7ee8d9603feb0833b7036e86adf6a4af",
+      "prepared_sha256": "2e939a9b7af293f27a781df3896233fc1b9401eeddaeb69867b39cfd35576357"
+    },
+    {
+      "file": "train/occupied/cloudy-0186.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "48cd9e50e49d5b287af8a3f2febdcb80f461da545e3c465b5e0c53ded4beb71f",
+      "prepared_sha256": "b462c83460d587e5ae729433dbb3e5760d55d1c8376e5d63c15b4acdd3fce064"
+    },
+    {
+      "file": "train/occupied/cloudy-0187.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "addd7b13e08274a87fd89a494339c12f165c204993ef6c7de55036e8a7f600d3",
+      "prepared_sha256": "99576beccb9bda8a53d8cb713d37f06466b5901fa737fc50d347d7d406aaf0fb"
+    },
+    {
+      "file": "train/occupied/cloudy-0188.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "fe049be4b05a226db960291665ffaf182fca34143c4b0f828ba7daadf4d8f1d1",
+      "prepared_sha256": "45c3ad74402ea598149b39e808e3c45419fe84c3df0cd6d44c3c17a2dcbba00e"
+    },
+    {
+      "file": "train/occupied/cloudy-0189.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "302756009d4bc01ec7963aed285d0c932a00ebdbb9a3174959d9715ba173145e",
+      "prepared_sha256": "42b5d263557b73937230f7302ef65b3d7056f0a2b2a6bdd20bca3c86bdf65655"
+    },
+    {
+      "file": "train/occupied/cloudy-0190.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "149150124930e3e739fc0ef9df4dde054d2e28f89b6bf6890012e8a448cd31c1",
+      "prepared_sha256": "c2ffbaf39bc60299fd2eca8e1d965d5014ad8c48cdfad8f1c4adc882777e9060"
+    },
+    {
+      "file": "train/occupied/cloudy-0191.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "40abce63835e8d885e32b586a77377383d64fe471bd5a4d8e4a87ce67f2676ca",
+      "prepared_sha256": "bf7abac3ebef7d53509c034dd4a07e28cdbcb17116697b3d7c78574b08985471"
+    },
+    {
+      "file": "train/occupied/cloudy-0192.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "7b3ce68d832027ffd7a767ccb74e899ec781e20168f13ce8e2f28b2477a791ff",
+      "prepared_sha256": "6667ef6db56b36a861a4d7d3db1642fb3f8dfe78d25d01f4067c35bceb24503b"
+    },
+    {
+      "file": "train/occupied/cloudy-0193.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "9b7be0f4db215de9491a636c1f5ad5f6a0303e6222f067e1014d46cf3de153f8",
+      "prepared_sha256": "dcfb5364129f7b72c9505cd8b05ecd319be7463500be9a2eb286ca9b5f2fa13d"
+    },
+    {
+      "file": "train/occupied/cloudy-0194.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "fff873303c1909a7ae496b12ee89847629e6a2a6a3c2051f5e2da9f7d1db50ce",
+      "prepared_sha256": "95f58deda260a43cbca57f7aedc6caac718ae09c80c33d407d443803d3f69d4d"
+    },
+    {
+      "file": "train/occupied/cloudy-0195.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "a00df41524cd58e8fb2a8e528c7e8191d51ef53362aa74fb4548ae5c9b412ce6",
+      "prepared_sha256": "451d07b76f652db32692c2f36348572e594a608fadf82ad9fb8f0a25140cdc64"
+    },
+    {
+      "file": "train/occupied/cloudy-0196.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "1ce57da71c7c9cdcef459d8f37a8cb4aa7f83977ddbc73650d5b29fe79b06cf3",
+      "prepared_sha256": "1c562f063e51b2c94c0c849820cb6ca112b88e65327de3a7f3da4d2c29e184a7"
+    },
+    {
+      "file": "train/occupied/cloudy-0197.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "b670e24ff809e67f871e281ace4e68e7f9603a0fff8c934b70610b9b598faa73",
+      "prepared_sha256": "2aea5ee81eb0e05aa37a3a14c379f199ed569cfebb6fd9c82aeee54b4dbba9a4"
+    },
+    {
+      "file": "train/occupied/cloudy-0198.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "8ad7e2d0e076469173215453ff2deb3b1c742342553d9234a5063bd1e30fd540",
+      "prepared_sha256": "fc3fb4306d18433e82242f082e3f9d19b596ac527bd16600a50cc9939cc9e9a1"
+    },
+    {
+      "file": "train/occupied/cloudy-0199.jpg",
+      "date": "2013-01-15",
+      "original_sha256": "b5a332343c1260ad87acc7c7497655fe407fc0feee2e6ac499b5fa407554c092",
+      "prepared_sha256": "8ee0957c94c7b5c1c0281a33e2f7f3129c3a7b1159939beb5c5289fd4024d473"
+    },
+    {
+      "file": "train/occupied/rainy-0200.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "e38d4feb9139659a4321c7a120fa4f3e4a9e5fdc923179ba3547bf779db48cf1",
+      "prepared_sha256": "8de2ba2f2d189cbb9b92459098c2fc2813def22feaac57eeeb68b7063544dfc1"
+    },
+    {
+      "file": "train/occupied/rainy-0201.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "c51fca4e4c5d1a48c5be09bc99120c84c4535158e8ea71803b1471d695975284",
+      "prepared_sha256": "7006aa88a72f66398b20b6126428ad393293bfc201d23153da1624eed55e1682"
+    },
+    {
+      "file": "train/occupied/rainy-0202.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "2f7a399f0f2340afd4f6270de9f20bee2a507286fd069aa55d14cca0bc210799",
+      "prepared_sha256": "59b8964589efd37e99851cf8b329c193eec21d77870de8ebf257dd5fd0a03f9b"
+    },
+    {
+      "file": "train/occupied/rainy-0203.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "77feaa988419967e2a5c974385f1aa85d43156bbda0fdab17ee4d30431d424b7",
+      "prepared_sha256": "f2637bf993cb8ff90a215d9272346527e32b8b062b004d44d8a6e38b5ed9d90c"
+    },
+    {
+      "file": "train/occupied/rainy-0204.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "ebb6830b5f78e12f8cb6024d89e4d0bc319df38e9a5aaf5e380f1fe8c247e518",
+      "prepared_sha256": "10169cbc4630a48b82dc3cc43fd3495063ee04fd5ef713352010559538cc56a6"
+    },
+    {
+      "file": "train/occupied/rainy-0205.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "fb87254b7d1f263df03c2942d76d2b13364d171c295c2b42ddec430a8febfb2a",
+      "prepared_sha256": "845a5f25705d65ef31360dda19cf191c04b0c445d4ab7b8359519199fd7f6484"
+    },
+    {
+      "file": "train/occupied/rainy-0206.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "03a5b91559a6ba5764ed793917a270710b67b7268db0c92ec4aa2b6402629133",
+      "prepared_sha256": "8f30ea5e35d4fe6ad4366f177b972de49bbc27ba75bfae82493b6977cf7c4005"
+    },
+    {
+      "file": "train/occupied/rainy-0207.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "e0723232560e08d9d96c6472c72d45eb25d97548cd88dfe37a367ce100412e25",
+      "prepared_sha256": "c28bc7236551ba63f2e694c43a526b5b63fa1d6d58154a9c40f0d180c003ccc1"
+    },
+    {
+      "file": "train/occupied/rainy-0208.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "1006342738a93eed239339c245ec0206dbae3aec86d0b32856356e45b5ffac64",
+      "prepared_sha256": "ad8dca36efb6014437351fc94b6af5824a60bcc7e4c797c597c30be6b42c0497"
+    },
+    {
+      "file": "train/occupied/rainy-0209.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "c2665d47acfcdf654cbfac9a5b37a37cd0beadde78844bc4fa95d6622e0bf40e",
+      "prepared_sha256": "aa7ec503fd8a3d0cfaea494304e3c46b0e661b7ef4e3dc6e04f4f03f35356bb7"
+    },
+    {
+      "file": "train/occupied/rainy-0210.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "b6d1a455b9996208804f1785a3ac7c216d4987dc5b90cd6c918318a8d99cd1c4",
+      "prepared_sha256": "871a380f0163aa2d3a5e11ca27e2dff408ede7c56e7737af00246dae50b98355"
+    },
+    {
+      "file": "train/occupied/rainy-0211.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "dc366cecb0d641af5df3d38c216c5f8753f4f8214e83a83bf76e845b3f63e5eb",
+      "prepared_sha256": "d4b9297725f18d9a4fabe877533a656c743b77b1e2268f03dc50ef89885a65e2"
+    },
+    {
+      "file": "train/occupied/rainy-0212.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "5863d36db9a858308c2eeb0a70c2b7d9a7ce4c2b856b2633664a80e26395789f",
+      "prepared_sha256": "7043af176f0f01f776428dbf1c287a6abe50c38ae6e41707bffac28eda91fbf7"
+    },
+    {
+      "file": "train/occupied/rainy-0213.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "03bf969d36444e6423cd458bb749b57bffda70f5748a00903a6d46744e403676",
+      "prepared_sha256": "971161a73074065294488b642c971a4b06fa8d11d19aa238513c47f1da7ae544"
+    },
+    {
+      "file": "train/occupied/rainy-0214.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "a3cee65f81e25e9a168e3ee8b8fc7e15c8672870a791f99c17d0d0be96e3cd6f",
+      "prepared_sha256": "d2ceed201efc71a475ce148326d63ce7f1805619cf70de53b179a5182fa15bbe"
+    },
+    {
+      "file": "train/occupied/rainy-0215.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "1825e632ab18ddc615b1510c3114be669e9c4d2a89a928cc4c75ee302bc85128",
+      "prepared_sha256": "757b94219d960d6a1e62c4f11d4d77023c8e027bf8629874d0245fbfbb8342e3"
+    },
+    {
+      "file": "train/occupied/rainy-0216.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "c0423a9ed6c3fbec23d259cef59465d847dad3f855536ca6ff177cdd6be104de",
+      "prepared_sha256": "0dd1a16c2ed44009b0416af0e5d1b4dbd84581132ab8c74fb6b6750612046d48"
+    },
+    {
+      "file": "train/occupied/rainy-0217.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "321140cfe85c33187c9ada91a8014aa666aae0582aa0c3c2428eff6dfa36a229",
+      "prepared_sha256": "b81370719198d30b1caf444098335647c92b4aea13e2aa138ab51a390c34c3af"
+    },
+    {
+      "file": "train/occupied/rainy-0218.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "61dc6334aa8289d8def70621d7078c93520bed0cc0f91be994adef15aeed9371",
+      "prepared_sha256": "6051fcb08d3305a7ff686e1e719a1dc4c21ff13cd112a5dc126a147106d67bf9"
+    },
+    {
+      "file": "train/occupied/rainy-0219.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "3fce35f2d591e065235c6be878407377236f21ebfdcdf0b5586cddaa9f75dde2",
+      "prepared_sha256": "6d05cb3eb2c118b31908c8933f15d99a15501e600865328b10677926ec71ef05"
+    },
+    {
+      "file": "train/occupied/rainy-0220.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "b8ab02cc58953506f21b3312684c0ae00410b68e90fe1e8e5a2a901c5867ce12",
+      "prepared_sha256": "c5b9e51fb1130224fb6350204df4917a2926d35b17f5df40fbdb0cf56408c937"
+    },
+    {
+      "file": "train/occupied/rainy-0221.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "7c452c155b183db6f7d73aa3d72d211235e4171448dd73741167031b6ff28d84",
+      "prepared_sha256": "3e3f9548a8fb65d1082b3584865440fb194bf0a47325c4ee9cc21530a84ff876"
+    },
+    {
+      "file": "train/occupied/rainy-0222.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "b524c5a785910a703ae6e03f7ca16771db6a4726dc94c2088aff4d274d2937da",
+      "prepared_sha256": "fd4ba7d96ec66b41ac16c39f3afb03dc64261823e61f76e48d5b2142ba166a03"
+    },
+    {
+      "file": "train/occupied/rainy-0223.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "e49e5a836398463dc5cff9022d933511236c214f35bf7bf255d515ffa4847d03",
+      "prepared_sha256": "dd533be3b84edcb7a8a4a5595be4579ea160a1305f6ba0f53e40e6c192b4172a"
+    },
+    {
+      "file": "train/occupied/rainy-0224.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "6a78ce2f15379fcc324dd66d3d18c5203bb18fed9927b0cb3b078f1d498c2d06",
+      "prepared_sha256": "104bcf8f7cdf990c1e7c636f14a035d259cfacfeaf7d428f91544ba56a8ad15c"
+    },
+    {
+      "file": "train/occupied/rainy-0225.jpg",
+      "date": "2013-01-16",
+      "original_sha256": "aa303e97ba79f8384156bbf4931131b5043d82fc26596f694556a6d52b139b14",
+      "prepared_sha256": "b20f06e85ec474bc33cc852d395cee0833797f5b2fac9c1f1b21ac2ee5046ce9"
+    },
+    {
+      "file": "train/occupied/rainy-0226.jpg",
+      "date": "2012-12-11",
+      "original_sha256": "cb7aa181d3c462e53be8ef5a2aa2860a0de59b1acb1e9eabe8eb79d1170333a1",
+      "prepared_sha256": "314c88ee7239519e925b77ac8139aa04d87178c01280f51fe539e85986fb14a4"
+    },
+    {
+      "file": "train/occupied/rainy-0227.jpg",
+      "date": "2012-12-14",
+      "original_sha256": "88eebe8bf5a42b04d6b4f54d5c9482457f2a92dc7eab096cda86c36e04cd9ba3",
+      "prepared_sha256": "95d10f95f9713e24355b3de4e200fd123592559509db946667fa49484e9d8c8b"
+    },
+    {
+      "file": "train/occupied/sunny-0000.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "3d10f0fde7ec0309992f8680a6692cab3efaf0086f7a1a6f27f0a3cafa609c46",
+      "prepared_sha256": "40d13832ed35b377991c4af174936cea9a8819e22cb013333f8b5ddac44ef30e"
+    },
+    {
+      "file": "train/occupied/sunny-0001.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "0dde4ecc047eefb1b378f7e588ba5bb4724548fe9bd3266736caade4d2e87570",
+      "prepared_sha256": "d8e9e395408db4aaabd36da8805187c62ac11abc062820c8670801b7758e98ee"
+    },
+    {
+      "file": "train/occupied/sunny-0002.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "8b991ac9623081a0a8fb65fe21b2670b96f585ae540aae1603d0046ff67b3c65",
+      "prepared_sha256": "72dac30b34737a533fc6a986adf3efc4d0585f14e2f6a7671821860e4022cc12"
+    },
+    {
+      "file": "train/occupied/sunny-0003.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "57e13bb487aaf2422faea6526499665c3a08e52b9cae3a9cadca170dfb839c8d",
+      "prepared_sha256": "6fb4b62bd31c2efefc6145389b55861119f2addd3c323be01de168c3b2202f4d"
+    },
+    {
+      "file": "train/occupied/sunny-0004.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "1f3e924ca3469728ce83a51601bf302b3525694d9d68d1844a9d5f29b100b287",
+      "prepared_sha256": "a2fe97da0a754cdaf3e3b53a89322e2244301b80d40e648e201cc8beb420d46b"
+    },
+    {
+      "file": "train/occupied/sunny-0005.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "eb27c4c564d1857f7ecec535e57b916d7f53a11740e915ef2bdcf4a3d63cbd32",
+      "prepared_sha256": "7c88b7d5505ad5161ea941b831bb5e1e2d666e10f3694ed99e5e0c0626d796b4"
+    },
+    {
+      "file": "train/occupied/sunny-0006.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "3fbce9656c6da0c1a60a1065ac243f0e9d2975d7883e7ae3e1d2611995781805",
+      "prepared_sha256": "a97e820480daa10bdb800089a085e06561ba3bb15a40ddf7c3214b0ae8048ff2"
+    },
+    {
+      "file": "train/occupied/sunny-0007.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "1971442db20d76d6ff24266c6c9cf35899e90a9568f494057deaf16b323bffd5",
+      "prepared_sha256": "6a95906ef213b6744ba975d104a2ab49c754c0fbb2544fab34d084be417e03f7"
+    },
+    {
+      "file": "train/occupied/sunny-0008.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "ed33202ab9463b300c3d4b2b8a773c7f66bd290e87ee2471916a4c9474d44ce4",
+      "prepared_sha256": "471b2afe4dfee94c4fac1e480b5e087f55a7a18b03d4be99fcc463397bd7dc04"
+    },
+    {
+      "file": "train/occupied/sunny-0009.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "a4c81222f6b9e4ed858174459108c00af5c39b14c94c9db786a4c28c04ca12f3",
+      "prepared_sha256": "ccd5f623e71f86c43e4437255ec953cedaf63ad4743239835a2d38a31bf0a04c"
+    },
+    {
+      "file": "train/occupied/sunny-0010.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "df80303ea0be04d12946efa29f3ee3b26b4b23d8ff571f6bc350e8398d7a75b1",
+      "prepared_sha256": "2b2a44c75819dac0007f6a2ad10b31393de34c12d0cf58f9f3d352b829b2e512"
+    },
+    {
+      "file": "train/occupied/sunny-0011.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "10c304f9925642866216302875cf6c800e37132f480a5f3d2dc541e8825ac2ba",
+      "prepared_sha256": "a08ee7eb036d593b88a8ac695c73c7d01bd4f43825d91f692024ed310d591208"
+    },
+    {
+      "file": "train/occupied/sunny-0012.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "926e45f9b87b99b5b9d04a3a2555aed3ae4cb6ea6f9e1df91ce0306f0bb0e0ac",
+      "prepared_sha256": "72a7e98b055afd1d81ead4df5f94d1813b00f831122efd4a48aa02c2c84131e5"
+    },
+    {
+      "file": "train/occupied/sunny-0013.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "7d54caf90f19c3c1cf5291dd5e97a93a2a25bd150c426d91adbc0fe4f9e51ec5",
+      "prepared_sha256": "1d5197788c3c34d43c8f9f5be100ba7629a7d105981b66f6cd9e7b6040fe2bb4"
+    },
+    {
+      "file": "train/occupied/sunny-0014.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "d533aa2a3127b37146c49d5da7306eea5e22d4fc978b7acdc9aa1929349fbd7d",
+      "prepared_sha256": "824167365854bfc3171cf54f7ce158e106cd9ce99283bcfa47eea4eed7d0a652"
+    },
+    {
+      "file": "train/occupied/sunny-0015.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "7907676f0366d74618652e334602d1a226f35aed10542219eee042f4abe6755a",
+      "prepared_sha256": "3f20fc1d314b4e56a6807cd682ade461dfa5958a1588b9c0f02248d232274e7d"
+    },
+    {
+      "file": "train/occupied/sunny-0016.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "abda2b0a4c87e67d456179cab8cbbea9dfa75149ffc1e20a5b78821197f6eded",
+      "prepared_sha256": "d00cdd861f56a3caacf438489140eea055c0a895bf16a059ee53361f7b1c7552"
+    },
+    {
+      "file": "train/occupied/sunny-0017.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "7e849e058177b2a6b757f0f26dab043dc67c58ee27dfec64b588b2c2b21dcc00",
+      "prepared_sha256": "d4d71ae0fcdb25fec00afa73bc5a7c6d7445272da68dcc2f00631629e99b7fab"
+    },
+    {
+      "file": "train/occupied/sunny-0018.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "65043dbe5df7cdaecc806d25de6163235cd230fac8cb20b91e337566d28a7e7b",
+      "prepared_sha256": "95b1b58f48667885f5f4517536bf9935ffe5f33c1ccd43598d6263936b4eeb89"
+    },
+    {
+      "file": "train/occupied/sunny-0019.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "b3d7961afb3062ee76aa5608d27398b710307e9ee1a09a3576b0a09769a8ce3c",
+      "prepared_sha256": "cea3b4a9bb1958016b2626e50cc918fbc97302f28a8efb13b15b3f38514d2dcc"
+    },
+    {
+      "file": "train/occupied/sunny-0020.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "6eda5b3d240593a63be3f26af71e4086975d494dd1a4632f48b9faec1803b768",
+      "prepared_sha256": "5dcd162bb2e4288c5092cd20f629dbef8009e2c1fe19a6faadc91e0a5a2910c0"
+    },
+    {
+      "file": "train/occupied/sunny-0021.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "480db8cb1ace0fb6880af7195ccf6953ef2750d299fa7391e974e122ddd14fc3",
+      "prepared_sha256": "4304612bfe76d352431383d18551825fb34f099b9cc251048bbcada5e2479135"
+    },
+    {
+      "file": "train/occupied/sunny-0022.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "b4ebb24847aadbd329cb857fcc78e977a71d2b84f94605b5ed4812fe0159100e",
+      "prepared_sha256": "9173c994e65b53755776313ee235c717b79a40d65888a0feb8e0a40fbfbbdf38"
+    },
+    {
+      "file": "train/occupied/sunny-0023.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "2716177b90423600d00ad0cec4b111285030abc32abd5836dd66d96752e7fbd4",
+      "prepared_sha256": "46da9d962074e9f39e75a156a0b6d49998a38b75b6e09e17ef506c40bab5052e"
+    },
+    {
+      "file": "train/occupied/sunny-0024.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "a833a09f11f9e54fdcebdfbd8a80071311b3e2a73728836569829af6713ac652",
+      "prepared_sha256": "798ac8023c982fa796cf8c4b6b4f484d5363d22a5926845613843a5cdba60f1e"
+    },
+    {
+      "file": "train/occupied/sunny-0025.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "7f5d6b6fe39db14939fb7adc36f3e63f70c19271d42080b47ac18b20b8491717",
+      "prepared_sha256": "0313f698726d98e24907244fbc67120d32efbeaac7059d6e249e25994a8b522a"
+    },
+    {
+      "file": "train/occupied/sunny-0026.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "36770e1b50c636d128e6f055bc6816311965aee2e1af8fc0294e480a6d084698",
+      "prepared_sha256": "46cd979d7b076d0378be6f5f8720fdc1551fc8d8c03d924ec0d30ea6d4b90678"
+    },
+    {
+      "file": "train/occupied/sunny-0027.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "e74a4d5d9f68da5591f5baaceb75d4bd9bd95ef333dee554475207c4dbc7f5bf",
+      "prepared_sha256": "e9f8655726c3470f3e19f2ed04130f54e47915073fdd42057ed0c42f71e84279"
+    },
+    {
+      "file": "train/occupied/sunny-0028.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "d39c683f55632ba7024ae3139c1cb355ec95681b58e22b1981ed2b8e59fcaf86",
+      "prepared_sha256": "bb2f1fe449fbda7e16be9e147c91a417fb9916ea4bc3e865ed4e1e213896b381"
+    },
+    {
+      "file": "train/occupied/sunny-0029.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "bf1927d7c6223fb4430308f91ebfeadda2405a7dce0f7a6cc9ac76cbdd87537d",
+      "prepared_sha256": "8c2bf7d5823b8f45ed476c5650253b83e502bb8cc46e3ee5b2c5d04336950372"
+    },
+    {
+      "file": "train/occupied/sunny-0030.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "dbc5de625e26a6e7364bec548fd0c2d3fd10577ea6ee9ec4d06a5c3b7f73e327",
+      "prepared_sha256": "a61d7521f2c3e2629f8afb5f69fb6fdb6ab0afd6509ef39b28fa56d7a190bebf"
+    },
+    {
+      "file": "train/occupied/sunny-0031.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "4959aa987cea5c04df2a2b677684194da85c8fea6c80091b8a6a20c3b3578524",
+      "prepared_sha256": "13f56868b434bf68caf69fec6751cf1b0736ecd61074620f2561ac66b513ca4f"
+    },
+    {
+      "file": "train/occupied/sunny-0032.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "fabd5ff964c2cc08b61eb4f30e4cbbe265a763ed2fbb25ac7806e8a1cc1fba00",
+      "prepared_sha256": "adcd56d9f08a668ef6bb33d88a40cda49cd214b5e476b47c9337ace2d9d0a230"
+    },
+    {
+      "file": "train/occupied/sunny-0033.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "8c7c3b9889aa8487cd9a1cd4233d36c9605fa71ed0fbd5097c5a9628439f4ab2",
+      "prepared_sha256": "e0c16740a928ff91537439dcefea6ee00f0eaad7f05ed4b408b94beca5b85528"
+    },
+    {
+      "file": "train/occupied/sunny-0034.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "d74bf9c8a982a330950dc8eb2cdd697261e4a851c12f66a74879c73536b174f4",
+      "prepared_sha256": "672ff99381fdf282b902e2197b4f905891836dcc72e162fa6f5e9c197038277f"
+    },
+    {
+      "file": "train/occupied/sunny-0035.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "d1b1ad7946131e932ce28adccccaa032177cceab0fcaf6fc1a6a9d4615ec10b7",
+      "prepared_sha256": "150f9bead0d89b73dc8cf7f6fe75459759823b586411cc545a90f00062e10cf8"
+    },
+    {
+      "file": "train/occupied/sunny-0036.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "7b1cac7d8beba983a3de6d3f729a5d07bd54babedea61b6cbd5b619e8d3adce6",
+      "prepared_sha256": "4a1f424057d423ddc242f03ca45e461e433e2b314fb53a1d61b37679c02cd52d"
+    },
+    {
+      "file": "train/occupied/sunny-0037.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "8afe5823618eb6b903418dd01a1db67762dd1a90a252fb1e1c3c9a12a6ea7b3f",
+      "prepared_sha256": "12aa403d8ddb03b63da0fb9e6b2aee9670b6b8eb00de6f10d5bfc4dc2acdf0e0"
+    },
+    {
+      "file": "train/occupied/sunny-0038.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "f59908a2989f22ece65a16b0ff36dd47fc77947d5fd2f5ce9c8ee1a4ecfe9b66",
+      "prepared_sha256": "f66388ce57e4f48de8a98487f2f83fddc208a4508b7e6a70b5b12d1dde89139e"
+    },
+    {
+      "file": "train/occupied/sunny-0039.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "b7503e85594adbbbe9a7771ae44569588cde820e90076e7eaa872c87cd5bb80b",
+      "prepared_sha256": "9533a7e5ba52fbaec4b2ff449bdaa6cd9d860cacae889c35b8a5299f1be594fb"
+    },
+    {
+      "file": "train/occupied/sunny-0040.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "7d0c99ae00f5b14ec2bdcde71bebe0dbe818bdc91990e61917e1aa9b50839404",
+      "prepared_sha256": "9d0495daf23ae179d8ea4bf4aa9da05ee85489c87af94c1d194ecf08b6f96017"
+    },
+    {
+      "file": "train/occupied/sunny-0041.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "c01ad70b0a93c38807d4ddbddbf31be956a378de7d273e61d8cbeb6dd069434f",
+      "prepared_sha256": "e652a9017002027135bc11b33e55625c6460f495426dc51900faea2c021516a0"
+    },
+    {
+      "file": "train/occupied/sunny-0042.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "62627b05e9643783180ff0ca0c8ad21697bb9a38c91a44f56a2524d5cbca0249",
+      "prepared_sha256": "e1d5ae3f03086b8d5610eaf75feb212e2eeba187cb69ec5b8fdbc2d6b55d1f1f"
+    },
+    {
+      "file": "train/occupied/sunny-0043.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "c25a29c713a6e8366549dc0cbaf9f922988313d07d884c31e81eed34e0ac3039",
+      "prepared_sha256": "481869ed4debb4aff0b65ae229f1c8cced9419ef55bbe6ee4e606ffbd092c124"
+    },
+    {
+      "file": "train/occupied/sunny-0044.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "6106159be39dba8d58a518e2c37a0e21f007bd645185a98b090a92d8af1bec37",
+      "prepared_sha256": "f1455126e8e24e70cce247b9fafbca04005503861296954386f5acdc217d0de3"
+    },
+    {
+      "file": "train/occupied/sunny-0045.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "49a08d2b3e33ad67d138bc0a56f765dbeb8c2d7cb698297473986eca27910674",
+      "prepared_sha256": "a9d5f7acc9d0a7cb0272ac2309a706df682fe62bf1e7b03275794ad1b73413ab"
+    },
+    {
+      "file": "train/occupied/sunny-0046.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "0f65ee048641c34bb0bb6ea799cf9745554d3a62e9efa7886cc6ada3fb28454e",
+      "prepared_sha256": "8ec602de71f81960bba1d445304283bd58c31f45317853a1641d5063d419bc2b"
+    },
+    {
+      "file": "train/occupied/sunny-0047.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "c012ce3f756fe7797415e26778f8e990fe7670c963fe70df95b1415162b2b726",
+      "prepared_sha256": "2e369ecd011134b001e0833a31669eccb5771dde0fd3683d76dc2de545558c2b"
+    },
+    {
+      "file": "train/occupied/sunny-0048.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "74c30df8d836293724ca23680c5d4507612a1ce0adabdd9444ca2c2581ce5654",
+      "prepared_sha256": "e30626bfef13fb695a23cc60279383c2f7e5780d98e04875ae7bb61eb6c1f677"
+    },
+    {
+      "file": "train/occupied/sunny-0049.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "6d03f8b65ab973862490dccd48d023094a137066183998701aa844e1fc4487fb",
+      "prepared_sha256": "e5c4fa36dc6da0739fde2aefec404b7f12774734dc6b737454256ccaffbbe4e3"
+    },
+    {
+      "file": "train/occupied/sunny-0050.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "f81c23f1a63a29f50d3c0afe719dde2ab5448bff8a9e4d6f8ca8a18ea5cd7810",
+      "prepared_sha256": "6bdb2b0858ab9eb0bf5ae7073dbf8831c1ef5480561be4ace9d7bd7e54d5fb7e"
+    },
+    {
+      "file": "train/occupied/sunny-0051.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "e0e1e2beb2fae0902e84a3eb1664c0aca2ea51550751db3d53041dff1fbf9424",
+      "prepared_sha256": "19a2167106c8c125643aa098a07600022d09011d9adcbd5e80a736195ae25068"
+    },
+    {
+      "file": "train/occupied/sunny-0052.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "08c00881945f6472e3e29e55dadedca94aa642b5818238ec28c9f523206646e5",
+      "prepared_sha256": "b2617ca66b5aaf708b95989d2b8ef2a0e4e94e6a34054886f30e604d037d3fee"
+    },
+    {
+      "file": "train/occupied/sunny-0053.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "4951d13c18aa3dbe1a62d80a9daf271244e26a414df2aa3988b797c25a2cc2bf",
+      "prepared_sha256": "eff2988fcb28fc133555fd573cebb5e3126373b5fbce41db8a25c291c4ec5ce7"
+    },
+    {
+      "file": "train/occupied/sunny-0054.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "18be2c641b7054537a2b8e23d9a7f3dd9a8e10f9296ffb819e26a38532f116df",
+      "prepared_sha256": "7bbbca1c4362a1fead17ba3472a5a694e2402c896b6a60ddc78d9efe1e16f08f"
+    },
+    {
+      "file": "train/occupied/sunny-0055.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "744f7d18221ee34dd5cbc35c4ea8be55b51f094e3986062ffd788d37a84ca8c3",
+      "prepared_sha256": "15203627bb6e107f179a043611ea5bee9dc6e2ed0a042d5d46be343c8c2edf55"
+    },
+    {
+      "file": "train/occupied/sunny-0056.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "668a06f482d32185e01515fd769834f1684782688d889ab336f4d6c907354f90",
+      "prepared_sha256": "b6b9b8a24300cb10cf56d5a1a5ca195c6ee47436f5c43b3f10281e61308c9ba2"
+    },
+    {
+      "file": "train/occupied/sunny-0057.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "8e009fe843f41a7e75df39cd6793afec90a156bc938196f18537eda27ce9f707",
+      "prepared_sha256": "87b43645ac8733a2ecdc90025b02a33ca8e36b9d49bc4c5a3ca23b129bf1ef0b"
+    },
+    {
+      "file": "train/occupied/sunny-0058.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "650d8f6ec184914e8b7f4b09408ca730f763e465f20c166ecd1bea5182492578",
+      "prepared_sha256": "d047237db52c9e72576e6139f8825d26a623692fe71cc2281e1454a101de144f"
+    },
+    {
+      "file": "train/occupied/sunny-0059.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "ba62e6a54ef648e7c5f73f4922ca6afb139ff6107a68bc40532c38041d790788",
+      "prepared_sha256": "9534121683ceaf40e9d85cc1a9327d5992828c954221701cc17a3fec0142e5ba"
+    },
+    {
+      "file": "train/occupied/sunny-0060.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "67df5cee04d75648c1157d63073d6524776b169bd0d5a2194b5ed69029ffbc22",
+      "prepared_sha256": "faa86de4c65a5a391609540085f0598b73d5e8ae615754a338666755d54a9ea4"
+    },
+    {
+      "file": "train/occupied/sunny-0061.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "4e6765367254562bf4a0ada084cba5917aa327bacf75c695b44f3a9aa5563105",
+      "prepared_sha256": "30b4135381c70ba100adb63ec6dc6fc78213b8bd966f30250e6656d3ab8c9f8b"
+    },
+    {
+      "file": "train/occupied/sunny-0062.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "935b46023f2193a00fdaddbc71ce29b6141f1cf6ad81359b99c5cd30db8d21d4",
+      "prepared_sha256": "62da17de6f86bb772b7b308164a3ddf87a46bc0766b16607dede584c2853e4cb"
+    },
+    {
+      "file": "train/occupied/sunny-0063.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "7d1286671ab5a688f49d8f57dc0da3709bc645cfeb9c6911b89c08d222c1a6a6",
+      "prepared_sha256": "cb40f9c9f40ff8b51c8d0e1057f3665fce78a715a119bc36e8867aa2bdc3cffe"
+    },
+    {
+      "file": "train/occupied/sunny-0064.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "d394a2bd0567ad1a00bf4ddaddb667d304b6f79c38f8a66e2292bada5ff85cbe",
+      "prepared_sha256": "1a6bdfc4496a0876bf406690205d6572ab6916ebabba655c78403892509022b7"
+    },
+    {
+      "file": "train/occupied/sunny-0065.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "818bc0a44b27f6ebb6157433937d0cd460b102e36b07d14d3df0913827d1d8c3",
+      "prepared_sha256": "c2abb3383b2c4ef29cc5266869650b61cbcfd54b5cb78e28a58572e73be2bd2b"
+    },
+    {
+      "file": "train/occupied/sunny-0066.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "f4734d892dea236ba678cd80827423452bf703e74a11b09f9398ba50b9942f9e",
+      "prepared_sha256": "eb18bd9b4a6ad88d9f1c1c2d15c97e77b99bc501e467592ab2915f957f04561d"
+    },
+    {
+      "file": "train/occupied/sunny-0067.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "e3f532eda44e74dbbdcc7b4dc78274a8b18feb9d53c9c7da9d4ec5d1b15b87f4",
+      "prepared_sha256": "5f461782d1d1214ef7e630ace639b910f5227970acb21de8dd4ce1e11eb85f6f"
+    },
+    {
+      "file": "train/occupied/sunny-0068.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "971dcfb6d5311a21b8902a88568a67c4e29a75a397e60abb939dbd7bb4ca7556",
+      "prepared_sha256": "ae3bd737c467863e50cfa27c6f1fa93e098f624913b8246635e951a312375f09"
+    },
+    {
+      "file": "train/occupied/sunny-0069.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "22906bf455e7a57fc3364e3293fb5e38d86283a0d85f2eaa64fa7f8bd19dff31",
+      "prepared_sha256": "0ccad1fec3b695d9b99bd033bba5eac65059f6a8d54a42d5328108961f0052c8"
+    },
+    {
+      "file": "train/occupied/sunny-0070.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "3d522c9990780f811d015bd1120e05453ddbab7d0833284feed9d21c21735097",
+      "prepared_sha256": "d86013e348033558206150613ab1409615eaa9701b5280e4c7ae13edfef7ace9"
+    },
+    {
+      "file": "train/occupied/sunny-0071.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "c827f285ffb5fe5127a6bfbc03248da720e1ec9c0b14cce1a5d4f9d0d5aca985",
+      "prepared_sha256": "2fe7381a48594ce542302343558d61c1bfe1ede232994a0a1eb20288c25651a1"
+    },
+    {
+      "file": "train/occupied/sunny-0072.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "efe4bd6400d487cafecfe75ca9fdfee93b8671ab8d84b83135ba3d7a378c81ee",
+      "prepared_sha256": "088798d05d82b287d36010a64f641963554264121dc041dc22dd0d513b63af98"
+    },
+    {
+      "file": "train/occupied/sunny-0073.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "ed0d6cc79152782ce0ec2da2572b181ead8077fda44712fbdb2bf5b3ded8a9f4",
+      "prepared_sha256": "1157d9361a6012d60f26aba1539e783539de28a8df0b9ead93711cb9cc1ffcf7"
+    },
+    {
+      "file": "train/occupied/sunny-0074.jpg",
+      "date": "2012-12-08",
+      "original_sha256": "a2f26dfa627e6e7e7dbdd90fb42d75a533629262aff3dd57948d7f3a080e0d76",
+      "prepared_sha256": "95c383d4ecc46fc711135ed22e738780e0ed44ae44d70ae94dec009b09073633"
+    },
+    {
+      "file": "train/occupied/sunny-0075.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "c2b3157894f0e1496a05e6251f5ebaef9a68e435e6d22b2f103459ecfcdb0fab",
+      "prepared_sha256": "862c7b0b9e5db2df65160b7390633f905779b10a3b1f02b404841845fe1bf988"
+    },
+    {
+      "file": "train/occupied/sunny-0076.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "e7d4681659aa61066a0699a76edb8b2923e169a322c1e4166f0b0a08c84fb006",
+      "prepared_sha256": "1aee860f40fa755fdf52e1318683c9cc60d970ba4ca651b55bdd1c12905b6378"
+    },
+    {
+      "file": "train/occupied/sunny-0077.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "f65462a4b918367d37bc81b3a42145973dd2497323937faea01f26aaae387277",
+      "prepared_sha256": "3ef7ef3ce238b3a4383dcf0f444628900107ebcb2e72a9f11a6b7a7b10b97165"
+    },
+    {
+      "file": "train/occupied/sunny-0078.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "fbdedce0fd6096b6b466da233dd2ccb48d6df775b74e1483730cc0d790624973",
+      "prepared_sha256": "6e71a016d67b25bdd280b52a15d5bf732c1a9272072d523db03757458edd4f0d"
+    },
+    {
+      "file": "train/occupied/sunny-0079.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "e16ffad31b59ae65f243a222f5d9f29535ac3c071917dc0917e0c52c8eaa88db",
+      "prepared_sha256": "6f07d4687fea33f0968422e3c693ae25d0c4d0f922c98db23b12b9109cf0c7b7"
+    },
+    {
+      "file": "train/occupied/sunny-0080.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "991bc19aa823bec233f0b8179e75aabc09ef7314aeadfa055770d71f990dee17",
+      "prepared_sha256": "c1ec1ec8a1271a0dcdb716efbebf132635648bf72b34a9ae075dc82ee9890e3b"
+    },
+    {
+      "file": "train/occupied/sunny-0081.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "51a72900211208d5147250c5b3910791f33b2c804c7099f6f435af236fa91dda",
+      "prepared_sha256": "6c6aec2530740652348d0f825c64b5fe80fe0093908c2085726818c03e431c52"
+    },
+    {
+      "file": "train/occupied/sunny-0082.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "c3eed8404d36a9564c6dcca1ea203415d9ad4adc0cc9a087d9e360b5df14ec26",
+      "prepared_sha256": "0344732d20dc41896ff19766a8b9cb14b07325a2d1424648d4b460b48dd66379"
+    },
+    {
+      "file": "train/occupied/sunny-0083.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "9f8689f6209aca888b41aed711e9e51ba729b32b606ff7f5954e49efa1c92f48",
+      "prepared_sha256": "79ecdbdf0cb77266b2b06870471431e498524876a77eef155cc7879e6e1534b6"
+    },
+    {
+      "file": "train/occupied/sunny-0084.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "f4210d455657fd6c0833896aadb0cf2765c78da64b67b748b75b5998352ed5cb",
+      "prepared_sha256": "3d1e11bffcab7cd5de733f60eaeb5032393803988b14f1ae44eea9c090c51fce"
+    },
+    {
+      "file": "train/occupied/sunny-0085.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "7ef5df85895eace4b99e90de9fbc10019eead8aa293f85bd18a078b41a7cbc32",
+      "prepared_sha256": "1dd18a6bfeb2ec932208e400a1d62cfffc9a02a53f6bf9173378409b76b94ce3"
+    },
+    {
+      "file": "train/occupied/sunny-0086.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "b7bc7b842d875f9d2b8bab6ecf1fda0692e106b7102d4f3bdb45a7300e272c9f",
+      "prepared_sha256": "dfece0903848f452fcc6abfd22e8b0222d94cc71502a206d6812c0477f3c23c0"
+    },
+    {
+      "file": "train/occupied/sunny-0087.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "962ea15dfaa2159c84eda35c195d7beb8084f03ae06c82126bd06746fc2b40b9",
+      "prepared_sha256": "9e969bc44e2c16e421b75b037ac97c1d5de996ea8431b455078b533264707b48"
+    },
+    {
+      "file": "train/occupied/sunny-0088.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "6c56aebc175221dfb7d19e4c1b2728200b3e7605b1099ee44c81dff024ccf9e6",
+      "prepared_sha256": "753c2ceab2b291443867acbd349128a17376b147a842a9a6f0662039ea4be198"
+    },
+    {
+      "file": "train/occupied/sunny-0089.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "304c4130a513a546807ccabdd47b9ccf498c1b5f2efde37ec1c07375742e86b0",
+      "prepared_sha256": "aa50f97374e380e7f0ea0b57f73b7e1edf4bf46c37f7c26e1baeb6d84b65ccbc"
+    },
+    {
+      "file": "train/occupied/sunny-0090.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "6592faa7f078cd3d8cfaf9315279c6890848a38448cabe5368518945a9d6e711",
+      "prepared_sha256": "d5f47255aaca912726e97f562e0dd6315c635e56e67d9533b0bd1c24a1559c8e"
+    },
+    {
+      "file": "train/occupied/sunny-0091.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "3ed273906f7a4dcea594d79c8b48ddc77fb03bdd7d18b30ebf54073416fba0b5",
+      "prepared_sha256": "38075f4c8d1d56523cbc9850a9d742764a1778d92b9048c6b09506d0f61ea1b2"
+    },
+    {
+      "file": "train/occupied/sunny-0092.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "e59644196df26517ca41b19619c6429f7e29d23b553e4f1a612f8d262e74dd8d",
+      "prepared_sha256": "26433d4bac230d725aecb0fe375de89034a1c38ceb07c3a4215e4eaced03c15f"
+    },
+    {
+      "file": "train/occupied/sunny-0093.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "fe98fd3d902a82f9595dba7d384a9c2939bcf66e729148fc518e849ba4e3bfec",
+      "prepared_sha256": "b2c503a717aa8a7f23008b106b510178d0aa123b6fed2aa20b480f40a24a5ed9"
+    },
+    {
+      "file": "train/occupied/sunny-0094.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "ddaefcd7360f014f7ca809de76bbc6bcfd63455c82d007be04033770915efc22",
+      "prepared_sha256": "3109c70b4b4c1aee0492cc478d2a9add8a04afbe3025fd0affb94594a1d1da9c"
+    },
+    {
+      "file": "train/occupied/sunny-0095.jpg",
+      "date": "2012-12-19",
+      "original_sha256": "9e34faf35093cfb2a6112452d05e11ea34b1ccbe42bb390d28d211b9cf4b3995",
+      "prepared_sha256": "f85945b83fafb2d6815ccae2d3ae9ec7007d33e11716e5a81cf3d4fc0e96fcbd"
+    },
+    {
+      "file": "train/occupied/sunny-0096.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "9fcb3785442f953024235c5982fdc50b82e4a1a16d40399a0b5bc296ef5c244b",
+      "prepared_sha256": "88c6bd93dc148afaa889bab9e61a815902c10339501408dad213ecb2e26f1e4f"
+    },
+    {
+      "file": "train/occupied/sunny-0097.jpg",
+      "date": "2012-12-17",
+      "original_sha256": "dd4cacbfb4156a10ba9a80e2b7d44af4863f648e5f69acb26df0260c892b460e",
+      "prepared_sha256": "71183ee413d5fb68ada1d67588987e66c20e6fb60bcba2d1b78d55671792c30d"
+    },
+    {
+      "file": "train/occupied/sunny-0098.jpg",
+      "date": "2012-12-16",
+      "original_sha256": "caf02a74dcc40e0ceceea03fd70517b5464ace091cb02b83e6677f7cd5aaa838",
+      "prepared_sha256": "8a758f45ebb3d62d487473b072b295c8bf73fb3c868603cf69d1fc14cc1fc9ca"
+    },
+    {
+      "file": "train/occupied/sunny-0099.jpg",
+      "date": "2012-12-21",
+      "original_sha256": "90530af2b2318851210432a765c511ccfc91221b33b0ececf9a409d7d24d3b51",
+      "prepared_sha256": "38d7047764005fe1795e9ea1e8d6b1f59f99a9c48a9b565dc1fb86e191525085"
+    }
+  ],
+  "completed_at": "2026-10-27T04:45:17.671Z",
+  "elapsed_seconds": 388.587,
+  "final_epoch": {
+    "epoch": 50,
+    "val_loss": 0.006632760167121887,
+    "val_acc": 1,
+    "loss": 9.832376235863194e-06,
+    "acc": 1
+  },
+  "hashes": {
+    "model.json": "0c957faf6c84cde4ee64525438de9acf7e70fbd7174d98e329e41878b984ecc5",
+    "metadata.json": "98b256a9012e7bdf10123114e11f4708dc9ed529e557ce54dc14f08c7a655ae0",
+    "weights.bin": "fcb37f7d7242be3455b0fea38e4a58ca94eb1dd946f8bf5fc0415e8c547b8677"
+  },
+  "base_sha256": {
+    "group1-shard1of1.bin": "d366835afb87a9a6915084f00635339c2c8e137760cd891ab234340194ca1913",
+    "model.json": "743ac7298e845e2c2ef2c361cb2dad84b8bfc67ccbef1fefc20146d529b17030"
+  },
+  "input_gradient_training_images": 386,
+  "internal_validation_images": 70,
+  "training_capture_date_count": 17,
+  "quality_gate_version": "quality-v1",
+  "release_notes": "Weather-balancedclasses genuine456photos; finalholdoutmetrics recordedseparately;noholdouttuning",
+  "model_version": "pklot-ufpr04-weather-v2"
+}

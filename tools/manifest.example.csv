@@ -1,0 +1,7 @@
+image,slot_id,label,date,sequence,x,y,width,height,lighting
+camera1/2026-10-01/frame001.jpg,A1,empty,2026-10-01,camera1-day01,20,40,120,180,day
+camera1/2026-10-01/frame001.jpg,A2,occupied,2026-10-01,camera1-day01,160,40,120,180,day
+camera1/2026-10-02/frame001.jpg,A1,empty,2026-10-02,camera1-day02,20,40,120,180,day
+camera1/2026-10-02/frame001.jpg,A2,occupied,2026-10-02,camera1-day02,160,40,120,180,day
+camera1/2026-10-03/frame001.jpg,A1,empty,2026-10-03,camera1-day03,20,40,120,180,day
+camera1/2026-10-03/frame001.jpg,A2,occupied,2026-10-03,camera1-day03,160,40,120,180,day

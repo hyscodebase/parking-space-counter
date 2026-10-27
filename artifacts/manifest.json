@@ -1,0 +1,12 @@
+[
+  {
+    "path": "artifacts/dataset-v2.zip",
+    "size": 6306281,
+    "sha256": "6387e8eeb9ef4732e645871829990560a4014b87f57c4058b818e4663a506710"
+  },
+  {
+    "path": "artifacts/fullframe-evaluation-images.zip",
+    "size": 11888882,
+    "sha256": "90c628fa8e63333392b5c5d014ffe59e76f3da3d4769b8ae36b743f13f1581af"
+  }
+]

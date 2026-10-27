@@ -1,0 +1,10 @@
+{
+  "repo": "dronefreak/PKLot",
+  "repo_commit": "577e9c942e596819798d42fdc4d14d0b6646a43f",
+  "mirror_readme_sha256": "49d76ba7c9187b06e9fbe55f8f8b9b8bb169b8880cbddae8759ecdb4aa620e4b",
+  "metadata_sha256": {
+    "data__images__test__metadata.jsonl": "8a4f97000332687a377da052999c46e7f31ebb3afc0fdae77bd5f41549a50cf0",
+    "data__images__valid__metadata.jsonl": "bc733e1bb373f0e3f75440d796731be8e483db155095ae5f19f4cdeff876d300",
+    "data__images__train__metadata.jsonl": "f7d04c363da1755fff6344785eeac447e1dead76092a00629a76c90ccac116f8"
+  }
+}

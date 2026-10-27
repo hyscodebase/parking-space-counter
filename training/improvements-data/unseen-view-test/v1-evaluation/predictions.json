@@ -1,0 +1,1087 @@
+[
+  {
+    "frame_id": "UFPR05_2013-04-11_10_50_05",
+    "camera": "UFPR05",
+    "date": "2013-04-11",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.3278625488055695e-7,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 94.68707838408584,
+            "luminanceStdDev": 73.06760481651234,
+            "dynamicRange": 244,
+            "edgeMean": 4.751231658541521,
+            "laplacianMeanSquare": 125.27858007569358,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.4212563570481507e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 62.64265754145494,
+            "luminanceStdDev": 34.86382686140086,
+            "dynamicRange": 151,
+            "edgeMean": 2.727086679569656,
+            "laplacianMeanSquare": 25.365761068149947,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.979356850119075e-7,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 59.14415003587376,
+            "luminanceStdDev": 35.466645812657845,
+            "dynamicRange": 148,
+            "edgeMean": 2.5135499336539,
+            "laplacianMeanSquare": 19.120595107223995,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.4634185419026835e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 112.6624723054845,
+            "luminanceStdDev": 76.74503706222103,
+            "dynamicRange": 243,
+            "edgeMean": 4.86560576955366,
+            "laplacianMeanSquare": 65.82153030774744,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR05_2013-04-14_13_00_07",
+    "camera": "UFPR05",
+    "date": "2013-04-14",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 1,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9992687702178955,
+        "probabilities": {
+          "empty": 0.9992687702178955,
+          "occupied": 0.0007310562068596482
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 99.59876980628366,
+            "luminanceStdDev": 35.97698870732432,
+            "dynamicRange": 220,
+            "edgeMean": 3.8722424319754953,
+            "laplacianMeanSquare": 65.74182398925375,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.734851799526041e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 55.36226647799877,
+            "luminanceStdDev": 42.12559133577085,
+            "dynamicRange": 184,
+            "edgeMean": 2.739560866233231,
+            "laplacianMeanSquare": 30.83098292105711,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 6.191908319408412e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 93.37016510682463,
+            "luminanceStdDev": 64.08157260301265,
+            "dynamicRange": 240,
+            "edgeMean": 4.31322202141815,
+            "laplacianMeanSquare": 53.122535121173044,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.522289044293302e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 61.83485806760424,
+            "luminanceStdDev": 57.916803638420106,
+            "dynamicRange": 238,
+            "edgeMean": 2.948382215511142,
+            "laplacianMeanSquare": 29.04167637040158,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR05_2013-02-23_12_10_06",
+    "camera": "UFPR05",
+    "date": "2013-02-23",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 0.9999990463256836,
+        "probabilities": {
+          "empty": 8.356562375411158e-7,
+          "occupied": 0.9999990463256836
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 103.41713686224473,
+            "luminanceStdDev": 69.97694423664952,
+            "dynamicRange": 245,
+            "edgeMean": 5.033048933535375,
+            "laplacianMeanSquare": 113.7161100491077,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999551773071289,
+        "probabilities": {
+          "empty": 0.9999551773071289,
+          "occupied": 0.000045106466131983325
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 81.04366950733619,
+            "luminanceStdDev": 20.20960527312021,
+            "dynamicRange": 124,
+            "edgeMean": 1.9891027584433327,
+            "laplacianMeanSquare": 15.806479864076527,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9510337710380554,
+        "probabilities": {
+          "empty": 0.9510337710380554,
+          "occupied": 0.04896629601716995
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 80.10870863759862,
+            "luminanceStdDev": 26.274458351891607,
+            "dynamicRange": 167,
+            "edgeMean": 2.1226332846606564,
+            "laplacianMeanSquare": 16.764152932809633,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.2120047188091121e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 97.69492956792358,
+            "luminanceStdDev": 71.57579920141129,
+            "dynamicRange": 238,
+            "edgeMean": 4.181669677014079,
+            "laplacianMeanSquare": 53.40830451120649,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR05_2013-02-23_09_15_03",
+    "camera": "UFPR05",
+    "date": "2013-02-23",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 3,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999914169311523,
+        "probabilities": {
+          "empty": 0.9999914169311523,
+          "occupied": 0.000008531760613550432
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 83.43086671317458,
+            "luminanceStdDev": 27.206513476315394,
+            "dynamicRange": 186,
+            "edgeMean": 2.904817327866563,
+            "laplacianMeanSquare": 39.106746664061674,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9998393058776855,
+        "probabilities": {
+          "empty": 0.9998393058776855,
+          "occupied": 0.0001607554586371407
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 78.75196029177445,
+            "luminanceStdDev": 21.57874182919799,
+            "dynamicRange": 141,
+            "edgeMean": 2.0424645073057976,
+            "laplacianMeanSquare": 16.279402000231165,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9996724724769592,
+        "probabilities": {
+          "empty": 0.9996724724769592,
+          "occupied": 0.0003274607879575342
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 76.39640351562888,
+            "luminanceStdDev": 28.365138031452044,
+            "dynamicRange": 162,
+            "edgeMean": 2.1274940990374533,
+            "laplacianMeanSquare": 17.00715484978467,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.442654256640253e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 97.32815841438025,
+            "luminanceStdDev": 79.04481747881027,
+            "dynamicRange": 241,
+            "edgeMean": 3.7604751100836467,
+            "laplacianMeanSquare": 44.36606950308193,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "UFPR05_2013-03-16_15_50_11",
+    "camera": "UFPR05",
+    "date": "2013-03-16",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9996910691261292,
+        "probabilities": {
+          "empty": 0.9996910691261292,
+          "occupied": 0.00030910337227396667
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 87.73456891342899,
+            "luminanceStdDev": 25.680076604002316,
+            "dynamicRange": 161,
+            "edgeMean": 2.8950944547085027,
+            "laplacianMeanSquare": 39.01981924107553,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9993607401847839,
+        "probabilities": {
+          "empty": 0.9993607401847839,
+          "occupied": 0.0006390686030499637
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 86.26216561304507,
+            "luminanceStdDev": 21.131068395199158,
+            "dynamicRange": 137,
+            "edgeMean": 2.1135564998584555,
+            "laplacianMeanSquare": 17.87311719241675,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9786719679832458,
+        "probabilities": {
+          "empty": 0.9786719679832458,
+          "occupied": 0.02132808230817318
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 88.7441272401188,
+            "luminanceStdDev": 23.68056740914314,
+            "dynamicRange": 154,
+            "edgeMean": 2.1801820170948094,
+            "laplacianMeanSquare": 17.498434298337074,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999680519104004,
+        "probabilities": {
+          "empty": 0.9999680519104004,
+          "occupied": 0.00003205593748134561
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 88.33976309789782,
+            "luminanceStdDev": 25.08466146622195,
+            "dynamicRange": 167,
+            "edgeMean": 2.176540939224446,
+            "laplacianMeanSquare": 17.058714905169232,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "PUCPR_2012-09-14_09_01_10",
+    "camera": "PUCPR",
+    "date": "2012-09-14",
+    "truth_empty_count": 0,
+    "predicted_empty_count": 0,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 5.568674765754622e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 106.30602361686893,
+            "luminanceStdDev": 57.373767581664026,
+            "dynamicRange": 216,
+            "edgeMean": 2.4670506443907096,
+            "laplacianMeanSquare": 6.098544039764878,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.8657029698943006e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 134.18356953523227,
+            "luminanceStdDev": 72.02379985371556,
+            "dynamicRange": 214,
+            "edgeMean": 3.0139324977793502,
+            "laplacianMeanSquare": 10.03067850508681,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 4.679823106812364e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 117.1656288783465,
+            "luminanceStdDev": 59.720746044411335,
+            "dynamicRange": 213,
+            "edgeMean": 2.533049878899979,
+            "laplacianMeanSquare": 5.856443307398673,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.1306347147410634e-7,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 136.42363316724885,
+            "luminanceStdDev": 71.84506190673261,
+            "dynamicRange": 213,
+            "edgeMean": 2.7110220025282192,
+            "laplacianMeanSquare": 8.280082510437259,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "PUCPR_2012-09-19_11_28_31",
+    "camera": "PUCPR",
+    "date": "2012-09-19",
+    "truth_empty_count": 1,
+    "predicted_empty_count": 0,
+    "count_matched": false,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.363526618864853e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 140.95458108657357,
+            "luminanceStdDev": 75.33017643077592,
+            "dynamicRange": 222,
+            "edgeMean": 3.6558719699597373,
+            "laplacianMeanSquare": 10.498050256804591,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 7.560847592458231e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 123.27551183035666,
+            "luminanceStdDev": 64.23909197066041,
+            "dynamicRange": 219,
+            "edgeMean": 2.940754104002327,
+            "laplacianMeanSquare": 7.246870115362509,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "occupied",
+        "confidence": 0.9674403071403503,
+        "probabilities": {
+          "empty": 0.03255956619977951,
+          "occupied": 0.9674403071403503
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 89.69762619579122,
+            "luminanceStdDev": 26.991037152942987,
+            "dynamicRange": 180,
+            "edgeMean": 1.2169416727048323,
+            "laplacianMeanSquare": 2.51203806694854,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 2.283960043314437e-7,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 115.93394230309266,
+            "luminanceStdDev": 58.647804904797894,
+            "dynamicRange": 217,
+            "edgeMean": 2.397823972724173,
+            "laplacianMeanSquare": 6.078442869313894,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "PUCPR_2012-10-16_12_43_39",
+    "camera": "PUCPR",
+    "date": "2012-10-16",
+    "truth_empty_count": 2,
+    "predicted_empty_count": 2,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 3.2278340000857497e-9,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 161.70141411431405,
+            "luminanceStdDev": 64.87955789350352,
+            "dynamicRange": 219,
+            "edgeMean": 2.711416469752063,
+            "laplacianMeanSquare": 7.038180653166365,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.7241649175048224e-7,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 145.3553759606152,
+            "luminanceStdDev": 68.01108711785345,
+            "dynamicRange": 224,
+            "edgeMean": 3.0220986540542056,
+            "laplacianMeanSquare": 8.136057916773245,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.999995231628418,
+        "probabilities": {
+          "empty": 0.999995231628418,
+          "occupied": 0.000004601288765115896
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 154.79725081313552,
+            "luminanceStdDev": 38.61854627213161,
+            "dynamicRange": 189,
+            "edgeMean": 1.2626315924618812,
+            "laplacianMeanSquare": 2.2573821309245656,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9852132797241211,
+        "probabilities": {
+          "empty": 0.9852132797241211,
+          "occupied": 0.014786604791879654
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 154.39552312658867,
+            "luminanceStdDev": 39.09361928536248,
+            "dynamicRange": 192,
+            "edgeMean": 1.3682064601696888,
+            "laplacianMeanSquare": 3.2623395197696365,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "PUCPR_2012-09-20_12_59_32",
+    "camera": "PUCPR",
+    "date": "2012-09-20",
+    "truth_empty_count": 3,
+    "predicted_empty_count": 1,
+    "count_matched": false,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "occupied",
+        "confidence": 0.9978020787239075,
+        "probabilities": {
+          "empty": 0.0021979049779474735,
+          "occupied": 0.9978020787239075
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 204.49759815845377,
+            "luminanceStdDev": 47.469263762819914,
+            "dynamicRange": 207,
+            "edgeMean": 1.549606928376339,
+            "laplacianMeanSquare": 4.486081935395948,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "occupied",
+        "status": "occupied",
+        "confidence": 1,
+        "probabilities": {
+          "empty": 1.5039516298998024e-8,
+          "occupied": 1
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 145.35375320072947,
+            "luminanceStdDev": 73.24482889864295,
+            "dynamicRange": 212,
+            "edgeMean": 2.2574662498599976,
+            "laplacianMeanSquare": 6.81889831942627,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "uncertain",
+        "confidence": 0.7403138279914856,
+        "probabilities": {
+          "empty": 0.7403138279914856,
+          "occupied": 0.2596862316131592
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [],
+          "metrics": {
+            "meanLuminance": 192.97835986924315,
+            "luminanceStdDev": 59.274490319643505,
+            "dynamicRange": 203,
+            "edgeMean": 1.1039696271644044,
+            "laplacianMeanSquare": 2.0818355092569867,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.999601423740387,
+        "probabilities": {
+          "empty": 0.999601423740387,
+          "occupied": 0.0003986639785580337
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [
+            {
+              "code": "low-detail",
+              "message": "영역의 세부 정보가 적습니다. 흐림·가림 또는 잘못 지정한 영역인지 확인해 주세요."
+            }
+          ],
+          "metrics": {
+            "meanLuminance": 218.0994687699344,
+            "luminanceStdDev": 22.984810631393554,
+            "dynamicRange": 79,
+            "edgeMean": 0.6876454415953671,
+            "laplacianMeanSquare": 1.4337092815488501,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  },
+  {
+    "frame_id": "PUCPR_2012-09-16_14_08_14",
+    "camera": "PUCPR",
+    "date": "2012-09-16",
+    "truth_empty_count": 4,
+    "predicted_empty_count": 4,
+    "count_matched": true,
+    "records": [
+      {
+        "slot_id": "A1",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999852180480957,
+        "probabilities": {
+          "empty": 0.9999852180480957,
+          "occupied": 0.000014727663256053347
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [
+            {
+              "code": "low-detail",
+              "message": "영역의 세부 정보가 적습니다. 흐림·가림 또는 잘못 지정한 영역인지 확인해 주세요."
+            }
+          ],
+          "metrics": {
+            "meanLuminance": 209.1506159558456,
+            "luminanceStdDev": 21.935432878112678,
+            "dynamicRange": 73,
+            "edgeMean": 0.6020291016546294,
+            "laplacianMeanSquare": 1.0243916105815634,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A2",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999465942382812,
+        "probabilities": {
+          "empty": 0.9999465942382812,
+          "occupied": 0.00005354666063794866
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [
+            {
+              "code": "low-detail",
+              "message": "영역의 세부 정보가 적습니다. 흐림·가림 또는 잘못 지정한 영역인지 확인해 주세요."
+            }
+          ],
+          "metrics": {
+            "meanLuminance": 208.16564564732997,
+            "luminanceStdDev": 21.66261708873291,
+            "dynamicRange": 73,
+            "edgeMean": 0.6358849941195012,
+            "laplacianMeanSquare": 1.1531856313846547,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A3",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999747276306152,
+        "probabilities": {
+          "empty": 0.9999747276306152,
+          "occupied": 0.00002524184310459532
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [
+            {
+              "code": "low-detail",
+              "message": "영역의 세부 정보가 적습니다. 흐림·가림 또는 잘못 지정한 영역인지 확인해 주세요."
+            }
+          ],
+          "metrics": {
+            "meanLuminance": 206.58526425780667,
+            "luminanceStdDev": 21.685417711082696,
+            "dynamicRange": 76,
+            "edgeMean": 0.5827646669403702,
+            "laplacianMeanSquare": 1.030274584689481,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      },
+      {
+        "slot_id": "A4",
+        "truth": "empty",
+        "status": "empty",
+        "confidence": 0.9999885559082031,
+        "probabilities": {
+          "empty": 0.9999885559082031,
+          "occupied": 0.000011046079634979833
+        },
+        "quality": {
+          "valid": true,
+          "reasons": [],
+          "warnings": [
+            {
+              "code": "low-detail",
+              "message": "영역의 세부 정보가 적습니다. 흐림·가림 또는 잘못 지정한 영역인지 확인해 주세요."
+            }
+          ],
+          "metrics": {
+            "meanLuminance": 207.019826032369,
+            "luminanceStdDev": 22.10125295696458,
+            "dynamicRange": 75,
+            "edgeMean": 0.5948889785512451,
+            "laplacianMeanSquare": 1.0365694865710833,
+            "visibleFraction": 1
+          },
+          "version": "quality-v1"
+        }
+      }
+    ]
+  }
+]

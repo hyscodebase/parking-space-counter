@@ -1,0 +1,4352 @@
+[
+  {
+    "file": "test/empty/sunny-0000.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_10_55_06#018.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 0.0000014013385225553066
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 211.06996204559925,
+        "luminanceStdDev": 36.65329119432519,
+        "dynamicRange": 174,
+        "edgeMean": 1.3589305086520755,
+        "laplacianMeanSquare": 4.25725709685213,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0001.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_14_40_11#005.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.809800202565384e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 176.25342560184845,
+        "luminanceStdDev": 33.864476075409165,
+        "dynamicRange": 170,
+        "edgeMean": 2.4757555361973176,
+        "laplacianMeanSquare": 17.07548828773634,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0002.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_11_55_07#008.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 3.328538866753661e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 189.43985468748699,
+        "luminanceStdDev": 31.293435610061525,
+        "dynamicRange": 140,
+        "edgeMean": 1.514119516497312,
+        "laplacianMeanSquare": 4.315805690120251,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0003.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_13_30_09#019.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999923706054688,
+    "probabilities": {
+      "empty": 0.9999923706054688,
+      "occupied": 0.000007739166903775185
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 182.38589023035783,
+        "luminanceStdDev": 41.601152123541624,
+        "dynamicRange": 187,
+        "edgeMean": 1.6834843752095519,
+        "laplacianMeanSquare": 5.486851630460196,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0004.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_12_20_08#028.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.491419929308904e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 186.51875818714154,
+        "luminanceStdDev": 31.29420639935528,
+        "dynamicRange": 145,
+        "edgeMean": 0.9545224976035588,
+        "laplacianMeanSquare": 3.0058927056036895,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0005.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_12_35_08#028.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999914169311523,
+    "probabilities": {
+      "empty": 0.9999914169311523,
+      "occupied": 0.000008585057912569027
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 206.59165020325486,
+        "luminanceStdDev": 37.226592326391525,
+        "dynamicRange": 155,
+        "edgeMean": 0.9280033125318372,
+        "laplacianMeanSquare": 2.878044294073125,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0006.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_10_45_06#017.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 2.459709413926703e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 180.60702983096874,
+        "luminanceStdDev": 29.529782223250823,
+        "dynamicRange": 127,
+        "edgeMean": 1.3526441843214896,
+        "laplacianMeanSquare": 3.901512891482821,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0007.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_11_50_07#009.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999971389770508,
+    "probabilities": {
+      "empty": 0.9999971389770508,
+      "occupied": 0.0000026639031602826435
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 233.48937468110165,
+        "luminanceStdDev": 19.423584910083793,
+        "dynamicRange": 67,
+        "edgeMean": 0.9797034443837569,
+        "laplacianMeanSquare": 2.8881256853461985,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0008.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_14_35_10#003.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.7078058078823233e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 156.73462734372603,
+        "luminanceStdDev": 27.66049008897087,
+        "dynamicRange": 150,
+        "edgeMean": 1.358195195741794,
+        "laplacianMeanSquare": 6.110228940482579,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0009.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_09_25_05#016.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999465942382812,
+    "probabilities": {
+      "empty": 0.9999465942382812,
+      "occupied": 0.000053484498494071886
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 158.61956048309617,
+        "luminanceStdDev": 40.93681354765568,
+        "dynamicRange": 142,
+        "edgeMean": 1.631666274195982,
+        "laplacianMeanSquare": 5.5454563619415005,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0010.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_15_05_11#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.012674423847784e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 172.51495385841227,
+        "luminanceStdDev": 25.571723977695346,
+        "dynamicRange": 123,
+        "edgeMean": 1.2528523574037327,
+        "laplacianMeanSquare": 6.678260166029815,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0011.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_14_50_11#006.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.1861500932327544e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 163.59403671872172,
+        "luminanceStdDev": 28.846553873735225,
+        "dynamicRange": 149,
+        "edgeMean": 1.8301886604964008,
+        "laplacianMeanSquare": 7.760601377224539,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0012.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_14_45_10#011.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9998607635498047,
+    "probabilities": {
+      "empty": 0.9998607635498047,
+      "occupied": 0.00013923495134804398
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 165.86839060107673,
+        "luminanceStdDev": 47.93019882463806,
+        "dynamicRange": 200,
+        "edgeMean": 2.575066379940258,
+        "laplacianMeanSquare": 11.54565562855674,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0013.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_10_20_06#017.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 0.0000013907515494793188
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 225.6254847018595,
+        "luminanceStdDev": 19.19784771493546,
+        "dynamicRange": 106,
+        "edgeMean": 1.126695992929824,
+        "laplacianMeanSquare": 3.5240847830653372,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0014.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_13_55_10#007.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 7.722728696535341e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 197.25622079477898,
+        "luminanceStdDev": 23.729075927128754,
+        "dynamicRange": 121,
+        "edgeMean": 1.5516272704621143,
+        "laplacianMeanSquare": 5.680561467506908,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0015.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_11_40_07#016.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999308586120605,
+    "probabilities": {
+      "empty": 0.9999308586120605,
+      "occupied": 0.00006925845809746534
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 214.23007079879775,
+        "luminanceStdDev": 23.458656991617765,
+        "dynamicRange": 103,
+        "edgeMean": 1.7349224893196051,
+        "laplacianMeanSquare": 7.436312069728295,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0016.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_14_40_10#019.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.9290810371330736e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 164.49217303090623,
+        "luminanceStdDev": 37.12792956016217,
+        "dynamicRange": 175,
+        "edgeMean": 1.506243898156818,
+        "laplacianMeanSquare": 4.25279521610775,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0017.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_09_35_05#024.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999661445617676,
+    "probabilities": {
+      "empty": 0.9999661445617676,
+      "occupied": 0.00003370093327248469
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 235.07327179925272,
+        "luminanceStdDev": 23.715954108765366,
+        "dynamicRange": 159,
+        "edgeMean": 1.0945530826659022,
+        "laplacianMeanSquare": 5.095494441507581,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0018.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_10_45_06#025.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 3.430152517580609e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 222.73591025589263,
+        "luminanceStdDev": 22.942806995250333,
+        "dynamicRange": 150,
+        "edgeMean": 1.09230278540238,
+        "laplacianMeanSquare": 4.091582496133349,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0019.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_10_30_06#025.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.6176406347767625e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 230.23756988996925,
+        "luminanceStdDev": 21.354590257485565,
+        "dynamicRange": 140,
+        "edgeMean": 0.9668357653315445,
+        "laplacianMeanSquare": 3.700435466201527,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0020.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_12_00_08#027.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.479159550399345e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 181.2480880819317,
+        "luminanceStdDev": 26.74668143053062,
+        "dynamicRange": 146,
+        "edgeMean": 1.2832239836473482,
+        "laplacianMeanSquare": 3.8991542119717066,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0021.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_10_10_06#024.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.719639186603672e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 199.0906836535214,
+        "luminanceStdDev": 24.088408852987325,
+        "dynamicRange": 152,
+        "edgeMean": 1.481756001080862,
+        "laplacianMeanSquare": 5.891293318747438,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0022.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Empty/2013-01-18_13_45_10#007.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 2.5166761119521652e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 176.60475526144918,
+        "luminanceStdDev": 24.39501869453074,
+        "dynamicRange": 120,
+        "edgeMean": 1.6028584247212774,
+        "laplacianMeanSquare": 5.531794585689086,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0023.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_13_45_10#014.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 2.4155459854569017e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 185.65318361365738,
+        "luminanceStdDev": 26.473025196383976,
+        "dynamicRange": 147,
+        "edgeMean": 1.9190496998975706,
+        "laplacianMeanSquare": 10.020566389243866,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/sunny-0024.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Empty/2013-01-17_11_40_07#008.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 2.5603983999644697e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 173.99426687657788,
+        "luminanceStdDev": 29.96218244187095,
+        "dynamicRange": 137,
+        "edgeMean": 1.6250711542761227,
+        "laplacianMeanSquare": 4.624308343487709,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0000.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-22/Occupied/2013-01-22_10_45_06#004.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.403479075179348e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 174.2331498843968,
+        "luminanceStdDev": 57.755917149705624,
+        "dynamicRange": 193,
+        "edgeMean": 3.936921012088475,
+        "laplacianMeanSquare": 30.689385384731892,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0001.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-12/Occupied/2012-12-12_15_15_11#010.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9998931884765625,
+    "probabilities": {
+      "empty": 0.00010698751430027187,
+      "occupied": 0.9998931884765625
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 142.22499836574804,
+        "luminanceStdDev": 68.24731331590995,
+        "dynamicRange": 207,
+        "edgeMean": 4.270590754673314,
+        "laplacianMeanSquare": 59.72051519574057,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0002.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_13_35_08#010.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9996967911720276,
+    "probabilities": {
+      "empty": 0.0003031496307812631,
+      "occupied": 0.9996967911720276
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 145.7167875478289,
+        "luminanceStdDev": 62.853443376664366,
+        "dynamicRange": 207,
+        "edgeMean": 4.3899716768105925,
+        "laplacianMeanSquare": 59.310724856867864,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0003.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_10_00_04#028.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.0654748311699223e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 139.08775129544273,
+        "luminanceStdDev": 62.4957424987914,
+        "dynamicRange": 194,
+        "edgeMean": 2.0058072871080506,
+        "laplacianMeanSquare": 5.75106115078606,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0004.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_13_25_08#002.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.2182555792227276e-10,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 161.03092832428442,
+        "luminanceStdDev": 73.11170932199333,
+        "dynamicRange": 201,
+        "edgeMean": 4.555051245267845,
+        "laplacianMeanSquare": 53.88267105388236,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0005.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-12/Occupied/2012-12-12_14_15_10#027.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999885559082031,
+    "probabilities": {
+      "empty": 0.000011272046322119422,
+      "occupied": 0.9999885559082031
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 149.69585273037646,
+        "luminanceStdDev": 56.980958525101194,
+        "dynamicRange": 208,
+        "edgeMean": 2.895874800054329,
+        "laplacianMeanSquare": 10.890699576115113,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0006.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Occupied/2013-01-17_15_25_11#023.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999899864196777,
+    "probabilities": {
+      "empty": 0.000010062117326015141,
+      "occupied": 0.9999899864196777
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 181.41552578921227,
+        "luminanceStdDev": 47.287335804029205,
+        "dynamicRange": 168,
+        "edgeMean": 2.467081046425174,
+        "laplacianMeanSquare": 16.336589812335315,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0007.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_13_30_08#018.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 8.637431960778486e-7,
+      "occupied": 0.9999990463256836
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 122.89284677534228,
+        "luminanceStdDev": 64.77522286816458,
+        "dynamicRange": 204,
+        "edgeMean": 2.478577516233211,
+        "laplacianMeanSquare": 9.614615849532397,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0008.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_10_10_05#015.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999833106994629,
+    "probabilities": {
+      "empty": 0.000016935940948314965,
+      "occupied": 0.9999833106994629
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 198.19771870614298,
+        "luminanceStdDev": 56.55317077645785,
+        "dynamicRange": 178,
+        "edgeMean": 2.511196569553329,
+        "laplacianMeanSquare": 11.870814650413921,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0009.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-12/Occupied/2012-12-12_14_05_09#024.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 5.449625106734857e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 190.79788000238173,
+        "luminanceStdDev": 53.0940533014163,
+        "dynamicRange": 200,
+        "edgeMean": 3.337741191917165,
+        "laplacianMeanSquare": 14.591538621709459,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0010.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_14_30_09#001.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 9.006372536646268e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 109.868532346129,
+        "luminanceStdDev": 55.831832588030004,
+        "dynamicRange": 203,
+        "edgeMean": 3.241576090254591,
+        "laplacianMeanSquare": 37.4014278470845,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0011.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_12_35_07#027.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 5.3946070721622164e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 153.40748255739052,
+        "luminanceStdDev": 62.893663808286256,
+        "dynamicRange": 201,
+        "edgeMean": 2.2849220427315178,
+        "laplacianMeanSquare": 8.017574436023146,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0012.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_10_45_05#016.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.1604183391966671e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 134.90751192601243,
+        "luminanceStdDev": 67.05621100314602,
+        "dynamicRange": 194,
+        "edgeMean": 2.569347528216932,
+        "laplacianMeanSquare": 11.58670490211151,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0013.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_10_35_05#008.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999971389770508,
+    "probabilities": {
+      "empty": 0.0000026977963898389135,
+      "occupied": 0.9999971389770508
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 113.29782211016402,
+        "luminanceStdDev": 45.09017791712615,
+        "dynamicRange": 186,
+        "edgeMean": 2.2626699864826167,
+        "laplacianMeanSquare": 10.426468072317943,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0014.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Occupied/2013-01-18_13_50_10#001.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 9.653172128309961e-7,
+      "occupied": 0.9999990463256836
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 109.27198656329688,
+        "luminanceStdDev": 61.44792284400332,
+        "dynamicRange": 211,
+        "edgeMean": 3.3733008992855247,
+        "laplacianMeanSquare": 41.694205501247865,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0015.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Occupied/2013-01-17_14_10_10#002.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.216115957936026e-10,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 151.27666702008636,
+        "luminanceStdDev": 71.29058286354599,
+        "dynamicRange": 202,
+        "edgeMean": 3.916146148289724,
+        "laplacianMeanSquare": 51.98736428035708,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0016.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-12/Occupied/2012-12-12_15_45_11#019.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 5.5180613856009586e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 115.21469908721126,
+        "luminanceStdDev": 41.64201651900466,
+        "dynamicRange": 164,
+        "edgeMean": 2.101276185022265,
+        "laplacianMeanSquare": 5.675016026943907,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0017.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-12/Occupied/2012-12-12_13_40_09#007.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999995231628418,
+    "probabilities": {
+      "empty": 6.94057689543115e-7,
+      "occupied": 0.9999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 118.17550063376027,
+        "luminanceStdDev": 56.701801961482374,
+        "dynamicRange": 193,
+        "edgeMean": 2.2100774112380064,
+        "laplacianMeanSquare": 9.119244326892243,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0018.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-12/Occupied/2012-12-12_15_10_11#018.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9997968673706055,
+    "probabilities": {
+      "empty": 0.00020320968178566545,
+      "occupied": 0.9997968673706055
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 146.83768836495344,
+        "luminanceStdDev": 46.96905395927521,
+        "dynamicRange": 190,
+        "edgeMean": 2.264000844833257,
+        "laplacianMeanSquare": 6.425309033096233,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0019.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Occupied/2013-01-18_10_40_06#011.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999971389770508,
+    "probabilities": {
+      "empty": 0.000003110974830633495,
+      "occupied": 0.9999971389770508
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 86.52327394769883,
+        "luminanceStdDev": 52.030085280010034,
+        "dynamicRange": 209,
+        "edgeMean": 1.7551273318684155,
+        "laplacianMeanSquare": 8.15104448012584,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0020.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-18/Occupied/2013-01-18_09_35_05#002.jpg",
+    "split": "test",
+    "date": "2013-01-18",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.1439562186410512e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 109.50573221061816,
+        "luminanceStdDev": 41.650671681762574,
+        "dynamicRange": 170,
+        "edgeMean": 3.4296456549046974,
+        "laplacianMeanSquare": 39.54588074414401,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0021.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_15_55_11#025.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999995231628418,
+    "probabilities": {
+      "empty": 3.478321559668984e-7,
+      "occupied": 0.9999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 201.3447277861758,
+        "luminanceStdDev": 47.568345494716986,
+        "dynamicRange": 178,
+        "edgeMean": 2.131072120205246,
+        "laplacianMeanSquare": 6.627005945604748,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0022.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2013-01-17/Occupied/2013-01-17_13_20_09#011.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 4.685007382043693e-10,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 128.9018736248429,
+        "luminanceStdDev": 56.63311524368214,
+        "dynamicRange": 192,
+        "edgeMean": 2.8377459468099264,
+        "laplacianMeanSquare": 14.608997078669866,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0023.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-20/Occupied/2012-12-20_15_05_10#021.jpg",
+    "split": "test",
+    "date": "2012-12-20",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.999875545501709,
+    "probabilities": {
+      "empty": 0.00012469339708331972,
+      "occupied": 0.999875545501709
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 148.64132993063288,
+        "luminanceStdDev": 50.80424318018229,
+        "dynamicRange": 189,
+        "edgeMean": 2.971977640847836,
+        "laplacianMeanSquare": 7.08371220596563,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/sunny-0024.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Sunny/2012-12-12/Occupied/2012-12-12_12_20_08#008.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Sunny",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.1865238569441772e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 133.17868508846655,
+        "luminanceStdDev": 60.52359768079134,
+        "dynamicRange": 182,
+        "edgeMean": 2.441192197540034,
+        "laplacianMeanSquare": 10.308518692617962,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0025.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_10_50_06#025.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 0.0000014381043911271263
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 179.80456006056383,
+        "luminanceStdDev": 20.603089016042972,
+        "dynamicRange": 97,
+        "edgeMean": 0.964279076367292,
+        "laplacianMeanSquare": 2.99701890049155,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0026.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_14_50_10#026.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999971389770508,
+    "probabilities": {
+      "empty": 0.9999971389770508,
+      "occupied": 0.0000031810279779165285
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 168.3764473532816,
+        "luminanceStdDev": 33.797764089144486,
+        "dynamicRange": 155,
+        "edgeMean": 1.0840632093785132,
+        "laplacianMeanSquare": 3.2965733692810497,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0027.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_10_25_05#014.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 9.620803211873863e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 184.58938643173266,
+        "luminanceStdDev": 21.2102640860176,
+        "dynamicRange": 111,
+        "edgeMean": 1.4703161753117466,
+        "laplacianMeanSquare": 6.616849138441204,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0028.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_10_35_06#001.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 7.04664159911772e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 132.0774339604191,
+        "luminanceStdDev": 22.618645780400584,
+        "dynamicRange": 138,
+        "edgeMean": 1.601285883740383,
+        "laplacianMeanSquare": 10.76290303451885,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0029.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_13_55_09#004.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.4634402134561242e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 169.06510212050463,
+        "luminanceStdDev": 36.22989851448114,
+        "dynamicRange": 163,
+        "edgeMean": 2.0486998534370584,
+        "laplacianMeanSquare": 8.688521722110602,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0030.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_13_00_08#008.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999980926513672,
+    "probabilities": {
+      "empty": 0.9999980926513672,
+      "occupied": 0.0000018579562492959667
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 181.38857509563297,
+        "luminanceStdDev": 29.624378079354777,
+        "dynamicRange": 145,
+        "edgeMean": 1.6264180660553271,
+        "laplacianMeanSquare": 4.861829546199816,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0031.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_10_55_06#017.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 0.0000011064249747505528
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 185.89440389425317,
+        "luminanceStdDev": 29.788112481651492,
+        "dynamicRange": 131,
+        "edgeMean": 1.6797991172386086,
+        "laplacianMeanSquare": 5.586004176436782,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0032.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_13_45_09#011.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.0854009064617003e-10
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 204.74537114151704,
+        "luminanceStdDev": 23.23301085317763,
+        "dynamicRange": 111,
+        "edgeMean": 1.3927761814977633,
+        "laplacianMeanSquare": 6.163132410806588,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0033.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_12_25_08#012.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.1621238193981753e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 184.20534886794835,
+        "luminanceStdDev": 21.339915847023338,
+        "dynamicRange": 131,
+        "edgeMean": 1.4556893924350238,
+        "laplacianMeanSquare": 7.0300442537655385,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0034.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_13_40_09#019.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999980926513672,
+    "probabilities": {
+      "empty": 0.9999980926513672,
+      "occupied": 0.0000018251244000566658
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 176.9373878666714,
+        "luminanceStdDev": 34.07075473440807,
+        "dynamicRange": 155,
+        "edgeMean": 1.1950322749292446,
+        "laplacianMeanSquare": 3.3906678990873114,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0035.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_12_45_08#028.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.9586413202432595e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 176.0495633449984,
+        "luminanceStdDev": 24.367300421744297,
+        "dynamicRange": 129,
+        "edgeMean": 0.7641505198475644,
+        "laplacianMeanSquare": 2.516631366858305,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0036.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_12_15_07#025.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 9.033698233906762e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 178.57093623243105,
+        "luminanceStdDev": 19.14654512786076,
+        "dynamicRange": 88,
+        "edgeMean": 0.9099748021589495,
+        "laplacianMeanSquare": 2.86210428030551,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0037.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_11_10_06#012.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.300086331454622e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 188.19937997043894,
+        "luminanceStdDev": 20.452594798407965,
+        "dynamicRange": 125,
+        "edgeMean": 1.3486187743651874,
+        "laplacianMeanSquare": 5.893871091263897,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0038.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_14_55_10#003.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 3.6971035122235207e-9
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 174.98983796233566,
+        "luminanceStdDev": 34.51855423370522,
+        "dynamicRange": 160,
+        "edgeMean": 1.6770485799179713,
+        "laplacianMeanSquare": 9.647310357039077,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0039.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_15_05_11#014.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999942779541016,
+    "probabilities": {
+      "empty": 0.9999942779541016,
+      "occupied": 0.000006169719199533574
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 188.99033597730954,
+        "luminanceStdDev": 19.854626191491473,
+        "dynamicRange": 102,
+        "edgeMean": 1.367359895724505,
+        "laplacianMeanSquare": 5.9710819638153385,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0040.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_10_40_06#017.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 7.092406235642557e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 184.41180993698566,
+        "luminanceStdDev": 31.087075404024862,
+        "dynamicRange": 132,
+        "edgeMean": 1.7853223144206232,
+        "laplacianMeanSquare": 6.1330551461609515,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0041.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_13_30_09#011.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 5.777625045055856e-10
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 189.93276498719803,
+        "luminanceStdDev": 26.207714201306167,
+        "dynamicRange": 123,
+        "edgeMean": 1.554514801021114,
+        "laplacianMeanSquare": 6.762746610360431,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0042.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_14_30_10#010.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 8.799204920251213e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 155.82959188852777,
+        "luminanceStdDev": 28.905766162179507,
+        "dynamicRange": 167,
+        "edgeMean": 2.1807732993711806,
+        "laplacianMeanSquare": 15.644698006920853,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0043.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_14_20_10#002.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 2.0575106418618816e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 141.27325118778725,
+        "luminanceStdDev": 37.59256502984101,
+        "dynamicRange": 190,
+        "edgeMean": 2.1035655094292744,
+        "laplacianMeanSquare": 16.839132281142227,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0044.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_12_05_07#017.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 6.487425139312109e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 178.45371168683693,
+        "luminanceStdDev": 23.364149425137253,
+        "dynamicRange": 104,
+        "edgeMean": 0.9860510067783969,
+        "laplacianMeanSquare": 3.1117028018854382,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0045.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_15_00_11#022.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 6.4517196030067225e-9
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 163.25912423068004,
+        "luminanceStdDev": 29.62483770282419,
+        "dynamicRange": 131,
+        "edgeMean": 1.2419305799253317,
+        "laplacianMeanSquare": 4.475977141851467,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0046.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_11_20_06#020.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999775886535645,
+    "probabilities": {
+      "empty": 0.9999775886535645,
+      "occupied": 0.000022707510652253404
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 169.27126965878102,
+        "luminanceStdDev": 30.644871390479626,
+        "dynamicRange": 134,
+        "edgeMean": 0.8593060955032945,
+        "laplacianMeanSquare": 2.4678954118383696,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0047.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_11_20_06#005.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.051337683577458e-9
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 163.4928527542787,
+        "luminanceStdDev": 24.263677557093573,
+        "dynamicRange": 127,
+        "edgeMean": 1.457985372286741,
+        "laplacianMeanSquare": 5.599525478287163,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0048.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_12_35_08#020.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999599456787109,
+    "probabilities": {
+      "empty": 0.9999599456787109,
+      "occupied": 0.00003991747144027613
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 190.76763438691162,
+        "luminanceStdDev": 34.28856107685889,
+        "dynamicRange": 159,
+        "edgeMean": 1.2457794461167828,
+        "laplacianMeanSquare": 3.48838434703612,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/cloudy-0049.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Empty/2012-12-27_12_30_08#028.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 5.328116117198078e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 200.7524962212484,
+        "luminanceStdDev": 22.633942299200108,
+        "dynamicRange": 119,
+        "edgeMean": 0.6566020084603486,
+        "laplacianMeanSquare": 2.206685952847561,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0025.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_13_00_08#001.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.6049709339327478e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 143.5914421476238,
+        "luminanceStdDev": 70.16188438155059,
+        "dynamicRange": 208,
+        "edgeMean": 3.9205653194736625,
+        "laplacianMeanSquare": 57.79314010171836,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0026.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_13_50_09#005.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 5.763168786643291e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 107.99562730786742,
+        "luminanceStdDev": 58.84930507403577,
+        "dynamicRange": 203,
+        "edgeMean": 2.688134366735902,
+        "laplacianMeanSquare": 17.785035076700503,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0027.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-27/Occupied/2012-12-27_13_05_09#009.jpg",
+    "split": "test",
+    "date": "2012-12-27",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999985694885254,
+    "probabilities": {
+      "empty": 0.0000014094808875597664,
+      "occupied": 0.9999985694885254
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 122.95286862642395,
+        "luminanceStdDev": 58.22893783608489,
+        "dynamicRange": 184,
+        "edgeMean": 2.080244378353219,
+        "laplacianMeanSquare": 6.908734434283829,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0028.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_12_30_08#021.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9998502731323242,
+    "probabilities": {
+      "empty": 0.0001497554185334593,
+      "occupied": 0.9998502731323242
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 135.1698943598463,
+        "luminanceStdDev": 50.337508671703624,
+        "dynamicRange": 177,
+        "edgeMean": 2.3894917187516618,
+        "laplacianMeanSquare": 4.980220371391313,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0029.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_10_20_05#008.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999995231628418,
+    "probabilities": {
+      "empty": 5.541082828131039e-7,
+      "occupied": 0.9999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 187.4140449816474,
+        "luminanceStdDev": 51.46588719531027,
+        "dynamicRange": 177,
+        "edgeMean": 2.8253037485077472,
+        "laplacianMeanSquare": 16.031587715165028,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0030.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_10_50_06#011.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999966621398926,
+    "probabilities": {
+      "empty": 0.0000033813075788202696,
+      "occupied": 0.9999966621398926
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 186.4030866828678,
+        "luminanceStdDev": 57.02233813972946,
+        "dynamicRange": 181,
+        "edgeMean": 2.658924424365726,
+        "laplacianMeanSquare": 14.60051608575103,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0031.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_11_15_06#028.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999980926513672,
+    "probabilities": {
+      "empty": 0.0000018720373873293283,
+      "occupied": 0.9999980926513672
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 175.8041918128132,
+        "luminanceStdDev": 50.09296633699329,
+        "dynamicRange": 181,
+        "edgeMean": 2.0347374797554676,
+        "laplacianMeanSquare": 5.236622124287647,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0032.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_11_35_07#023.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.3249764840850276e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 154.63517439811727,
+        "luminanceStdDev": 40.90203699787084,
+        "dynamicRange": 148,
+        "edgeMean": 1.6883382484899125,
+        "laplacianMeanSquare": 5.8185895243017915,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0033.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_13_15_08#001.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 6.087473303217905e-10,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 161.0354940130635,
+        "luminanceStdDev": 64.8572229151113,
+        "dynamicRange": 198,
+        "edgeMean": 4.253566074073506,
+        "laplacianMeanSquare": 66.68860661878908,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0034.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_12_35_08#013.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 4.6246046991882395e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 140.28000250320406,
+        "luminanceStdDev": 48.05486240772798,
+        "dynamicRange": 156,
+        "edgeMean": 1.8145057943904346,
+        "laplacianMeanSquare": 6.687658347056775,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0035.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_12_15_07#018.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.999995231628418,
+    "probabilities": {
+      "empty": 0.0000049002005653164815,
+      "occupied": 0.999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 174.49483042090384,
+        "luminanceStdDev": 61.96174197360618,
+        "dynamicRange": 198,
+        "edgeMean": 2.733123879528901,
+        "laplacianMeanSquare": 8.711153733189771,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0036.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_14_50_10#004.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999899864196777,
+    "probabilities": {
+      "empty": 0.000010063135050586425,
+      "occupied": 0.9999899864196777
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 150.18700564013656,
+        "luminanceStdDev": 58.08024381451082,
+        "dynamicRange": 202,
+        "edgeMean": 3.733832244686711,
+        "laplacianMeanSquare": 27.3513661004522,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0037.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_12_05_07#003.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.7403611707322852e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 89.41356033163815,
+        "luminanceStdDev": 34.630488457852074,
+        "dynamicRange": 147,
+        "edgeMean": 1.8247718569332785,
+        "laplacianMeanSquare": 8.735163794431266,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0038.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_15_55_11#017.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 7.33420568721499e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 179.17681001274266,
+        "luminanceStdDev": 53.99139945240613,
+        "dynamicRange": 197,
+        "edgeMean": 3.1207067011106786,
+        "laplacianMeanSquare": 10.193087864274881,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0039.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_10_30_05#016.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.00000117207991934265,
+      "occupied": 0.9999990463256836
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 134.53806862243545,
+        "luminanceStdDev": 47.63797471009785,
+        "dynamicRange": 184,
+        "edgeMean": 2.2169894309169127,
+        "laplacianMeanSquare": 7.464810991988967,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0040.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_15_15_10#021.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.999913215637207,
+    "probabilities": {
+      "empty": 0.00008666038047522306,
+      "occupied": 0.999913215637207
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 138.43729355070448,
+        "luminanceStdDev": 54.091646210281354,
+        "dynamicRange": 198,
+        "edgeMean": 1.9754613264106466,
+        "laplacianMeanSquare": 4.999729113178581,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0041.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_12_45_08#006.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999995231628418,
+    "probabilities": {
+      "empty": 4.146186540765484e-7,
+      "occupied": 0.9999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 190.32806163898448,
+        "luminanceStdDev": 57.01809492368659,
+        "dynamicRange": 178,
+        "edgeMean": 2.973851861135078,
+        "laplacianMeanSquare": 15.465204481949163,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0042.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_15_35_11#016.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 5.931122704083691e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 116.28782723612119,
+        "luminanceStdDev": 52.68257664012941,
+        "dynamicRange": 205,
+        "edgeMean": 2.9167355551389758,
+        "laplacianMeanSquare": 14.07040438007423,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0043.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_12_25_07#026.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.5156575134133163e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 168.47382924105085,
+        "luminanceStdDev": 53.277089820680466,
+        "dynamicRange": 188,
+        "edgeMean": 2.0412083878721816,
+        "laplacianMeanSquare": 5.668288778596068,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0044.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_11_00_06#028.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999837875366211,
+    "probabilities": {
+      "empty": 0.000016046435121097602,
+      "occupied": 0.9999837875366211
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 180.8464623325871,
+        "luminanceStdDev": 48.57349820228761,
+        "dynamicRange": 179,
+        "edgeMean": 1.9170051778760344,
+        "laplacianMeanSquare": 5.0777905309422895,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0045.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_10_40_05#024.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999995231628418,
+    "probabilities": {
+      "empty": 3.241172237267165e-7,
+      "occupied": 0.9999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 204.61029072065986,
+        "luminanceStdDev": 45.139587034347706,
+        "dynamicRange": 171,
+        "edgeMean": 2.550112443196323,
+        "laplacianMeanSquare": 12.078460096632638,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0046.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_15_45_11#024.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.2481967221210652e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 189.3609769212253,
+        "luminanceStdDev": 55.513303761013354,
+        "dynamicRange": 195,
+        "edgeMean": 3.1953301704670665,
+        "laplacianMeanSquare": 18.4290149622411,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0047.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_12_55_08#014.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999918937683105,
+    "probabilities": {
+      "empty": 0.000008014625564101152,
+      "occupied": 0.9999918937683105
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 126.01531453682928,
+        "luminanceStdDev": 42.496184617550874,
+        "dynamicRange": 170,
+        "edgeMean": 1.9721606541794894,
+        "laplacianMeanSquare": 6.618722976635018,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0048.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2013-01-22/Occupied/2013-01-22_15_05_10#013.jpg",
+    "split": "test",
+    "date": "2013-01-22",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.947649679896358e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 175.88231515464327,
+        "luminanceStdDev": 50.29729911474447,
+        "dynamicRange": 169,
+        "edgeMean": 2.6274250863378894,
+        "laplacianMeanSquare": 10.946726277441128,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/cloudy-0049.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Cloudy/2012-12-12/Occupied/2012-12-12_10_20_05#023.jpg",
+    "split": "test",
+    "date": "2012-12-12",
+    "weather": "Cloudy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999222755432129,
+    "probabilities": {
+      "empty": 0.00007754618854960427,
+      "occupied": 0.9999222755432129
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 173.79830560028608,
+        "luminanceStdDev": 51.3413765605226,
+        "dynamicRange": 171,
+        "edgeMean": 1.9860896311227823,
+        "laplacianMeanSquare": 6.890698338729313,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0050.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_00_05#020.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999804496765137,
+    "probabilities": {
+      "empty": 0.9999804496765137,
+      "occupied": 0.000019599661754909903
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 177.83963218667301,
+        "luminanceStdDev": 35.1921999467893,
+        "dynamicRange": 154,
+        "edgeMean": 1.5021951531539126,
+        "laplacianMeanSquare": 4.319952410061654,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0051.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_55_05#008.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 6.893417889841658e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 186.2786649433677,
+        "luminanceStdDev": 31.618313170113822,
+        "dynamicRange": 134,
+        "edgeMean": 1.6784272751389675,
+        "laplacianMeanSquare": 5.033040298090564,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0052.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_15_06#014.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 7.8672279357761e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 177.7518040497131,
+        "luminanceStdDev": 23.351869438250837,
+        "dynamicRange": 101,
+        "edgeMean": 1.2769997857611275,
+        "laplacianMeanSquare": 4.326755570683148,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0053.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_10_05#014.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.0643343273386563e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 195.8659224051251,
+        "luminanceStdDev": 19.34429826744726,
+        "dynamicRange": 96,
+        "edgeMean": 1.1485827237959476,
+        "laplacianMeanSquare": 3.996678410978068,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0054.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_00_05#005.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 2.6964858079736587e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 171.5541883091406,
+        "luminanceStdDev": 35.48036831841027,
+        "dynamicRange": 140,
+        "edgeMean": 1.8030265352803878,
+        "laplacianMeanSquare": 10.622666441244538,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0055.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_30_06#008.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.1128309296282168e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 176.09626779333482,
+        "luminanceStdDev": 30.913043762310927,
+        "dynamicRange": 136,
+        "edgeMean": 1.6039639826694565,
+        "laplacianMeanSquare": 4.551779137659675,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0056.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_20_06#015.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.265830604779694e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 199.85994284118158,
+        "luminanceStdDev": 31.092765976694583,
+        "dynamicRange": 103,
+        "edgeMean": 1.37953350438589,
+        "laplacianMeanSquare": 4.509786723122292,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0057.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_15_05#006.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 5.178057094212818e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 160.54720980946874,
+        "luminanceStdDev": 26.189798335604547,
+        "dynamicRange": 133,
+        "edgeMean": 1.6631951746766496,
+        "laplacianMeanSquare": 7.021937744955944,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0058.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_05_06#006.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.0968362218477523e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 171.56942805322703,
+        "luminanceStdDev": 26.56830992864293,
+        "dynamicRange": 129,
+        "edgeMean": 1.6432801011584646,
+        "laplacianMeanSquare": 7.103098598191919,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0059.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_30_06#023.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.999971866607666,
+    "probabilities": {
+      "empty": 0.999971866607666,
+      "occupied": 0.000028231481337570585
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 150.67970805163682,
+        "luminanceStdDev": 22.252367900018047,
+        "dynamicRange": 131,
+        "edgeMean": 1.1608810824205447,
+        "laplacianMeanSquare": 6.2654990205135315,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0060.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_40_05#008.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999980926513672,
+    "probabilities": {
+      "empty": 0.9999980926513672,
+      "occupied": 0.000002007445345952874
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 181.9199464245852,
+        "luminanceStdDev": 33.302646621606925,
+        "dynamicRange": 139,
+        "edgeMean": 1.7850514879446622,
+        "laplacianMeanSquare": 5.499581817266088,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0061.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_05_05#028.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 5.8943078329321e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 192.4405380540343,
+        "luminanceStdDev": 20.097852111734788,
+        "dynamicRange": 116,
+        "edgeMean": 0.7973230650301242,
+        "laplacianMeanSquare": 2.5382543705430787,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0062.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_15_05#021.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.7034084009992512e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 175.39317928889483,
+        "luminanceStdDev": 25.179562581618665,
+        "dynamicRange": 109,
+        "edgeMean": 1.03868773669329,
+        "laplacianMeanSquare": 2.792931028185786,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0063.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_25_05#014.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 0.0000014736408502358245
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 177.5176324019335,
+        "luminanceStdDev": 22.939415442939424,
+        "dynamicRange": 106,
+        "edgeMean": 1.3504173937399826,
+        "laplacianMeanSquare": 4.950394301522931,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0064.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_35_06#015.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.6119058443564427e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 208.96028084344007,
+        "luminanceStdDev": 27.249825661336676,
+        "dynamicRange": 91,
+        "edgeMean": 1.2791454136791633,
+        "laplacianMeanSquare": 4.257687929686808,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0065.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_50_05#016.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999876022338867,
+    "probabilities": {
+      "empty": 0.9999876022338867,
+      "occupied": 0.00001247850559593644
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 170.97338624439251,
+        "luminanceStdDev": 35.41413427955312,
+        "dynamicRange": 172,
+        "edgeMean": 1.8055369939886554,
+        "laplacianMeanSquare": 7.002103090575807,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0066.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_35_05#007.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.253313434787742e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 180.8397958705321,
+        "luminanceStdDev": 28.81930562720065,
+        "dynamicRange": 118,
+        "edgeMean": 1.5045859206570484,
+        "laplacianMeanSquare": 5.17864894639209,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0067.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_55_05#023.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999971389770508,
+    "probabilities": {
+      "empty": 0.9999971389770508,
+      "occupied": 0.000003328059847262921
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 162.45787730786506,
+        "luminanceStdDev": 21.776777533577416,
+        "dynamicRange": 132,
+        "edgeMean": 1.132973958329464,
+        "laplacianMeanSquare": 5.89946811385652,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0068.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_20_05#007.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 6.362198234910466e-8
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 163.49763708943496,
+        "luminanceStdDev": 30.39774496935437,
+        "dynamicRange": 129,
+        "edgeMean": 1.567396588389649,
+        "laplacianMeanSquare": 5.433238935267068,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0069.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_40_05#023.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.999995231628418,
+    "probabilities": {
+      "empty": 0.999995231628418,
+      "occupied": 0.000004481777978071477
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 157.41526023994675,
+        "luminanceStdDev": 21.212341052498534,
+        "dynamicRange": 132,
+        "edgeMean": 1.1513323088932466,
+        "laplacianMeanSquare": 6.190638952687976,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0070.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_00_04#027.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 4.258255046352133e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 192.44569302852435,
+        "luminanceStdDev": 20.139317976594914,
+        "dynamicRange": 127,
+        "edgeMean": 0.9291811914951048,
+        "laplacianMeanSquare": 3.039091278958622,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0071.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_10_05_06#021.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 1.871036801048831e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 185.27546879777918,
+        "luminanceStdDev": 26.363571654125387,
+        "dynamicRange": 112,
+        "edgeMean": 1.1072561985250469,
+        "laplacianMeanSquare": 2.9470089081459796,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0072.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_05_05#013.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1,
+      "occupied": 2.550494286879257e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 202.42802641900101,
+        "luminanceStdDev": 16.435754049469086,
+        "dynamicRange": 71,
+        "edgeMean": 0.800297135958528,
+        "laplacianMeanSquare": 2.9675159987270594,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0073.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_45_05#015.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 7.048107022455952e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 191.37405739394748,
+        "luminanceStdDev": 36.886491803995334,
+        "dynamicRange": 116,
+        "edgeMean": 1.6042373160533918,
+        "laplacianMeanSquare": 5.4231128359655205,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/empty/rainy-0074.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Empty/2013-01-17_09_00_04#012.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "empty",
+    "status": "empty",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 0.9999990463256836,
+      "occupied": 5.435551315713383e-7
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 190.4566985212368,
+        "luminanceStdDev": 18.483015898672935,
+        "dynamicRange": 103,
+        "edgeMean": 1.164243772349092,
+        "laplacianMeanSquare": 5.143625119871295,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0050.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_50_05#024.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 9.266925360407186e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 184.72173294802036,
+        "luminanceStdDev": 53.70233219421435,
+        "dynamicRange": 184,
+        "edgeMean": 2.6605315951488477,
+        "laplacianMeanSquare": 14.121779100683186,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0051.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_40_05#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 5.326459717736043e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 114.09429399712836,
+        "luminanceStdDev": 48.46777909075449,
+        "dynamicRange": 193,
+        "edgeMean": 3.2085891614962203,
+        "laplacianMeanSquare": 38.47310847899064,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0052.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_10_06#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 3.181904872917585e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 162.88353184788815,
+        "luminanceStdDev": 38.102949161134624,
+        "dynamicRange": 161,
+        "edgeMean": 2.0305366087311127,
+        "laplacianMeanSquare": 10.389752039975196,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0053.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_55_05#024.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.041715620431205e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 187.70730445631256,
+        "luminanceStdDev": 51.62190113916013,
+        "dynamicRange": 181,
+        "edgeMean": 2.596439309260694,
+        "laplacianMeanSquare": 13.681809646174466,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0054.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_40_05#024.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.9614851964888658e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 185.75378288026732,
+        "luminanceStdDev": 53.03726003348468,
+        "dynamicRange": 184,
+        "edgeMean": 2.7611293940113417,
+        "laplacianMeanSquare": 16.04273465078837,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0055.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_05_06#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999995231628418,
+    "probabilities": {
+      "empty": 4.5479055188479833e-7,
+      "occupied": 0.9999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 173.72034948581972,
+        "luminanceStdDev": 39.139455278965734,
+        "dynamicRange": 158,
+        "edgeMean": 2.0334339998686337,
+        "laplacianMeanSquare": 10.351479545986045,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0056.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_20_05#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 3.437068230027762e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 156.9010770288573,
+        "luminanceStdDev": 37.30255137010176,
+        "dynamicRange": 169,
+        "edgeMean": 2.0343654205751753,
+        "laplacianMeanSquare": 10.386598936818029,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0057.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_30_06#024.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.8804335866207111e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 180.36411735091906,
+        "luminanceStdDev": 54.623022608592606,
+        "dynamicRange": 183,
+        "edgeMean": 2.6352732563385364,
+        "laplacianMeanSquare": 13.566318129130439,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0058.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_30_06#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 6.563811716375767e-10,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 108.90658405611956,
+        "luminanceStdDev": 45.80047393866646,
+        "dynamicRange": 180,
+        "edgeMean": 3.0703783050169937,
+        "laplacianMeanSquare": 36.06912923619191,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0059.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_35_05#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.999995231628418,
+    "probabilities": {
+      "empty": 0.000004785847522725817,
+      "occupied": 0.999995231628418
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 170.08923322304693,
+        "luminanceStdDev": 36.7421943183459,
+        "dynamicRange": 160,
+        "edgeMean": 1.9523419910787696,
+        "laplacianMeanSquare": 9.403627264069968,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0060.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_30_05#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.108107117175905e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 124.47849878428669,
+        "luminanceStdDev": 51.0770988471762,
+        "dynamicRange": 193,
+        "edgeMean": 3.462259035053962,
+        "laplacianMeanSquare": 43.93094669902443,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0061.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_30_05#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.8622045533666096e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 171.92482558992631,
+        "luminanceStdDev": 36.25163560272027,
+        "dynamicRange": 158,
+        "edgeMean": 1.9435859337439527,
+        "laplacianMeanSquare": 9.14240363677637,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0062.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_45_05#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.1321439191979152e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 154.27582171955814,
+        "luminanceStdDev": 36.817959253204506,
+        "dynamicRange": 168,
+        "edgeMean": 1.9270160489170922,
+        "laplacianMeanSquare": 9.121242573251866,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0063.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_45_05#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 6.86037004982154e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 109.56805778858325,
+        "luminanceStdDev": 47.77561753090795,
+        "dynamicRange": 192,
+        "edgeMean": 3.168415970713721,
+        "laplacianMeanSquare": 36.62542164563786,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0064.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_10_05#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 0.9999990463256836,
+    "probabilities": {
+      "empty": 9.806066145756631e-7,
+      "occupied": 0.9999990463256836
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 183.47184117904362,
+        "luminanceStdDev": 34.68821259681285,
+        "dynamicRange": 152,
+        "edgeMean": 1.902117638080873,
+        "laplacianMeanSquare": 8.968025501662227,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0065.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_25_06#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.666324607185743e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 179.65128669483823,
+        "luminanceStdDev": 37.838739295352,
+        "dynamicRange": 152,
+        "edgeMean": 2.0596069342657817,
+        "laplacianMeanSquare": 10.909526040083948,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0066.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_50_05#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.155863404989077e-8,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 116.27680068558602,
+        "luminanceStdDev": 49.236226643082716,
+        "dynamicRange": 191,
+        "edgeMean": 3.309603036748225,
+        "laplacianMeanSquare": 40.63045780366762,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0067.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_40_05#016.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.8277431479418738e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 183.32151696426922,
+        "luminanceStdDev": 62.17946272486934,
+        "dynamicRange": 198,
+        "edgeMean": 2.8568079578502297,
+        "laplacianMeanSquare": 15.277488748857945,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0068.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_55_05#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 8.257129424649179e-10,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 118.6090059630089,
+        "luminanceStdDev": 48.66318300913633,
+        "dynamicRange": 190,
+        "edgeMean": 3.427884462321133,
+        "laplacianMeanSquare": 42.154551292704696,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0069.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_15_05#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.4556277367082657e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 164.64353262914594,
+        "luminanceStdDev": 36.325159927068896,
+        "dynamicRange": 164,
+        "edgeMean": 1.9747204137184466,
+        "laplacianMeanSquare": 9.690530574291596,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0070.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_20_06#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.5673496661937634e-9,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 119.86885958625916,
+        "luminanceStdDev": 49.232502867946955,
+        "dynamicRange": 183,
+        "edgeMean": 3.439158526427619,
+        "laplacianMeanSquare": 43.522964401354045,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0071.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_15_06#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.2008246130790212e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 166.46776070233017,
+        "luminanceStdDev": 37.82579508620912,
+        "dynamicRange": 161,
+        "edgeMean": 2.0863942871637486,
+        "laplacianMeanSquare": 11.030606285805895,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0072.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_30_05#016.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 2.387111521784391e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 190.15413634008556,
+        "luminanceStdDev": 59.68918159815704,
+        "dynamicRange": 193,
+        "edgeMean": 2.675050207546779,
+        "laplacianMeanSquare": 13.724727378313242,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0073.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_09_25_05#022.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 1.7391151629908563e-7,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 166.40059290895607,
+        "luminanceStdDev": 37.160995712255975,
+        "dynamicRange": 164,
+        "edgeMean": 2.0019480413843773,
+        "laplacianMeanSquare": 9.881547492698974,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  },
+  {
+    "file": "test/occupied/rainy-0074.jpg",
+    "source": "PKLot/PKLotSegmented/UFPR04/Rainy/2013-01-17/Occupied/2013-01-17_10_35_06#001.jpg",
+    "split": "test",
+    "date": "2013-01-17",
+    "weather": "Rainy",
+    "camera": "UFPR04",
+    "truth": "occupied",
+    "status": "occupied",
+    "confidence": 1,
+    "probabilities": {
+      "empty": 9.560476854630906e-10,
+      "occupied": 1
+    },
+    "quality": {
+      "valid": true,
+      "reasons": [],
+      "warnings": [],
+      "metrics": {
+        "meanLuminance": 117.14705630979557,
+        "luminanceStdDev": 45.635067887269834,
+        "dynamicRange": 184,
+        "edgeMean": 3.417566318224822,
+        "laplacianMeanSquare": 39.50748046557931,
+        "visibleFraction": 1
+      },
+      "version": "quality-v1"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+training/improvements-data/dataset-v2/train/
+training/improvements-data/dataset-v2/validation/
+training/improvements-data/dataset-v2/test/
+training/improvements-data/fullframe-test/images/
+training/improvements-data/fullframe-test/crops/
+training/improvements-data/unseen-view-test/images/
+training/improvements-data/unseen-view-test/crops/
+training/retrained-model/
+training/local-evaluation/
