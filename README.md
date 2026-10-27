@@ -6,6 +6,8 @@
 
 [배포 사이트](https://parking-four-yuseok.hyscodebase.chatgpt.site/)는 현재 소유자 ChatGPT 로그인이 필요합니다. 저장소만으로 로컬 실행과 학습·평가 재현이 가능합니다.
 
+이 프로젝트 ZIP을 받았다면 압축을 해제한 뒤 [GitHub 업로드 안내](GITHUB_UPLOAD.md)에 따라 내부 파일을 저장소에 올립니다.
+
 ## 웹앱 실행
 
 Linux 실행과 Nginx 배포는 [Linux 배포 안내](docs/linux.md)를 참고하세요.
@@ -17,6 +19,12 @@ python serve.py
 http://localhost:8000 에서 **기본 모델로 시작 → 실제 주차장 예제로 체험 → 네 칸 확인 → 네 칸 분석하기** 순서로 사용합니다. 직접 촬영한 JPG·PNG·WebP(20MB 이하)도 업로드할 수 있습니다. `dist/index.html`을 파일로 직접 열면 ES 모듈 보안 제한으로 실행되지 않습니다.
 
 웹앱 실행에 npm 설치나 서버 AI API 키는 필요 없습니다. 기본 모델과 라이브러리를 함께 제공합니다. 사진은 서버에 업로드하지 않고 브라우저에서 처리합니다.
+
+## 티처블 머신에서 열어보기
+
+`training/parking-v2-training-source.tm`을 [티처블 머신](https://teachablemachine.withgoogle.com/train/image)의 **Open project from file** 메뉴에서 엽니다. **Train Model**을 누르고 학습이 끝나면 미리보기에서 사진으로 확인합니다.
+
+이 `.tm` 파일은 빈자리228장·사용 중228장과 학습 설정을 담은 **학습 전 원본 프로젝트**입니다. 사이트에 포함한 완성 모델과는 별개이며 웹에서 다시 학습해야 합니다. [파일 선택과 확인 방법](docs/teachable-machine.md)에 자세히 설명했습니다.
 
 ## 주요 기능
 

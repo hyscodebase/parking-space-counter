@@ -26,6 +26,15 @@ ssh -L 8000:127.0.0.1:8000 username@SERVER_IP
 
 상시 웹 서버에는 `dist/`만 웹 루트로 지정합니다. Python 서버를 함께 실행할 필요가 없습니다. 학습 자료나 Git 저장소 전체를 웹 루트로 지정하지 마세요.
 
+GitHub용 ZIP을 받았다면 먼저 압축을 해제한 프로젝트 디렉터리에서 아래 명령으로 배포할 파일을 복사합니다. `/opt/parking-four-linux-v2`가 아직 없는 새 설치용 명령입니다.
+
+```bash
+sudo mkdir /opt/parking-four-linux-v2
+sudo cp -a dist deployment /opt/parking-four-linux-v2/
+```
+
+그다음 아래 절차에서 Nginx를 설치하고, 별도 Linux용 tar.gz 압축 해제 단계는 건너뛰어 `nginx.conf` 복사부터 진행합니다.
+
 Ubuntu/Debian 계열 새 서버에서 Nginx가 없다면 설치합니다. 다른 배포판은 해당 패키지 관리자로 Nginx를 설치합니다.
 
 ```bash
