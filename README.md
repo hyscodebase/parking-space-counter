@@ -8,6 +8,8 @@
 
 ## 웹앱 실행
 
+Linux 실행과 Nginx 배포는 [Linux 배포 안내](docs/linux.md)를 참고하세요.
+
 ```bash
 python serve.py
 ```
