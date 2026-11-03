@@ -1,1 +1,1 @@
-이 저장소 자체가 실행 가능한 전체 웹앱 소스입니다. README.md의 실행 방법을 따르세요. 재학습 자료는 artifacts ZIP을 풀어 사용합니다.
+이 저장소가 실행 가능한 주차칸별 차량 수 확인 웹앱 소스입니다. README.md의 실행 방법을 따르세요. 기존 이진 Teachable Machine 모델을 각 주차칸에 적용하고 사용 중 칸 수를 합산합니다. 학습 전 원본은 training/parking-v2-training-source.tm이며, 재학습 자료는 artifacts ZIP을 풀어 사용합니다.

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {sameRegions, validateRegions, regionWarnings} from '../dist/regions.js';
+import {sameRegions, validateRegions, regionWarnings, isSlotId, MAX_REGIONS} from '../dist/regions.js';
 
 test('saving unchanged ROI coordinates preserves demo compatibility after number rounding', () => {
   const original = ['A1','A2','A3','A4'].map((id,i)=>({id,x:.105+i*.205,y:.24,w:.175,h:.55}));
@@ -26,11 +26,38 @@ test('one physical rectangle cannot be counted as several parking spaces', () =>
   value[1] = {...value[0], id: 'A2', x: value[0].x + 1e-8};
   assert.throws(() => validateRegions(value), /A1와 A2가 같은 영역/);
 });
-test('malformed, missing, out-of-frame and zero-size regions are rejected', () => {
+test('malformed, out-of-frame and zero-size regions are rejected', () => {
   for (const change of [r => {r[0].x = -.01;}, r => {r[0].h = 0;}, r => {r[3].w = .3;}, r => {r[0].x = '0';}, r => {r[0] = null;}, r => {r[0].id = 'A2';}]) {
     const value = four(); change(value); assert.throws(() => validateRegions(value));
   }
-  assert.throws(() => validateRegions(four().slice(0, 3)));
+});
+test('one, ten, twenty and one hundred distinct parking spaces are supported', () => {
+  assert.equal(MAX_REGIONS, 100);
+  for (const count of [1, 10, 20, 100]) {
+    const value = Array.from({length: count}, (_, i) => ({id: `A${i + 1}`, x: (i % 10) / 10, y: Math.floor(i / 10) / 10, w: .09, h: .09}));
+    assert.deepEqual(validateRegions(value), value);
+    assert.deepEqual(regionWarnings(value), []);
+  }
+});
+test('unique supported IDs may have gaps and need not be numerically ordered', () => {
+  const value = four().slice(0, 3);
+  [value[0].id, value[1].id, value[2].id] = ['A100', 'A7', 'A1'];
+  assert.deepEqual(validateRegions(value), value);
+  for (const id of ['A1', 'A9', 'A10', 'A99', 'A100']) assert.equal(isSlotId(id), true);
+  for (const id of ['A0', 'A01', 'A101', 'B1', 'A1 ', 1, null]) assert.equal(isSlotId(id), false);
+});
+test('empty or oversized sets, invalid IDs and nonfinite coordinates are rejected', () => {
+  for (const value of [null, {}, [], Array.from({length: 101}, () => four()[0])]) assert.throws(() => validateRegions(value));
+  for (const id of ['A0', 'A01', 'A101', 'B1', 1]) {
+    const value = four(); value[0].id = id; assert.throws(() => validateRegions(value));
+  }
+  for (const coordinate of [NaN, Infinity, -Infinity]) {
+    const value = four(); value[0].x = coordinate; assert.throws(() => validateRegions(value));
+  }
+});
+test('two different rectangles cannot reuse a slot ID', () => {
+  const value = four(); value[3].id = 'A1';
+  assert.throws(() => validateRegions(value), /A1.*ID가 중복/);
 });
 test('large overlap warns without banning perspective overlap; adjacent edges do not warn', () => {
   const value = four(); value[1] = {...value[0], id: 'A2', x: .05};

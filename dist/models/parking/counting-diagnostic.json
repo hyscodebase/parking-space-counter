@@ -1,0 +1,500 @@
+{
+  "created_at": "2026-11-03T06:50:01.467Z",
+  "threshold": 0.85,
+  "elapsed_seconds": 243.301,
+  "model_name": "빈자리 v2 · 주간·날씨 보강",
+  "model_sha256": {
+    "model.json": "0c957faf6c84cde4ee64525438de9acf7e70fbd7174d98e329e41878b984ecc5",
+    "metadata.json": "98b256a9012e7bdf10123114e11f4708dc9ed529e557ce54dc14f08c7a655ae0",
+    "weights.bin": "fcb37f7d7242be3455b0fea38e4a58ca94eb1dd946f8bf5fc0415e8c547b8677"
+  },
+  "quality_version": "quality-v1",
+  "task": "known parking-slot boxes -> full rectangle224x224 crop -> existing binary TM model -> occupied sum; uncertain forms count interval",
+  "evaluation_kind": "broader-ROI diagnostic on previously observed public PKLot dates; not a new final holdout",
+  "selection": "Existing site example first; then chronological target-camera frames; then unseen-view sample, stopping after a frame when 240second CPU budget is exceeded. Selection is fixed without looking at model predictions.",
+  "planned_frames": 40,
+  "planned_slots": 1537,
+  "completed_frames": 20,
+  "complete_dataset": false,
+  "metrics": {
+    "n_frames": 20,
+    "n_slots": 559,
+    "correct_slots": 551,
+    "slot_accuracy": 0.9856887298747764,
+    "actual_occupied_slots": 333,
+    "false_occupied_empty_as_occupied": 3,
+    "missed_occupied_as_empty": 0,
+    "occupied_uncertain": 0,
+    "uncertain_slots": 5,
+    "strict_exact_vehicle_count_frames": 13,
+    "strict_exact_vehicle_count_rate": 0.65,
+    "confirmed_vehicle_lower_bound_matches_truth_frames": 17,
+    "count_range_contains_truth_frames": 17,
+    "count_range_contains_truth_rate": 0.85,
+    "confirmed_vehicle_count_mean_absolute_error": 0.15,
+    "all_slots_correct_frames": 13,
+    "confusion": {
+      "empty": {
+        "empty": 218,
+        "occupied": 3,
+        "uncertain": 5
+      },
+      "occupied": {
+        "empty": 0,
+        "occupied": 333,
+        "uncertain": 0
+      }
+    }
+  },
+  "metrics_by_group": {
+    "fullframe-test": {
+      "n_frames": 20,
+      "n_slots": 559,
+      "correct_slots": 551,
+      "slot_accuracy": 0.9856887298747764,
+      "actual_occupied_slots": 333,
+      "false_occupied_empty_as_occupied": 3,
+      "missed_occupied_as_empty": 0,
+      "occupied_uncertain": 0,
+      "uncertain_slots": 5,
+      "strict_exact_vehicle_count_frames": 13,
+      "strict_exact_vehicle_count_rate": 0.65,
+      "confirmed_vehicle_lower_bound_matches_truth_frames": 17,
+      "count_range_contains_truth_frames": 17,
+      "count_range_contains_truth_rate": 0.85,
+      "confirmed_vehicle_count_mean_absolute_error": 0.15,
+      "all_slots_correct_frames": 13,
+      "confusion": {
+        "empty": {
+          "empty": 218,
+          "occupied": 3,
+          "uncertain": 5
+        },
+        "occupied": {
+          "empty": 0,
+          "occupied": 333,
+          "uncertain": 0
+        }
+      }
+    }
+  },
+  "cameras": {
+    "UFPR04": 20
+  },
+  "dates": [
+    "2012-12-12",
+    "2012-12-20",
+    "2012-12-27"
+  ],
+  "frames": [
+    {
+      "frame_id": "UFPR04_2012-12-27_13_05_09",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 3,
+      "counts": {
+        "occupied": 3,
+        "empty": 24,
+        "uncertain": 1,
+        "total": 28,
+        "min": 3,
+        "max": 4,
+        "exact": false
+      },
+      "count_exact_match": false,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-12_11_20_06",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-12",
+      "n_rois": 28,
+      "truth_vehicle_count": 27,
+      "counts": {
+        "occupied": 27,
+        "empty": 1,
+        "uncertain": 0,
+        "total": 28,
+        "min": 27,
+        "max": 27,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-12_12_35_08",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-12",
+      "n_rois": 28,
+      "truth_vehicle_count": 25,
+      "counts": {
+        "occupied": 25,
+        "empty": 3,
+        "uncertain": 0,
+        "total": 28,
+        "min": 25,
+        "max": 25,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-12_13_35_09",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-12",
+      "n_rois": 27,
+      "truth_vehicle_count": 25,
+      "counts": {
+        "occupied": 25,
+        "empty": 2,
+        "uncertain": 0,
+        "total": 27,
+        "min": 25,
+        "max": 25,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-12_14_35_10",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-12",
+      "n_rois": 28,
+      "truth_vehicle_count": 28,
+      "counts": {
+        "occupied": 28,
+        "empty": 0,
+        "uncertain": 0,
+        "total": 28,
+        "min": 28,
+        "max": 28,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-12_15_15_11",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-12",
+      "n_rois": 28,
+      "truth_vehicle_count": 27,
+      "counts": {
+        "occupied": 27,
+        "empty": 1,
+        "uncertain": 0,
+        "total": 28,
+        "min": 27,
+        "max": 27,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-12_15_40_11",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-12",
+      "n_rois": 28,
+      "truth_vehicle_count": 28,
+      "counts": {
+        "occupied": 28,
+        "empty": 0,
+        "uncertain": 0,
+        "total": 28,
+        "min": 28,
+        "max": 28,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-20_10_50_05",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-20",
+      "n_rois": 28,
+      "truth_vehicle_count": 28,
+      "counts": {
+        "occupied": 28,
+        "empty": 0,
+        "uncertain": 0,
+        "total": 28,
+        "min": 28,
+        "max": 28,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-20_12_10_07",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-20",
+      "n_rois": 28,
+      "truth_vehicle_count": 27,
+      "counts": {
+        "occupied": 28,
+        "empty": 0,
+        "uncertain": 0,
+        "total": 28,
+        "min": 28,
+        "max": 28,
+        "exact": true
+      },
+      "count_exact_match": false,
+      "count_lower_bound_match": false,
+      "range_contains_truth": false
+    },
+    {
+      "frame_id": "UFPR04_2012-12-20_12_40_07",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-20",
+      "n_rois": 28,
+      "truth_vehicle_count": 27,
+      "counts": {
+        "occupied": 27,
+        "empty": 1,
+        "uncertain": 0,
+        "total": 28,
+        "min": 27,
+        "max": 27,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-20_12_50_07",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-20",
+      "n_rois": 28,
+      "truth_vehicle_count": 27,
+      "counts": {
+        "occupied": 28,
+        "empty": 0,
+        "uncertain": 0,
+        "total": 28,
+        "min": 28,
+        "max": 28,
+        "exact": true
+      },
+      "count_exact_match": false,
+      "count_lower_bound_match": false,
+      "range_contains_truth": false
+    },
+    {
+      "frame_id": "UFPR04_2012-12-20_13_45_08",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-20",
+      "n_rois": 28,
+      "truth_vehicle_count": 26,
+      "counts": {
+        "occupied": 26,
+        "empty": 1,
+        "uncertain": 1,
+        "total": 28,
+        "min": 26,
+        "max": 27,
+        "exact": false
+      },
+      "count_exact_match": false,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-20_13_50_08",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-20",
+      "n_rois": 28,
+      "truth_vehicle_count": 26,
+      "counts": {
+        "occupied": 27,
+        "empty": 1,
+        "uncertain": 0,
+        "total": 28,
+        "min": 27,
+        "max": 27,
+        "exact": true
+      },
+      "count_exact_match": false,
+      "count_lower_bound_match": false,
+      "range_contains_truth": false
+    },
+    {
+      "frame_id": "UFPR04_2012-12-27_11_10_06",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 2,
+      "counts": {
+        "occupied": 2,
+        "empty": 26,
+        "uncertain": 0,
+        "total": 28,
+        "min": 2,
+        "max": 2,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-27_11_25_06",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 1,
+      "counts": {
+        "occupied": 1,
+        "empty": 27,
+        "uncertain": 0,
+        "total": 28,
+        "min": 1,
+        "max": 1,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-27_11_45_07",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 1,
+      "counts": {
+        "occupied": 1,
+        "empty": 27,
+        "uncertain": 0,
+        "total": 28,
+        "min": 1,
+        "max": 1,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-27_11_55_07",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 1,
+      "counts": {
+        "occupied": 1,
+        "empty": 27,
+        "uncertain": 0,
+        "total": 28,
+        "min": 1,
+        "max": 1,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-27_12_10_07",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 1,
+      "counts": {
+        "occupied": 1,
+        "empty": 26,
+        "uncertain": 1,
+        "total": 28,
+        "min": 1,
+        "max": 2,
+        "exact": false
+      },
+      "count_exact_match": false,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-27_12_20_07",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 1,
+      "counts": {
+        "occupied": 1,
+        "empty": 27,
+        "uncertain": 0,
+        "total": 28,
+        "min": 1,
+        "max": 1,
+        "exact": true
+      },
+      "count_exact_match": true,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    },
+    {
+      "frame_id": "UFPR04_2012-12-27_12_45_08",
+      "group": "fullframe-test",
+      "camera": "UFPR04",
+      "date": "2012-12-27",
+      "n_rois": 28,
+      "truth_vehicle_count": 2,
+      "counts": {
+        "occupied": 2,
+        "empty": 24,
+        "uncertain": 2,
+        "total": 28,
+        "min": 2,
+        "max": 4,
+        "exact": false
+      },
+      "count_exact_match": false,
+      "count_lower_bound_match": true,
+      "range_contains_truth": true
+    }
+  ],
+  "limitations": [
+    "Previously observed dates and photos, expanded from the prior four-slot evaluation to all annotated slots; diagnostic only.",
+    "Small condition-selected sample from fixed cameras; no arbitrary-photo/general-parking-lot guarantee.",
+    "Only annotated selected parking spaces are counted; outside cars and unlabelled spaces are outside scope.",
+    "One classified occupied space is interpreted as one vehicle; wrong crops, occlusion, multiple vehicles per space or moving cameras invalidate that assumption.",
+    "Pillow BILINEAR/JPEG pixels can differ from browser canvas, so browser example must be verified separately.",
+    "Results use threshold0.85 and the existing model without tuning. No accuracy improvement is claimed."
+  ],
+  "data_attribution": "PKLot, Almeida et al.2015, CC BY4.0; original XML-derived boxes from explicit unofficial dronefreak/PKLot mirror pinned577e9c942e596819798d42fdc4d14d0b6646a43f."
+}
