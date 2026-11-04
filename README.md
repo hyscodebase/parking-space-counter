@@ -6,6 +6,8 @@
 
 [배포 사이트](https://parking-four-yuseok.hyscodebase.chatgpt.site/)는 소유자 ChatGPT 로그인이 필요합니다. 이 ZIP을 압축 해제한 뒤 [GitHub 업로드 안내](GITHUB_UPLOAD.md)를 따라 내부 파일을 저장소 루트에 올릴 수 있습니다. Linux 상시 운영은 [Linux 배포 안내](docs/linux.md)를 참고하세요.
 
+Netlify에서는 저장소를 연결하면 포함된 `netlify.toml` 설정으로 `dist/`를 배포합니다. 별도 빌드 명령과 환경 변수는 필요 없습니다. Cloudflare Pages에서도 빌드 명령을 비워 두고 출력 디렉터리를 `dist`로 지정하면 됩니다. 웹 공개 경로는 `dist/`로 한정합니다.
+
 ## 실행
 
 Python3.10 이상에서 저장소 루트에 실행합니다.
