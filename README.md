@@ -4,7 +4,7 @@
 
 주차장 사진에서 지정한 주차칸을 하나씩 잘라 기존 Teachable Machine 모델로 `빈자리 / 사용 중`을 판단하고, **사용 중인 칸의 수를 차량 수로 집계**하는 웹 시제품입니다. 주차칸은1~100개 지정할 수 있습니다. 사진 전체의 차량을 자동 탐지하거나 차량 수별 새 모델을 학습하는 방식은 아닙니다.
 
-[배포 사이트](https://parking-four-yuseok.hyscodebase.chatgpt.site/)는 소유자 ChatGPT 로그인이 필요합니다. 이 ZIP을 압축 해제한 뒤 [GitHub 업로드 안내](GITHUB_UPLOAD.md)를 따라 내부 파일을 저장소 루트에 올릴 수 있습니다. Linux 상시 운영은 [Linux 배포 안내](docs/linux.md)를 참고하세요.
+[Netlify 웹사이트](https://stunning-khapse-d705ce.netlify.app/)에 배포돼 있으며, 소스와 모델은 [비공개 GitHub 저장소](https://github.com/hyscodebase/parking-space-counter)에서 관리합니다. ZIP으로 받은 소스는 [GitHub 업로드 안내](GITHUB_UPLOAD.md)를 참고하세요. Linux 상시 운영은 [Linux 배포 안내](docs/linux.md)를 참고하세요.
 
 Netlify에서는 저장소를 연결하면 포함된 `netlify.toml` 설정으로 `dist/`를 배포합니다. 별도 빌드 명령과 환경 변수는 필요 없습니다. Cloudflare Pages에서도 빌드 명령을 비워 두고 출력 디렉터리를 `dist`로 지정하면 됩니다. 웹 공개 경로는 `dist/`로 한정합니다.
 
