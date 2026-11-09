@@ -116,4 +116,4 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 
 PKLot: Almeida et al., “PKLot – A robust dataset for parking lot classification”, *Expert Systems with Applications*42(11),4937–4949,2015. 데이터 CC BY4.0. 공식 출처: https://web.inf.ufpr.br/vri/databases/parking-lot-database/ . 공개 전체 사진과 좌표의 미러 출처·변환 과정은 모델 출처 기록에 남겨 두었습니다.
 
-데이터 이미지·변환의 자세한 출처는 [DATA_LICENSE.md](DATA_LICENSE.md), 외부 코드 라이선스는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참고하세요. 원본 앱 코드에 별도의 오픈소스 라이선스를 새로 부여하지 않았습니다.
+데이터 이미지·변환의 자세한 출처는 [DATA_LICENSE.md](DATA_LICENSE.md), 외부 코드 라이선스는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참고하세요. 원본 앱 코드에 별도의 오픈소스 라이선스를 새로 부여하지 않았습니다
