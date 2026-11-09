@@ -33,6 +33,8 @@ configs:
     path: data/images/test/metadata.jsonl
 ---
 
+> **보존된 외부 문서:** 아래 본문은 [dronefreak/PKLot 미러](https://huggingface.co/datasets/dronefreak/PKLot)의 데이터셋 설명입니다. 이 저장소에서 사용한 자료와 경로는 [DATA_README.md](DATA_README.md)를 참고하세요. 본문의 “this repository”, 데이터 구조, CC BY 4.0 표기는 외부 데이터셋을 가리키며, 이 웹앱 전체의 구조나 원본 앱 코드의 라이선스를 뜻하지 않습니다. 원문에 있는 이미지·경로도 외부 미러 기준입니다. 출처 커밋은 [mirror-provenance.json](mirror-provenance.json)에 기록돼 있습니다.
+
 <h1 align="center">PKLot: Parking Space Occupancy Detection Dataset</h1>
 
 <p align="center">
