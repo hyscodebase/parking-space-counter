@@ -28,6 +28,8 @@ Cloudflare Pages를 사용할 경우에도 빌드 명령을 비워 두고 출력
 
 당시 HTTP 429 문제를 복구한 뒤 아래 결과를 확인했습니다. 과거 시점의 검증 기록이며 현재 가용성을 보장하지 않습니다.
 
+사이트가 Restricted Team에 속해 메인 화면과 정적 파일에서 HTTP 429를 반환했습니다. 사용자 승인 후 정상 Free 팀으로 프로젝트를 이전하자 같은 주소가 HTTP 200으로 복구됐습니다. 원인 확인과 검증 근거는 [복구 이슈 #29](https://github.com/hyscodebase/parking-space-counter/issues/29)에 정리했습니다.
+
 - 공개 파일 33개 모두 HTTP 200. 429, 404, 다운로드 오류 없음.
 - JavaScript, Worker, 모델 JSON·metadata·weights, 모델 ZIP 등 비HTML 31개는 로컬 파일과 SHA256 일치.
 - HTML 2개의 바이트 차이는 Netlify Pretty URLs의 링크·속성 변환으로 확인.

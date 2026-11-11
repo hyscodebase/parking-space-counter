@@ -20,7 +20,7 @@ GitHub Desktop에서는 **File → Clone repository → URL**에 저장소 주�
 4. 검토한 파일만 선택해 커밋하고 작업 브랜치를 push합니다.
 5. `main` 대상 Pull Request에 변경 이유와 실행한 검사를 적습니다.
 
-쓰기 권한이 없다면 먼저 GitHub에서 자신의 계정으로 fork하고 그 복제본에서 작업합니다. fork·clone은 원본 앱 코드에 새로운 이용 허락을 부여하지 않습니다. 데이터·라이브러리와 앱 코드의 조건은 [README의 이용 조건](README.md#데이터외부-라이브러리와-이용-조건)을 확인하세요.
+쓰기 권한이 없다면 먼저 GitHub에서 자신의 계정으로 fork하고 그 복제본에서 작업합니다. 직접 작성한 코드는 [MIT License](LICENSE)를 따릅니다. 데이터·외부 라이브러리·사전학습 모델의 이용 조건은 [README의 이용 조건](README.md#데이터외부-라이브러리와-이용-조건)과 각 출처 고지에서 확인하세요.
 
 이미 이 저장소를 받은 폴더에서 `git init`이나 `gh repo create`를 다시 실행할 필요는 없습니다.
 
