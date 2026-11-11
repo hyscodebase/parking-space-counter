@@ -5,6 +5,7 @@
 주차장 사진에서 사람이 지정한 주차칸을 기존 Teachable Machine 모델로 `빈자리 / 사용 중`으로 분류하고, **사용 중인 칸의 수를 차량 수로 합산**하는 웹 시제품입니다. 주차칸은 1~100개 지정할 수 있습니다.
 
 [웹 데모](https://stunning-khapse-d705ce.netlify.app/) · [공개 GitHub 저장소](https://github.com/hyscodebase/parking-space-counter) · [문서 목록](docs/README.md)
+[문제 해결 기록](https://github.com/hyscodebase/parking-space-counter/issues/4) · [MIT License](LICENSE)
 
 > 지정한 주차칸 안의 차량만 셉니다. 사진 전체의 차량이나 주차칸을 자동 탐지하지 않으며, 한 칸에 차량 한 대가 있다는 전제가 필요합니다.
 
@@ -118,4 +119,4 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 - 사진·라벨·변환 출처: [DATA_LICENSE.md](DATA_LICENSE.md)
 - 외부 코드와 라이선스: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), [licenses/](licenses/)
 
-**저장소 공개는 새 오픈소스 라이선스 부여를 의미하지 않습니다.** 팀의 원본 앱 코드에는 별도 오픈소스 라이선스를 지정하지 않았으며, 데이터·외부 라이브러리의 라이선스를 앱 코드 전체에 적용하지 않습니다.
+직접 작성한 애플리케이션·학습·평가 코드는 [MIT License](LICENSE)로 제공합니다. PKLot 사진·주석은 CC BY 4.0이며, 외부 라이브러리와 사전학습 모델 자산은 각 원본의 라이선스·출처 조건을 따릅니다. 데이터 이미지·변환의 자세한 출처는 [DATA_LICENSE.md](DATA_LICENSE.md), 외부 코드와 모델의 고지는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참고하세요.

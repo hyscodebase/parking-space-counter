@@ -6,4 +6,4 @@
 - Pretrained MobileNetV2 alpha0.35 checkpoint: official Google Teachable Machine checkpoint, original URL and file SHA256 in training provenance. The checkpoint is used as the frozen feature extractor.
 - Parking photographs/labels are separately attributed under `DATA_LICENSE.md`.
 
-This notice does not assign a new license to the team's original application code.
+Original application, training, and evaluation code is licensed under the MIT License in `LICENSE`. Third-party libraries, datasets, and pretrained model assets retain their respective licenses and attribution requirements listed above and in `DATA_LICENSE.md`.
