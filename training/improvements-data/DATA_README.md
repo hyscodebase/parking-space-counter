@@ -45,7 +45,7 @@ python improvements-data/fetch-unseen-views.py
 
 `fetch-balanced-weather.py`는 공식 압축 스트림을 최대1.8GB 읽고 필요한 주차칸 사진만 저장합니다. 전체4.9GB 파일을 디스크에 저장하지 않습니다. `fetch-mirror-metadata.py`는 명시한 커밋으로 고정된 비공식 미러 메타데이터를 받습니다. 각 선택 사진·라벨·출처·해시는 manifest와 mirror-provenance에 남습니다.
 
-`parking-v2-training-source.tm`은 웹 Teachable Machine에서 다시 학습할 수 있도록456장과 설정을 담은 소스 프로젝트입니다. 완성 추론용 가중치는 `trained-model-v2`의 model.json/metadata.json/weights.bin입니다.
+`parking-v2-training-source.tm`은 웹 Teachable Machine에서 다시 학습할 수 있도록456장과 설정을 담은 소스 프로젝트입니다. 현재 저장소에 포함된 완성 추론용 모델은 `dist/models/parking/`의 model.json/metadata.json/weights.bin입니다. 이 폴더의 `trained-model-v2/`에는 모델 설명과 학습 기록을 보존합니다.
 
 ## 출처·라이선스
 

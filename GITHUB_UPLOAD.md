@@ -1,51 +1,52 @@
-# GitHub에 올리기
+# 공개 저장소 작업 안내
 
-이 ZIP은 주차칸별 차량 수 합산 웹앱 소스, 기존 완성 v2 모델, 티처블 머신 `.tm` 프로젝트, 학습·평가 자료, Linux 배포 설정을 담은 저장소용 묶음입니다. Git 이력이나 로그인 정보는 포함하지 않습니다.
+현재 프로젝트는 [hyscodebase/parking-space-counter](https://github.com/hyscodebase/parking-space-counter)에서 공개 관리합니다. 처음 업로드하기 위한 비공개 저장소 생성 절차 대신, 기존 저장소를 받아 변경하는 방법을 안내합니다.
 
-먼저 ZIP을 압축 해제합니다. **`parking-count-ai` 안의 파일이 저장소 루트에 오도록** 올립니다. ZIP 파일 하나만 저장소에 올리면 코드와 README가 자동으로 압축 해제되지는 않습니다.
-
-## GitHub Desktop으로 올리기
-
-1. 압축을 해제하고 `parking-count-ai` 폴더가 있는 위치를 확인합니다.
-2. GitHub Desktop에서 로그인한 뒤 **File → New repository**를 엽니다.
-3. 새 저장소 이름과 위치를 지정해 빈 로컬 저장소를 만듭니다.
-4. `parking-count-ai` 안의 내용을 새 로컬 저장소로 복사합니다. `.github`와 `.gitignore`도 포함합니다.
-5. GitHub Desktop에서 변경 파일을 확인하고 **Commit to main**을 누릅니다.
-6. **Publish repository**를 누릅니다. 비공개로 올리려면 **Keep this code private**를 유지합니다.
-
-## CLI로 올리기
-
-Git과 GitHub CLI(`gh`)가 설치돼 있고 Git 사용자 이름·이메일이 설정돼 있어야 합니다. 압축을 해제한 `parking-count-ai` 안에서 실행합니다.
+## 저장소 받기
 
 ```bash
-git init -b main
-git add .
-git commit -m "Add parking AI project and Teachable Machine source"
-gh auth login
-gh repo create parking-count-ai --private --source . --remote origin --push
+git clone https://github.com/hyscodebase/parking-space-counter.git
+cd parking-space-counter
+python serve.py
 ```
 
-`gh auth login`은 내 GitHub 계정으로 진행합니다. 이미 같은 이름의 저장소가 있다면 마지막 명령의 `parking-count-ai`를 새 이름으로 바꿉니다. 이 절차는 빈 폴더에서 새로운 저장소를 만드는 경우를 위한 것입니다.
+GitHub Desktop에서는 **File → Clone repository → URL**에 저장소 주소를 넣습니다. GitHub의 **Code → Download ZIP**으로 받았다면 압축을 풀고 `README.md`와 `dist/`가 있는 폴더에서 실행합니다. ZIP에는 Git 이력이 포함되지 않으므로 지속적으로 수정할 때는 clone을 권장합니다.
 
-## 웹으로 올리기
+## 변경 작업
 
-1. GitHub에서 빈 저장소를 만듭니다.
-2. **uploading an existing file** 또는 **Add file → Upload files**를 엽니다.
-3. 압축을 해제한 `parking-count-ai` 안의 파일과 폴더를 올립니다. 한 번에 모두 선택되지 않으면 나눠 올립니다.
-4. `README.md`, `dist/`, `training/parking-v2-training-source.tm`, `.github/workflows/tests.yml`, `.gitignore`가 원래 경로로 올라갔는지 확인하고 커밋합니다.
+1. 최신 `main`을 받은 뒤 새 작업 브랜치를 만듭니다.
+2. 관련 파일만 수정하고 [README의 테스트](README.md#테스트)를 실행합니다.
+3. `git status --short`와 `git diff`로 변경 내용과 공개할 파일을 확인합니다.
+4. 검토한 파일만 선택해 커밋하고 작업 브랜치를 push합니다.
+5. `main` 대상 Pull Request에 변경 이유와 실행한 검사를 적습니다.
 
-브라우저 업로드는 파일당25MiB 제한이 있습니다. 이 묶음의 개별 파일은 모두 이 제한보다 작습니다. 전체 프로젝트 ZIP 자체는 약30MB이므로 먼저 압축을 풀어 내부 파일을 올립니다.
+쓰기 권한이 없다면 먼저 GitHub에서 자신의 계정으로 fork하고 그 복제본에서 작업합니다. 직접 작성한 코드는 [MIT License](LICENSE)를 따릅니다. 데이터·외부 라이브러리·사전학습 모델의 이용 조건은 [README의 이용 조건](README.md#데이터외부-라이브러리와-이용-조건)과 각 출처 고지에서 확인하세요.
 
-## 실행과 모델 확인
+이미 이 저장소를 받은 폴더에서 `git init`이나 `gh repo create`를 다시 실행할 필요는 없습니다.
 
-웹앱은 `python serve.py`로 실행하고 http://localhost:8000 에서 확인합니다. 사진 촬영·선택 → 주차칸1~100개 지정 또는 저장된 프로필 불러오기 → 영역 확인 → 차량 수 확인 순서로 사용합니다. 지정한 주차칸 밖의 차량은 세지 않습니다. 확인 필요 칸이 있으면 확인된 수와 범위를 함께 표시합니다.
+## 파일을 어디에 두나요?
 
-티처블 머신에서 확인할 파일은 **`training/parking-v2-training-source.tm`**입니다. [티처블 머신 안내](docs/teachable-machine.md)의 **Open project from file → Train Model → 미리보기** 순서로 진행합니다. `.tm`은 학습 전 원본이고 사이트의 완성 모델은 `dist/models/parking/`에 따로 포함돼 있습니다.
+- 웹앱 수정: `dist/`. 이 프로젝트에서는 빌드 결과가 아니라 직접 관리하는 실행 소스도 들어 있습니다.
+- 사용·설계·검증 문서: `docs/`
+- 자동 검사: `tests/`
+- 학습·평가 코드와 출처: `training/`, `tools/`
+- 기존 학습·평가 이미지 묶음: `artifacts/`
 
-Linux 상시 운영은 [Linux 배포 안내](docs/linux.md)를 참고합니다. 학습·평가 자료를 압축 해제하는 방법과 테스트 명령은 [README](README.md)에 있습니다.
+이미지 ZIP을 푸는 방법은 [재현 안내](docs/reproducibility.md)를 참고하세요. 압축 해제한 이미지·로컬 평가 결과는 기존 `.gitignore`로 제외합니다. 모델·데이터를 바꿀 때는 관련 해시, 출처, 이용 조건, 평가 기록을 함께 검토해야 합니다.
 
-공식 참고:
+## 공개 전 확인
 
-- https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
-- https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
-- https://cli.github.com/manual/gh_repo_create
+- 비밀번호, API 키, 토큰, `.env` 파일, 개인 계정 설정을 커밋하지 않습니다.
+- 실제 현장의 사진·번호판·얼굴·위치 정보나 팀 내부 문서는 공개 권한을 먼저 확인합니다.
+- 출처·라이선스가 확인된 자료만 추가하고 기존 저작권·라이선스 고지를 유지합니다.
+- `git diff --cached`로 커밋할 내용을 확인합니다. 무관한 파일까지 일괄 추가하지 않습니다.
+- `.gitignore`는 이미 추적된 파일이나 과거 커밋에서 정보를 제거하지 않습니다. 자격 증명이 노출됐다면 먼저 폐기·재발급하고 이력 정리 범위를 별도로 검토합니다.
+- 공개 저장소의 파일은 `dist/` 밖에 있어도 열람할 수 있습니다. 웹 호스팅의 공개 디렉터리 설정과 혼동하지 않습니다.
+- GitHub 변경과 운영 사이트 배포는 별개로 검토합니다. 자동 배포가 연결돼 있다면 브랜치와 배포 설정을 확인한 뒤 반영합니다.
+
+`package.json`의 `"private": true`는 npm 배포 방지용이므로 공개 GitHub 저장소에서도 유지합니다.
+
+## 공식 참고
+
+- [파일 변경 확인과 업로드](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+- [GitHub Desktop에서 저장소 복제](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)

@@ -1,9 +1,22 @@
+# Dependencies and local runtime
 node_modules/
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
 *.log
 .DS_Store
+Thumbs.db
+
+# Local secrets and hosting state (not needed to run the app)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.netlify/
+.wrangler/
+
+# Reconstructed images and local training/evaluation output
 training/improvements-data/dataset-v2/train/
 training/improvements-data/dataset-v2/validation/
 training/improvements-data/dataset-v2/test/
