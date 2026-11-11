@@ -2,9 +2,11 @@
 
 **문제해결과인공지능** · **이다은 · 허서연 · 윤태현 · 홍유석**
 
+[문제 해결 기록](https://github.com/hyscodebase/parking-space-counter/issues/4) · [MIT License](LICENSE)
+
 주차장 사진에서 지정한 주차칸을 하나씩 잘라 기존 Teachable Machine 모델로 `빈자리 / 사용 중`을 판단하고, **사용 중인 칸의 수를 차량 수로 집계**하는 웹 시제품입니다. 주차칸은1~100개 지정할 수 있습니다. 사진 전체의 차량을 자동 탐지하거나 차량 수별 새 모델을 학습하는 방식은 아닙니다.
 
-[Netlify 웹사이트](https://stunning-khapse-d705ce.netlify.app/)에 배포돼 있으며, 소스와 모델은 [비공개 GitHub 저장소](https://github.com/hyscodebase/parking-space-counter)에서 관리합니다. ZIP으로 받은 소스는 [GitHub 업로드 안내](GITHUB_UPLOAD.md)를 참고하세요. Linux 상시 운영은 [Linux 배포 안내](docs/linux.md)를 참고하세요.
+[Netlify 웹사이트](https://stunning-khapse-d705ce.netlify.app/)에 배포돼 있으며, 소스와 모델은 [GitHub 저장소](https://github.com/hyscodebase/parking-space-counter)에서 관리합니다. ZIP으로 받은 소스는 [GitHub 업로드 안내](GITHUB_UPLOAD.md)를 참고하세요. Linux 상시 운영은 [Linux 배포 안내](docs/linux.md)를 참고하세요.
 
 Netlify에서는 저장소를 연결하면 포함된 `netlify.toml` 설정으로 `dist/`를 배포합니다. 별도 빌드 명령과 환경 변수는 필요 없습니다. Cloudflare Pages에서도 빌드 명령을 비워 두고 출력 디렉터리를 `dist`로 지정하면 됩니다. 웹 공개 경로는 `dist/`로 한정합니다.
 
@@ -116,4 +118,4 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 
 PKLot: Almeida et al., “PKLot – A robust dataset for parking lot classification”, *Expert Systems with Applications*42(11),4937–4949,2015. 데이터 CC BY4.0. 공식 출처: https://web.inf.ufpr.br/vri/databases/parking-lot-database/ . 공개 전체 사진과 좌표의 미러 출처·변환 과정은 모델 출처 기록에 남겨 두었습니다.
 
-데이터 이미지·변환의 자세한 출처는 [DATA_LICENSE.md](DATA_LICENSE.md), 외부 코드 라이선스는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참고하세요. 원본 앱 코드에 별도의 오픈소스 라이선스를 새로 부여하지 않았습니다.
+직접 작성한 애플리케이션·학습·평가 코드는 [MIT License](LICENSE)로 제공합니다. PKLot 사진·주석은 CC BY 4.0이며, 외부 라이브러리와 사전학습 모델 자산은 각 원본의 라이선스·출처 조건을 따릅니다. 데이터 이미지·변환의 자세한 출처는 [DATA_LICENSE.md](DATA_LICENSE.md), 외부 코드와 모델의 고지는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참고하세요.
